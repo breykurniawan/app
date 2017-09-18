@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/11/2017 19:37:09" ReportInfo.Modified="09/12/2017 10:35:18" ReportInfo.CreatorVersion="2017.1.5.0">
+  <Dictionary>
+    <OracleDataConnection Name="Connection" ConnectionString="rijcmlqq8kTaCagDxO6zlhwUlmn0aHIQgzH8iUBMQuQN/3FMHxIKDU7LqOYuT72zdbJzMwErZqbSFemg0sPvlHArakWcQ==">
+      <TableDataSource Name="SWS_V_TICKET_FINISH" Alias="R_TIKET" DataType="System.Int32" Enabled="true" TableName="SWS.&quot;V_TICKET_FINISH&quot;">
+        <Column Name="NO_TICKET" DataType="System.String"/>
+        <Column Name="WBCODE" DataType="System.String"/>
+        <Column Name="DO_SPB" DataType="System.String"/>
+        <Column Name="WEIGHT_IN" DataType="System.Decimal"/>
+        <Column Name="WEIGHT_OUT" DataType="System.Decimal"/>
+        <Column Name="NETTO" DataType="System.Decimal"/>
+        <Column Name="ADJUST_WEIGHT" DataType="System.Decimal"/>
+        <Column Name="ADJUST_NETTO" DataType="System.Decimal"/>
+        <Column Name="DEL_QTY" DataType="System.Decimal"/>
+        <Column Name="DRIVER_NAME" DataType="System.String"/>
+        <Column Name="FFA" DataType="System.Decimal"/>
+        <Column Name="MOISTURE" DataType="System.Decimal"/>
+        <Column Name="DIRT" DataType="System.Decimal"/>
+        <Column Name="NO_SEGEL" DataType="System.String"/>
+        <Column Name="SIM" DataType="System.String"/>
+        <Column Name="NO_NOKI" DataType="System.String"/>
+        <Column Name="DELIVERY_TYPE" DataType="System.String"/>
+        <Column Name="TAHUN_TANAM" DataType="System.Decimal"/>
+        <Column Name="ESTATE" DataType="System.String"/>
+        <Column Name="BLOCK" DataType="System.String"/>
+        <Column Name="FFB_UNITS" DataType="System.Decimal"/>
+        <Column Name="DATE_IN" DataType="System.DateTime"/>
+        <Column Name="DATE_OUT" DataType="System.DateTime"/>
+        <Column Name="EXPORT" DataType="System.String"/>
+        <Column Name="EMPLOYE" DataType="System.String"/>
+        <Column Name="AFDELING" DataType="System.String"/>
+        <Column Name="POLICE_NO" DataType="System.String"/>
+        <Column Name="CUSTOMER_NAME" DataType="System.String"/>
+        <Column Name="REMARKS" DataType="System.String"/>
+        <Column Name="SUPPLIER_NAME" DataType="System.String"/>
+        <Column Name="TRANSPORTER_NAME" DataType="System.String"/>
+        <Column Name="MATERIAL_CODE" DataType="System.String"/>
+        <Column Name="MATERIAL" DataType="System.String"/>
+        <Column Name="CONTRACT_NO1" DataType="System.String"/>
+        <Column Name="CONTRACT_NO2" DataType="System.String"/>
+        <Column Name="JANJANG" DataType="System.Decimal"/>
+        <Column Name="REF_TICKETNO" DataType="System.String"/>
+        <Column Name="VERIFIED" DataType="System.String"/>
+      </TableDataSource>
+    </OracleDataConnection>
+    <Parameter Name="P1" DataType="System.String"/>
+    <Parameter Name="P2" DataType="System.String"/>
+    <Parameter Name="P3" DataType="System.String"/>
+    <Parameter Name="P4" DataType="System.String"/>
+    <Parameter Name="P5" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperHeight="149" FirstPageSource="261" OtherPagesSource="261" Guides="5.67,243.81,470.61,544.32,635.04,703.08,317.52,11.34,107.73,374.22,391.23,487.62,674.73,232.47,527.31,379.89,204.12">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="45.36" Guides="11.34,34.02,28.35,45.36">
+      <TextObject Name="Text1" Left="5.67" Top="11.34" Width="238.14" Height="22.68" Text="Scure WB System Ticket" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text2" Left="243.81" Top="11.34" Width="226.8" Height="22.68" Text="BUKTI TIMBANG" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/>
+      <TextObject Name="Text3" Left="544.32" Top="11.34" Width="90.72" Height="17.01" Text="[R_TIKET.DATE_IN]" Format="Custom" Format.Format="dd-MM-yyyy" HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text4" Left="544.32" Top="28.35" Width="90.72" Height="17.01" Text="[R_TIKET.DATE_OUT]" Format="Custom" Format.Format="dd-MM-yyyy" HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text51" Left="470.61" Top="11.34" Width="73.71" Height="17.01" Text="Date In." HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text52" Left="470.61" Top="28.35" Width="73.71" Height="17.01" Text="Date Out." HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text53" Left="635.04" Top="11.34" Width="68.04" Height="17.01" Text="[R_TIKET.DATE_IN]" Format="Time" Format.Format="hh:mm tt" HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text54" Left="635.04" Top="28.35" Width="68.04" Height="17.01" Text="[R_TIKET.DATE_OUT]" Format="Time" Format.Format="hh:mm tt" HorzAlign="Right" Font="Arial, 8pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="49.36" Width="718.2" Height="39.69" Guides="0,17.01,34.02">
+      <TextObject Name="Text5" Left="317.52" Width="153.09" Height="17.01" Text="[R_TIKET.NO_TICKET]" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text6" Left="317.52" Top="17.01" Width="153.09" Height="17.01" Text="[R_TIKET.DO_SPB]" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text7" Left="5.67" Width="238.14" Height="34.02" GrowToBottom="true" Text="[P1]" Font="Arial, 11pt, style=Bold"/>
+      <LineObject Name="Line2" Left="5.67" Top="34.02" Width="697.41"/>
+      <TextObject Name="Text55" Left="243.81" Width="73.71" Height="17.01" Text="Ticket No." HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text56" Left="243.81" Top="17.01" Width="73.71" Height="17.01" Text="SPB/DO No." HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="93.05" Width="718.2" Height="192.78" Guides="107.73,141.75,90.72,56.7,39.69,22.68,158.76,175.77,192.78,0,17.01,68.04,85.05,113.4,130.41,136.08,153.09" DataSource="SWS_V_TICKET_FINISH">
+      <TextObject Name="Text15" Left="11.34" Top="107.73" Width="306.18" Height="34.02" Text="[R_TIKET.SUPPLIER_NAME]" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="Text11" Left="11.34" Top="90.72" Width="96.39" Height="17.01" Text="Supplier." Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text14" Left="11.34" Top="56.7" Width="306.18" Height="34.02" Text="[R_TIKET.TRANSPORTER_NAME]" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="Text10" Left="11.34" Top="39.69" Width="96.39" Height="17.01" Text="Transporter." Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text9" Left="11.34" Top="22.68" Width="96.39" Height="17.01" Text="Contract No." Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text13" Left="107.73" Top="22.68" Width="266.49" Height="17.01" Text="[R_TIKET.CONTRACT_NO1]" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text16" Left="11.34" Top="141.75" Width="96.39" Height="17.01" Text="Afdeling :" HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text17" Left="11.34" Top="158.76" Width="96.39" Height="17.01" Text="Block :" HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text18" Left="11.34" Top="175.77" Width="96.39" Height="17.01" Text="Janjang :" HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text20" Left="470.61" Width="73.71" Height="17.01" Text="Plat No." HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text21" Left="470.61" Top="22.68" Width="73.71" Height="17.01" Text="Supir." HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text22" Left="470.61" Top="39.69" Width="73.71" Height="17.01" Text="SIM." HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text23" Left="391.23" Top="68.04" Width="96.39" Height="17.01" Text="Weight In." Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text24" Left="391.23" Top="90.72" Width="96.39" Height="17.01" Text="Weigh Out." Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text25" Left="391.23" Top="113.4" Width="96.39" Height="17.01" Text="Bruto." Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text26" Left="391.23" Top="136.08" Width="96.39" Height="17.01" Text="Adjust Weight." Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text27" Left="391.23" Top="158.76" Width="96.39" Height="17.01" Text="NETTO." Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text28" Left="544.32" Top="68.04" Width="130.41" Height="17.01" Text="[R_TIKET.WEIGHT_IN] kg" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Right" WordWrap="false" Font="Arial, 11pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text30" Left="544.32" Top="90.72" Width="130.41" Height="17.01" Text="[R_TIKET.WEIGHT_OUT] kg" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Right" WordWrap="false" Font="Arial, 11pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text31" Left="544.32" Top="113.4" Width="130.41" Height="17.01" Text="[R_TIKET.NETTO] kg" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Right" WordWrap="false" Font="Arial, 11pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text32" Left="544.32" Top="136.08" Width="130.41" Height="17.01" Text="[R_TIKET.ADJUST_WEIGHT] kg" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Right" WordWrap="false" Font="Arial, 11pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text33" Left="544.32" Top="158.76" Width="130.41" Height="17.01" Text="[R_TIKET.ADJUST_NETTO] kg" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Right" WordWrap="false" Font="Arial, 11pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text34" Left="544.32" Width="130.41" Height="22.68" Text="[R_TIKET.POLICE_NO]" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text35" Left="544.32" Top="22.68" Width="130.41" Height="17.01" Text="[R_TIKET.DRIVER_NAME]" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text36" Left="544.32" Top="39.69" Width="130.41" Height="17.01" Text="[R_TIKET.SIM]" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text37" Left="107.73" Top="141.75" Width="124.74" Height="17.01" Text="[R_TIKET.AFDELING]" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text38" Left="107.73" Top="158.76" Width="124.74" Height="17.01" Text="[R_TIKET.BLOCK]" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text39" Left="107.73" Top="175.77" Width="124.74" Height="17.01" Text="[R_TIKET.JANJANG]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text41" Left="11.34" Width="96.39" Height="17.01" Text="Goods type." Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text42" Left="107.73" Width="266.49" Height="22.68" Text="[R_TIKET.MATERIAL]" Font="Arial, 11pt, style=Bold"/>
+      <LineObject Name="Line3" Left="527.31" Top="130.41" Width="147.42"/>
+      <LineObject Name="Line4" Left="527.31" Top="153.09" Width="147.42"/>
+    </DataBand>
+    <ColumnFooterBand Name="ColumnFooter1" Top="289.83" Width="718.2" Height="158.76" Guides="5.67,11.34,28.35,124.74,56.7,141.75,107.73,90.72">
+      <LineObject Name="Line1" Left="5.67" Top="5.67" Width="697.41"/>
+      <TextObject Name="Text19" Left="11.34" Top="11.34" Width="96.39" Height="17.01" Text="Remaks :" HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text40" Left="527.31" Top="11.34" Width="147.42" Height="113.4" Border.Lines="All" Text="[R_TIKET.DRIVER_NAME]" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text44" Left="379.89" Top="11.34" Width="147.42" Height="113.4" Border.Lines="All" Text="[R_TIKET.EMPLOYE]" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text45" Left="107.73" Top="11.34" Width="266.49" Height="45.36" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text46" Left="379.89" Top="124.74" Width="147.42" Height="17.01" Border.Lines="All" Text="Kerani Administrasi" HorzAlign="Center" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text47" Left="527.31" Top="124.74" Width="147.42" Height="17.01" Border.Lines="All" Text="Supir" HorzAlign="Center" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text48" Left="11.34" Top="107.73" Width="96.39" Height="17.01" Text="Printed By:" HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text49" Left="11.34" Top="90.72" Width="96.39" Height="17.01" Text="Reff Ticket No." HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text50" Left="107.73" Top="124.74" Width="136.08" Height="17.01" Text="//DUPLICATE" HorzAlign="Center" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="Text8" Left="107.73" Top="107.73" Width="136.08" Height="17.01" Text="[P5]" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text29" Left="107.73" Top="90.72" Width="266.49" Height="17.01" Text="[R_TIKET.REF_TICKETNO]" VertAlign="Bottom" Font="Arial, 9pt, style=Bold"/>
+    </ColumnFooterBand>
+    <PageFooterBand Name="PageFooter1" Top="452.59" Width="718.2" Height="11.34" Guides="0,11.34">
+      <TextObject Name="Text12" Left="11.34" Width="192.78" Height="11.34" Text="Print Date . [Date]" VertAlign="Bottom" Font="Arial, 8pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

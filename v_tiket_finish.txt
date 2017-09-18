@@ -1,0 +1,82 @@
+CREATE OR REPLACE FORCE VIEW v_ticket_finish (no_ticket,
+                                              wbcode,
+                                              do_spb,
+                                              weight_in,
+                                              weight_out,
+                                              netto,
+                                              adjust_weight,
+                                              adjust_netto,
+                                              del_qty,
+                                              driver_name,
+                                              ffa,
+                                              moisture,
+                                              dirt,
+                                              no_segel,
+                                              sim,
+                                              no_noki,
+                                              delivery_type,
+                                              tahun_tanam,
+                                              estate,
+                                              BLOCK,
+                                              ffb_units,
+                                              date_in,
+                                              date_out,
+                                              export,
+                                              employe,
+                                              afdeling,
+                                              police_no,
+                                              customer_name,
+                                              remarks,
+                                              supplier_name,
+                                              transporter_name,
+                                              material_code,
+                                              material,
+                                              contract_no1,
+                                              contract_no2,
+                                              janjang,
+                                              ref_ticketno,
+                                              verified
+                                             )
+AS
+   SELECT DISTINCT wbt.no_ticket AS no_ticket, wbt.wbcode AS wbcode,
+                   wbt.do_spb AS do_spb, wbt.weight_in AS weight_in,
+                   wbt.weight_out AS weight_out, wbt.netto AS netto,
+                   wbt.adjust_weight AS adjust_weight,
+                   wbt.adjust_netto AS adjust_netto, wbt.del_qty AS del_qty,
+                   wbt.driver_name AS driver_name, wbt.ffa AS ffa,
+                   wbt.moisture AS moisture, wbt.dirt AS dirt,
+                   wbt.no_segel AS no_segel, wbt.sim AS sim,
+                   wbt.no_noki AS no_noki, wbt.delivery_type AS delivery_type,
+                   wbt.tahun_tanam AS tahun_tanam, wbt.estate AS estate,
+                   wbt.BLOCK AS BLOCK, wbt.ffb_units AS ffb_units,
+                   wbt.date_in AS date_in, wbt.date_out AS date_out,
+                   wbt.status AS export, wbt.emp_name AS employe,
+                   wbt.afdeling AS afdeling, v.plate_number AS police_no,
+                   c.cust_name AS customer_name,wbt.remarks AS remarks,
+                   s.vendor_name AS supplier_name,
+                   t.transporter_name AS transporter_name,
+                   gd.gd_id AS material_code, gd.gd_desc AS material,
+                   wbt_d1.contract_no AS contract_no1,
+                   wbt_d2.contract_no AS contract_no2,
+                   j.jml_jjg AS janjang,ref_ticketno,
+                   wbt.verified AS verified
+                   
+              FROM t_wbticket wbt LEFT JOIN t_wbticket_detail wbt_d1
+                   ON wbt_d1.no_ticket = wbt.no_ticket
+                   LEFT JOIN t_wbticket_detail wbt_d2
+                   ON wbt_d2.no_ticket = wbt.no_ticket
+                   LEFT JOIN t_lookup_group_detail gd
+                   ON TRIM (gd.gd_id) = TRIM (wbt.material_code)
+                   LEFT JOIN t_vehicle v
+                   ON TRIM (v.plate_number) = TRIM (wbt.vehicle_code)
+                   LEFT JOIN t_customer c
+                   ON TRIM (c.cust_code) = TRIM (wbt.customer_code)
+                   LEFT JOIN t_vendor s
+                   ON TRIM (s.vendor_code) = TRIM (wbt.supplier_code)
+                   LEFT JOIN t_transporter t
+                   ON TRIM (t.transporter_code) = TRIM (wbt.transporter_code)
+                   LEFT JOIN t_sortasi_header j
+                   ON j.no_ticket = wbt.no_ticket
+                   
+                   
+             WHERE wbt.deleted = 0;

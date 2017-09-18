@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74FD42B5-C070-442E-8608-C85F622C4D0E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PrjSWSTAP.My.MyApplication</StartupObject>
+    <RootNamespace>PrjSWSTAP</RootNamespace>
+    <AssemblyName>SWS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\TIMBANGAN\TAPSWS\INSTALER\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Scure Weight System</ProductName>
+    <PublisherName>PT Triputra Agro Persada</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SWS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SWS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Weighbridge.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>C:\Program Files (x86)\Bunifu Technologies\Bunifu Framework Manager\bin\updates\Bunifu_UI_1.5\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data, Version=5.0.1555.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Devart.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.Oracle, Version=9.1.131.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Devart.Data.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FastReport">
+      <HintPath>Resources\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars">
+      <HintPath>Resources\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Oracle">
+      <HintPath>Resources\FastReport.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TCPCam, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\TCPCam.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAccessRight.Designer.vb">
+      <DependentUpon>FrmAccessRight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAccessRight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBeritaAcara.Designer.vb">
+      <DependentUpon>FrmBeritaAcara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBeritaAcara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangePassword.Designer.vb">
+      <DependentUpon>FrmChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClearTiketTimbang.Designer.vb">
+      <DependentUpon>FrmClearTiketTimbang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClearTiketTimbang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfigurationMenu.Designer.vb">
+      <DependentUpon>FrmConfigurationMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfigurationMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDriver.Designer.vb">
+      <DependentUpon>FrmDriver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDriver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditTicketUp.Designer.vb">
+      <DependentUpon>FrmEditTicketUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditTicketUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditTiket.Designer.vb">
+      <DependentUpon>FrmEditTiket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditTiket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoV.Designer.vb">
+      <DependentUpon>FrmLoV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMaterial.Designer.vb">
+      <DependentUpon>FrmMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMaterialType.Designer.vb">
+      <DependentUpon>FrmMaterialType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMaterialType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmParameter.Designer.vb">
+      <DependentUpon>FrmParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPopBA.Designer.vb">
+      <DependentUpon>FrmPopBA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPopBA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPurchaseContract.Designer.vb">
+      <DependentUpon>FrmPurchaseContract.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPurchaseContract.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportWBTicket.Designer.vb">
+      <DependentUpon>FrmReportWBTicket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportWBTicket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRePrintTicket.Designer.vb">
+      <DependentUpon>FrmRePrintTicket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRePrintTicket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRoleAccesRight.Designer.vb">
+      <DependentUpon>FrmRoleAccesRight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRoleAccesRight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRptBeritaAcara.Designer.vb">
+      <DependentUpon>FrmRptBeritaAcara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRptBeritaAcara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRptDetailSWS.Designer.vb">
+      <DependentUpon>FrmRptDetailSWS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRptDetailSWS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRptGradingTbs.Designer.vb">
+      <DependentUpon>FrmRptGradingTbs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRptGradingTbs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalesOrder.Designer.vb">
+      <DependentUpon>FrmSalesOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalesOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransporter.designer.vb">
+      <DependentUpon>FrmTransporter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTransporter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserLogin.Designer.vb">
+      <DependentUpon>FrmUserLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserProfile.Designer.vb">
+      <DependentUpon>FrmUserProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserRole.Designer.vb">
+      <DependentUpon>FrmUserRole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserRole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVehicle.Designer.vb">
+      <DependentUpon>FrmVehicle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVehicle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVehicleType.Designer.vb">
+      <DependentUpon>FrmVehicleType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVehicleType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVendorr.Designer.vb">
+      <DependentUpon>FrmVendorr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVendorr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomer.Designer.vb">
+      <DependentUpon>FrmCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWBGrading.Designer.vb">
+      <DependentUpon>FrmWBGrading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWBGrading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWBIn.Designer.vb">
+      <DependentUpon>FrmWBIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWBIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWbOut.Designer.vb">
+      <DependentUpon>FrmWbOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWbOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWBType.Designer.vb">
+      <DependentUpon>FrmWBType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWBType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleSWS.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.vb">
+      <DependentUpon>WaitForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAccessRight.resx">
+      <DependentUpon>FrmAccessRight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBeritaAcara.resx">
+      <DependentUpon>FrmBeritaAcara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangePassword.resx">
+      <DependentUpon>FrmChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClearTiketTimbang.resx">
+      <DependentUpon>FrmClearTiketTimbang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfigurationMenu.resx">
+      <DependentUpon>FrmConfigurationMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDriver.resx">
+      <DependentUpon>FrmDriver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditTicketUp.resx">
+      <DependentUpon>FrmEditTicketUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditTiket.resx">
+      <DependentUpon>FrmEditTiket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoV.resx">
+      <DependentUpon>FrmLoV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMaterial.resx">
+      <DependentUpon>FrmMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMaterialType.resx">
+      <DependentUpon>FrmMaterialType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmParameter.resx">
+      <DependentUpon>FrmParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPopBA.resx">
+      <DependentUpon>FrmPopBA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPurchaseContract.resx">
+      <DependentUpon>FrmPurchaseContract.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportWBTicket.resx">
+      <DependentUpon>FrmReportWBTicket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRePrintTicket.resx">
+      <DependentUpon>FrmRePrintTicket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRoleAccesRight.resx">
+      <DependentUpon>FrmRoleAccesRight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRptBeritaAcara.resx">
+      <DependentUpon>FrmRptBeritaAcara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRptDetailSWS.resx">
+      <DependentUpon>FrmRptDetailSWS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRptGradingTbs.resx">
+      <DependentUpon>FrmRptGradingTbs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalesOrder.resx">
+      <DependentUpon>FrmSalesOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransporter.resx">
+      <DependentUpon>FrmTransporter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserLogin.resx">
+      <DependentUpon>FrmUserLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserProfile.resx">
+      <DependentUpon>FrmUserProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserRole.resx">
+      <DependentUpon>FrmUserRole.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVehicle.resx">
+      <DependentUpon>FrmVehicle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVehicleType.resx">
+      <DependentUpon>FrmVehicleType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVendorr.resx">
+      <DependentUpon>FrmVendorr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWBGrading.resx">
+      <DependentUpon>FrmWBGrading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWBIn.resx">
+      <DependentUpon>FrmWBIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWbOut.resx">
+      <DependentUpon>FrmWbOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWBType.resx">
+      <DependentUpon>FrmWBType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Settings_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Home_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Exit_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Enter_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\EnterW_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triputra-agro-persada-logo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\TAP SMAL BANER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\SettingsW_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\User Male_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Admin_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OFF.png" />
+    <None Include="Resources\ON.png" />
+    <None Include="Resources\IndicatorPic.bmp" />
+    <None Include="Resources\TruckPic.jpg" />
+    <Content Include="Weighbridge.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxAXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

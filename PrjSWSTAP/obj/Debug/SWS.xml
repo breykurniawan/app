@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SWS
+</name>
+</assembly>
+<members>
+<member name="T:PrjSWSTAP.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns THE cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.Culture">
+<summary>
+  Overrides THE current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources._ON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.Admin_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.Enter_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.Enter_16px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.EnterW_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.Exit_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.Home_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.IndicatorPic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.OFF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.Settings_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.SettingsW_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.TAP_SMAL_BANER">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.triputra_agro_persada_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.TruckPic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.ts">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PrjSWSTAP.My.Resources.Resources.User_Male_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

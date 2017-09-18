@@ -1,0 +1,712 @@
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\SWS.exe.config
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\SWS.exe
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\SWS.pdb
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\SWS.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\AForge.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\AForge.Video.DirectShow.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\AForge.Video.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\Bunifu_UI_v1.52.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\Devart.Data.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\Devart.Data.Oracle.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\FastReport.Bars.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\FastReport.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\FastReport.Oracle.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\TCPCam.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\FastReport.Editor.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\AForge.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\Interop.AXVLC.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\bin\Debug\AxInterop.AXVLC.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\Interop.AXVLC.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\AxInterop.AXVLC.dll
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.ResolveComReference.cache
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmAccessRight.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmChangePassword.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmConfigurationMenu.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMain.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRoleAccesRight.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserLogin.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserProfile.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserRole.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.Resources.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.SplashScreen1.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.WaitForm1.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.GenerateResource.Cache
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\SWS.exe.licenses
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\SWS.exe
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\SWS.xml
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\SWS.pdb
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbprojResolveAssemblyReference.cache
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmDataMasters.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmDriver.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMaterial.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmPurchaseContract.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmSalesOrder.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmTransporter.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicle.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicleType.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVendorr.resources
+D:\TIMBANGAN\TAPSWS\Aplikasi SWS TAP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrrmCustomer.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\SWS.exe.config
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\Interop.AXVLC.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\AxInterop.AXVLC.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.ResolveComReference.cache
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\SWS.exe
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\SWS.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\SWS.pdb
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmAccessRight.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmChangePassword.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmConfigurationMenu.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmDriver.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMain.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMaterial.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmPurchaseContract.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRoleAccesRight.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmSalesOrder.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmTransporter.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserLogin.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserProfile.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserRole.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicle.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicleType.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVendorr.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.Resources.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.SplashScreen1.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.WaitForm1.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.GenerateResource.Cache
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\SWS.exe.licenses
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\SWS.exe
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\SWS.pdb
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\SWS.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\AForge.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\AForge.Video.DirectShow.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\AForge.Video.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\Bunifu_UI_v1.52.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\Devart.Data.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\Devart.Data.Oracle.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\FastReport.Bars.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\FastReport.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\FastReport.Oracle.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\TCPCam.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\FastReport.Editor.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\AForge.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\Interop.AXVLC.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\bin\Debug\AxInterop.AXVLC.dll
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbprojResolveAssemblyReference.cache
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmParameter.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmCustomer.resources
+D:\TIMBANGAN\GITHUB\TAPSWS\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMaterialType.resources
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\SWS.exe.config
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.ResolveComReference.cache
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\SWS.exe
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\SWS.xml
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\SWS.pdb
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\SWS.exe
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\SWS.pdb
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\SWS.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\AForge.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\AForge.Video.DirectShow.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\AForge.Video.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\Bunifu_UI_v1.52.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\Devart.Data.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\Devart.Data.Oracle.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\FastReport.Bars.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\FastReport.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\FastReport.Oracle.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\Oracle.DataAccess.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\TCPCam.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\FastReport.Editor.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\AForge.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbprojResolveAssemblyReference.cache
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmAccessRight.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmBeritaAcara.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmChangePassword.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmClearTiketTimbang.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmConfigurationMenu.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmDriver.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmEditTicketUp.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmEditTiket.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmLoV.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMain.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMaterial.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMaterialType.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmParameter.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmPopBA.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmPurchaseContract.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmReportWBTicket.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRePrintTicket.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRoleAccesRight.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRptBeritaAcara.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRptDetailSWS.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRptGradingTbs.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmSalesOrder.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmTransporter.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserLogin.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserProfile.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserRole.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicle.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicleType.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVendorr.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmCustomer.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWBGrading.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWBType.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWeighbridgeIn.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.Resources.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.SplashScreen1.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.WaitForm1.resources
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.GenerateResource.Cache
+E:\TAP\TAP1\PrjSWSTAP\obj\Debug\SWS.exe.licenses
+E:\TAP\app\PrjSWSTAP\bin\Debug\SWS.exe.config
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.ResolveComReference.cache
+E:\TAP\app\PrjSWSTAP\obj\Debug\SWS.exe
+E:\TAP\app\PrjSWSTAP\obj\Debug\SWS.xml
+E:\TAP\app\PrjSWSTAP\obj\Debug\SWS.pdb
+E:\TAP\app\PrjSWSTAP\bin\Debug\SWS.exe
+E:\TAP\app\PrjSWSTAP\bin\Debug\SWS.pdb
+E:\TAP\app\PrjSWSTAP\bin\Debug\SWS.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\AForge.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\AForge.Video.DirectShow.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\AForge.Video.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\Bunifu_UI_v1.52.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\Devart.Data.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\Devart.Data.Oracle.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\FastReport.Bars.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\FastReport.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\FastReport.Oracle.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\Oracle.DataAccess.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\TCPCam.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\FastReport.Editor.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\AForge.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbprojResolveAssemblyReference.cache
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmAccessRight.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmBeritaAcara.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmChangePassword.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmClearTiketTimbang.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmConfigurationMenu.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmDriver.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmEditTicketUp.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmEditTiket.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmLoV.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMain.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMaterial.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMaterialType.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmParameter.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmPopBA.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmPurchaseContract.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmReportWBTicket.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRePrintTicket.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRoleAccesRight.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRptBeritaAcara.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRptDetailSWS.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRptGradingTbs.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmSalesOrder.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmTransporter.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserLogin.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserProfile.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserRole.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicle.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicleType.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVendorr.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmCustomer.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWBGrading.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWBType.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWeighbridgeIn.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.Resources.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.SplashScreen1.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.WaitForm1.resources
+E:\TAP\app\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.GenerateResource.Cache
+E:\TAP\app\PrjSWSTAP\obj\Debug\SWS.exe.licenses
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\Interop.AXVLC.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\AxInterop.AXVLC.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.ResolveComReference.cache
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmAccessRight.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmBeritaAcara.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmChangePassword.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmClearTiketTimbang.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmConfigurationMenu.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmDriver.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmEditTicketUp.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmEditTiket.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmLoV.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMain.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMaterial.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmMaterialType.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmParameter.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmPopBA.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmPurchaseContract.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmReportWBTicket.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRePrintTicket.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRoleAccesRight.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRptBeritaAcara.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRptDetailSWS.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmRptGradingTbs.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmSalesOrder.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmTransporter.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserLogin.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserProfile.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmUserRole.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicle.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVehicleType.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmVendorr.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmCustomer.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWBGrading.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWbIn.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWbOut.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWBType.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.Resources.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.SplashScreen1.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.WaitForm1.resources
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbproj.GenerateResource.Cache
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\SWS.exe.licenses
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\SWS.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\SWS.exe.config
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\SWS.exe
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\SWS.pdb
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\SWS.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\AForge.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\AForge.Video.DirectShow.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\AForge.Video.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\Bunifu_UI_v1.52.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\Devart.Data.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\Devart.Data.Oracle.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\FastReport.Bars.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\FastReport.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\FastReport.Oracle.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\Oracle.DataAccess.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\TCPCam.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\FastReport.Editor.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\AForge.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Data.v16.1.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Utils.v16.1.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraBars.v16.1.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraNavBar.v16.1.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Office.v16.1.Core.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\Interop.AXVLC.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\bin\Debug\AxInterop.AXVLC.dll
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\SWS.exe
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\SWS.pdb
+D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.vbprojResolveAssemblyReference.cache
