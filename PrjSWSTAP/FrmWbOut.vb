@@ -23,15 +23,16 @@ Imports AForge.Video
 
 Public Class FrmWbOut
     Private Delegate Sub AppendTextBoxDelegate(ByVal TB As String, ByVal txt As String)
-
+    Dim Stream1 As JPEGStream
+    Dim Stream2 As JPEGStream
     Dim source1 As String '//CAM1
     Dim source2 As String ' //CAM2
 
     Public Sub New()
         InitializeComponent()
         '//CCTV
-        Stream1 = New MJPEGStream(source1)
-        Stream2 = New MJPEGStream(source2)
+        Stream1 = New JPEGStream(source1)
+        Stream2 = New JPEGStream(source2)
         AddHandler Stream1.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream1)
         AddHandler Stream2.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream2)
 
@@ -41,14 +42,11 @@ Public Class FrmWbOut
     End Sub
 
     Private Sub FrmWbOut_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Text = nFormName
+        Me.Text = "WB OUT"
         resultLabel.Text = "Start"
-        'NYALKAN INDIKATOR
         WB_ON = True
-
-        INDICATORON()
         GetWBConfig()
-        CCTV_ON()
+        INDICATORON()
     End Sub
 #Region "BW"
     ' This event handler is WHERE THE time-consuming work is done.
@@ -72,15 +70,10 @@ Public Class FrmWbOut
         Catch ex As Exception
         End Try
     End Sub
-
-
-    ' This event handler updates THE progress.
     Private Sub backgroundWorker1_ProgressChanged(ByVal sender As System.Object, ByVal e As ProgressChangedEventArgs) Handles Bw1.ProgressChanged
-        'resultLabel.Text = (e.ProgressPercentage.ToString())
         TxtWeight.Text = (e.ProgressPercentage.ToString())
     End Sub
 
-    ' This event handler deals with THE results of THE background operation.
     Private Sub backgroundWorker1_RunWorkerCompleted(ByVal sender As System.Object, ByVal e As RunWorkerCompletedEventArgs) Handles Bw1.RunWorkerCompleted
         If e.Cancelled = True Then
             resultLabel.Text = "Canceled!"
@@ -88,17 +81,12 @@ Public Class FrmWbOut
             resultLabel.Text = "Error: " & e.Error.Message
         Else
             resultLabel.Text = "Done!"
+            INDICATORON()
         End If
     End Sub
 #End Region
 #Region "CCTV"
-    Dim Stream1 As MJPEGStream
-    Dim Stream2 As MJPEGStream
-    'Dim Stream1 As JPEGStream
-    'Dim Stream2 As JPEGStream
-
     Private counter As Integer
-
     Private Sub Stream_NewFream1(sender As Object, eventargs As NewFrameEventArgs)
         Dim bmp As Bitmap = DirectCast(eventargs.Frame.Clone(), Bitmap)
         PictureBox1.Image = bmp
@@ -152,6 +140,7 @@ Public Class FrmWbOut
             TextEdit3.Text = Format(Now, "dd-MM-yyyy")   'DATE
             '//TAMPILKAN DATA YANG BELUM TIMBANG KELUAR..
             ShowDataWBin()
+            CCTV_ON()
         End If
     End Sub
     Private Sub ClearAllText()
@@ -325,8 +314,7 @@ Public Class FrmWbOut
         ClearAllText()
         SimpleButton1.Enabled = True
         SimpleButton2.Enabled = False
-        PictureBox1.Image = Nothing
-        PictureBox2.Image = Nothing
+        CCTV_OFF()
     End Sub
 
     'ADJUST WG PERSEN
@@ -356,15 +344,17 @@ Public Class FrmWbOut
     End Sub
 
     Private Sub SimpleButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
-        'SAVE
+        'SAVE HEADER DAN DETAIL 
+        '//WB OUT ADA SPLIT CONTRACT UNTUK BERAT YANG  SUDAH MELEBIHI KONTRAK YANG DI PAKAI
         CAPTURE_CCTV()
-
 
         Dim NO_TIKET As String = TextEdit2.Text
         SQL = "SELECT * FROM T_WBTICKET WHERE NO_TICKET ='" & NO_TIKET & "'"
         If CheckRecord(SQL) > 0 Then
             UpdateTWB(NO_TIKET)
         End If
+
+
         ' PRINT TIKET BY MATERIAL
         Dim MATERIAL As String = TextEdit13.Text
         Dim DTX As New DataTable
@@ -386,6 +376,7 @@ Public Class FrmWbOut
         End If
     End Sub
     Private Sub UpdateTWB(NOTICKET)
+        'UPDATE HEADER
         SQL = "Update T_WBTICKET SET " +
             " CUSTOMER_CODE ='" & TextEdit16.Text & "'," +
             " SUPPLIER_CODE ='" & TextEdit14.Text & "'," +
@@ -418,6 +409,7 @@ Public Class FrmWbOut
             " WHERE NO_TICKET ='" & NOTICKET & "'"
         ExecuteNonQuery(SQL)
 
+        'UPDATE DETAIL
         SQL = "UPDATE T_WBTICKET_DETAIL " +
             " SET " +
             " NO_TICKET," +
@@ -431,6 +423,12 @@ Public Class FrmWbOut
             " UP_DATEBY=''" +
             " WHERE NO_TICKET ='" & NOTICKET & "'"
         ExecuteNonQuery(SQL)
+
+        'CHEK KUOTA KONTRAK 
+        'JIKA MELEBIHI KUOTA KONTRAK YANG DIPILIH MAKA MUNCUL POPUP SPLIT KONTRAK UNTUK
+        'PEMBUATAN KONTRAK BARU / PILIH KONTRAK LAIN DENGAN SISA YANG MENCUKUPI .. 
+        '1 NO TIKET (HEADER ) DETAIL 1 NO TIKET 2 NO KONTRAK (LAMA DAN BARU)
+
         MsgBox("SAVE SUCCESFUL", vbInformation, Me.Text)
     End Sub
 

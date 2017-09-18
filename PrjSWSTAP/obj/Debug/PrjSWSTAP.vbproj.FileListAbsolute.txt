@@ -596,7 +596,6 @@ D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWBGrading.resources
 D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWbIn.resources
 D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWbOut.resources
 D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWBType.resources
-D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.FrmWeighbridgeIn.resources
 D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.Resources.resources
 D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.SplashScreen1.resources
 D:\TIMBANGAN\GITHUB\APP\PrjSWSTAP\obj\Debug\PrjSWSTAP.WaitForm1.resources

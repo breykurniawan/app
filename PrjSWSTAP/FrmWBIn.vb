@@ -21,18 +21,16 @@ Imports AForge.Video
 
 Public Class FrmWbIn
     Private Delegate Sub AppendTextBoxDelegate(ByVal TB As String, ByVal txt As String)
-
     Dim source1 As String '//CAM1
     Dim source2 As String ' //CAM2
-
-    Dim stream1 As MJPEGStream
-    Dim stream2 As MJPEGStream
+    Dim stream1 As JPEGStream
+    Dim stream2 As JPEGStream
 
     Public Sub New()
         InitializeComponent()
         '//CCTV
-        Stream1 = New MJPEGStream(source1)
-        Stream2 = New MJPEGStream(source2)
+        stream1 = New JPEGStream(source1)
+        stream2 = New JPEGStream(source2)
         AddHandler stream1.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream1)
         AddHandler stream2.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream2)
         'BW
@@ -46,9 +44,7 @@ Public Class FrmWbIn
         Me.Text = nFormName
         resultLabel.Text = "Start"
         GetWBConfig()
-        WB_ON = True
-        INDICATORON() '//WB
-        CCTV_ON()      'CAM 12
+        INDICATORON()
     End Sub
 #Region "BW"
     Private Sub backgroundWorker1_DoWork(ByVal sender As System.Object, ByVal e As DoWorkEventArgs) Handles BW1.DoWork
@@ -80,12 +76,12 @@ Public Class FrmWbIn
             resultLabel.Text = "Error: " & e.Error.Message
         Else
             resultLabel.Text = "Done!"
+            INDICATORON()
         End If
     End Sub
 #End Region
 #Region "CCTV"
     Private counter As Integer
-
     Private Sub Stream_NewFream1(sender As Object, eventargs As NewFrameEventArgs)
         Dim bmp As Bitmap = DirectCast(eventargs.Frame.Clone(), Bitmap)
         PictureBox1.Image = bmp
@@ -109,20 +105,20 @@ Public Class FrmWbIn
         CCTV_OFF()
     End Sub
     Private Sub INDICATORON()
+        WB_ON = True
         If BW1.IsBusy <> True Then
             BW1.RunWorkerAsync()
             resultLabel.Text = "Connected..."
         End If
     End Sub
     Private Sub INDICATOROFF()
+        WB_ON=False 
         If BW1.WorkerSupportsCancellation = True Then
             BW1.CancelAsync()
         End If
     End Sub
     Private Sub SimpleButton1_Click(sender As Object, e As EventArgs) Handles SimpleButton1.Click
         'ADD 
-        If stream1.IsRunning = False Then stream1.Start()
-        If stream2.IsRunning = False Then stream2.Start()
         'VALIDASI AWAL INPUT HARUS KONDISI TIMBANGAN KOSONG
         'WARNING BERAT SAAT MULAI HARUS KOSONG
         If Val(TxtWeight.Text) > 0 Then
@@ -134,8 +130,8 @@ Public Class FrmWbIn
             SimpleButton1.Enabled = False 'ADD 
             SimpleButton2.Enabled = True  'SAVE 
             TextEdit3.Text = Format(Now, "dd-MM-yyyy")   'DATE
-            'GETTIKET
-            TextEdit2.Text = GetTiketNew(WBCode)
+            TextEdit2.Text = GetTiketNew(WBCode) 'GETTIKET
+            CCTV_ON()
         End If
         'DEFAULT DISEBEL
         'KIT,CUSTOMER,SO,DELIVERY,TRANSPOT,
@@ -291,30 +287,40 @@ Public Class FrmWbIn
     End Sub
 
     Private Sub CCTV_OFF()
-        LabelControl41.Text = "CAM 1 Off"
-        LabelControl42.Text = "CAM 2 Off"
-        If stream1.IsRunning = True Then stream1.Stop()
-        If stream2.IsRunning = True Then stream2.Stop()
+        If Ping(IPCamera1) = True Then
+            stream1.Source = GetCCTVParam(IPCamera1)
+            If stream1.IsRunning = True Then stream1.Stop()
+            LabelControl41.Text = "CAM 1 Off"
+        End If
+        If Ping(IPCamera2) = True Then
+            stream2.Source = GetCCTVParam(IPCamera2)
+            If stream2.IsRunning = True Then stream2.Stop()
+            LabelControl42.Text = "CAM 2 Off"
+        End If
     End Sub
     Private Sub CCTV_ON()
-        LabelControl41.Text = "CAM 1 Start"
-        LabelControl42.Text = "CAM 2 Start"
-        GetWBConfig()
-        stream1.Source = GetCCTVParam(IPCamera1)
-        stream2.Source = GetCCTVParam(IPCamera2)
+        If Ping(IPCamera1) = True Then
+            stream1.Source = GetCCTVParam(IPCamera1)
+            If stream1.IsRunning = False Then stream1.Start()
+            LabelControl41.Text = "CAM 1 On"
+        Else
+            LabelControl41.Text = "CAM 1 Off"
+        End If
 
-        If stream1.IsRunning = False Then stream1.Start()
-        If stream2.IsRunning = False Then stream2.Start()
+        If Ping(IPCamera2) = True Then
+            stream2.Source = GetCCTVParam(IPCamera2)
+            If stream2.IsRunning = False Then stream2.Start()
+            LabelControl42.Text = "CAM 2 On"
+        Else
+            LabelControl42.Text = "CAM 2 Off"
+        End If
     End Sub
     Private Sub SimpleButton14_Click(sender As Object, e As EventArgs) Handles SimpleButton14.Click
         'CANCEL
-
         ClearAllText()
         SimpleButton1.Enabled = True
         SimpleButton2.Enabled = False
-
-        INDICATORON()
-        CCTV_ON()
+        CCTV_OFF()
     End Sub
 
     'ADJUST WG PERSEN

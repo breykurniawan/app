@@ -28,16 +28,13 @@ Public Class FrmConfigurationMenu
     Dim IdTabel As String = ""
 
     'Dim Stream As JPEGStream
-    Dim stream As MJPEGStream
+    Dim stream As JPEGStream
     Dim Parameter As String = ""
     Dim frs As String
 
     Public Sub New()
-        ' This call is required by THE designer.
         InitializeComponent()
-        ' Add any initialization after THE InitializeComponent() call.
-        'Stream = New JPEGStream(Parameter)
-        Stream = New MJPEGStream(Parameter)
+        stream = New JPEGStream(Parameter)
         AddHandler Stream.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream)
         frs = Stream.FramesReceived.ToString()
     End Sub

@@ -69,7 +69,7 @@ Partial Class FrmMain
         '
         'PanelControl2
         '
-        Me.PanelControl2.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.PanelControl2.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.PanelControl2.Appearance.Options.UseBackColor = True
         Me.PanelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PanelControl2.Controls.Add(Me.NavBarControl1)
@@ -91,13 +91,13 @@ Partial Class FrmMain
         Me.NavBarControl1.Appearance.Item.Options.UseBorderColor = True
         Me.NavBarControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat
         Me.NavBarControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.NavBarControl1.ForeColor = System.Drawing.Color.FROMArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.NavBarControl1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.NavBarControl1.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup1})
         Me.NavBarControl1.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NavBarItem1})
         Me.NavBarControl1.Location = New System.Drawing.Point(0, 137)
         Me.NavBarControl1.LookAndFeel.SkinName = "Office 2016 Black"
         Me.NavBarControl1.Name = "NavBarControl1"
-        Me.NavBarControl1.NavigationPaneGroupClienTHEight = 500
+        Me.NavBarControl1.NavigationPaneGroupClientHeight = 500
         Me.NavBarControl1.OptionsNavPane.ExpandedWidth = 248
         Me.NavBarControl1.Size = New System.Drawing.Size(248, 348)
         Me.NavBarControl1.TabIndex = 6
@@ -228,8 +228,8 @@ Partial Class FrmMain
         Me.BunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton1.Iconimage = Global.PrjSWSTAP.My.Resources.Resources.Admin_16px
         Me.BunifuFlatButton1.Iconimage_right = Nothing
-        Me.BunifuFlatButton1.Iconimage_right_SELECTed = Nothing
-        Me.BunifuFlatButton1.Iconimage_SELECTed = Nothing
+        Me.BunifuFlatButton1.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton1.Iconimage_Selected = Nothing
         Me.BunifuFlatButton1.IconMarginLeft = 0
         Me.BunifuFlatButton1.IconMarginRight = 0
         Me.BunifuFlatButton1.IconRightVisible = True
@@ -242,7 +242,7 @@ Partial Class FrmMain
         Me.BunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton1.OnHovercolor = System.Drawing.SystemColors.ActiveCaption
         Me.BunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White
-        Me.BunifuFlatButton1.SELECTed = False
+        Me.BunifuFlatButton1.selected = False
         Me.BunifuFlatButton1.Size = New System.Drawing.Size(101, 40)
         Me.BunifuFlatButton1.TabIndex = 5
         Me.BunifuFlatButton1.Text = "Sign In"
@@ -264,8 +264,8 @@ Partial Class FrmMain
         Me.BunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton3.Iconimage = Global.PrjSWSTAP.My.Resources.Resources.SettingsW_16px
         Me.BunifuFlatButton3.Iconimage_right = Nothing
-        Me.BunifuFlatButton3.Iconimage_right_SELECTed = Nothing
-        Me.BunifuFlatButton3.Iconimage_SELECTed = Nothing
+        Me.BunifuFlatButton3.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton3.Iconimage_Selected = Nothing
         Me.BunifuFlatButton3.IconMarginLeft = 0
         Me.BunifuFlatButton3.IconMarginRight = 0
         Me.BunifuFlatButton3.IconRightVisible = True
@@ -278,7 +278,7 @@ Partial Class FrmMain
         Me.BunifuFlatButton3.Normalcolor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton3.OnHovercolor = System.Drawing.SystemColors.Highlight
         Me.BunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White
-        Me.BunifuFlatButton3.SELECTed = False
+        Me.BunifuFlatButton3.selected = False
         Me.BunifuFlatButton3.Size = New System.Drawing.Size(101, 40)
         Me.BunifuFlatButton3.TabIndex = 4
         Me.BunifuFlatButton3.Text = "Config"
@@ -400,8 +400,8 @@ Partial Class FrmMain
         Me.ToolStripStatusLabel5.ForeColor = System.Drawing.Color.Gray
         Me.ToolStripStatusLabel5.Name = "ToolStripStatusLabel5"
         Me.ToolStripStatusLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ToolStripStatusLabel5.Size = New System.Drawing.Size(78, 17)
-        Me.ToolStripStatusLabel5.Text = "Weighbridge "
+        Me.ToolStripStatusLabel5.Size = New System.Drawing.Size(25, 17)
+        Me.ToolStripStatusLabel5.Text = "WB"
         '
         'ToolStripStatusLabel6
         '
@@ -409,8 +409,8 @@ Partial Class FrmMain
         Me.ToolStripStatusLabel6.ForeColor = System.Drawing.Color.Gray
         Me.ToolStripStatusLabel6.Name = "ToolStripStatusLabel6"
         Me.ToolStripStatusLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ToolStripStatusLabel6.Size = New System.Drawing.Size(46, 17)
-        Me.ToolStripStatusLabel6.Text = "CCTV 1"
+        Me.ToolStripStatusLabel6.Size = New System.Drawing.Size(38, 17)
+        Me.ToolStripStatusLabel6.Text = "Cam1"
         '
         'ToolStripStatusLabel7
         '
@@ -418,8 +418,8 @@ Partial Class FrmMain
         Me.ToolStripStatusLabel7.ForeColor = System.Drawing.Color.Gray
         Me.ToolStripStatusLabel7.Name = "ToolStripStatusLabel7"
         Me.ToolStripStatusLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ToolStripStatusLabel7.Size = New System.Drawing.Size(46, 17)
-        Me.ToolStripStatusLabel7.Text = "CCTV 2"
+        Me.ToolStripStatusLabel7.Size = New System.Drawing.Size(38, 17)
+        Me.ToolStripStatusLabel7.Text = "Cam2"
         '
         'FrmMain
         '

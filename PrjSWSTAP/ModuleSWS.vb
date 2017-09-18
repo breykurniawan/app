@@ -1492,7 +1492,7 @@ Module ModuleSWS
                 End If
                 Dim i As Integer = InStr(ReturnData, Chr(0), CompareMethod.Binary)
                 ReturnData = Microsoft.VisualBasic.Left(ReturnData, i - 1)
-                GetSCSMessage = CType(Num(ReturnData), String)
+                GetSCSMessage = Microsoft.VisualBasic.Left(CType(Num(ReturnData), String), WBLEN)
                 StKoneksiIndikator = "WB ON"
                 tcpClient.Close()
             Else

@@ -1421,9 +1421,9 @@ Partial Class FrmWbOut
         Me.PanelControl4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PanelControl4.Controls.Add(Me.GridControl1)
         Me.PanelControl4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PanelControl4.Location = New System.Drawing.Point(776, 443)
+        Me.PanelControl4.Location = New System.Drawing.Point(776, 311)
         Me.PanelControl4.Name = "PanelControl4"
-        Me.PanelControl4.Size = New System.Drawing.Size(278, 171)
+        Me.PanelControl4.Size = New System.Drawing.Size(278, 303)
         Me.PanelControl4.TabIndex = 106
         '
         'GridControl1
@@ -1432,7 +1432,7 @@ Partial Class FrmWbOut
         Me.GridControl1.Location = New System.Drawing.Point(0, 0)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(278, 171)
+        Me.GridControl1.Size = New System.Drawing.Size(278, 303)
         Me.GridControl1.TabIndex = 0
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -1457,7 +1457,7 @@ Partial Class FrmWbOut
         Me.SimpleButton7.Appearance.Options.UseForeColor = True
         Me.SimpleButton7.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat
         Me.SimpleButton7.Image = CType(resources.GetObject("SimpleButton7.Image"), System.Drawing.Image)
-        Me.SimpleButton7.Location = New System.Drawing.Point(776, 400)
+        Me.SimpleButton7.Location = New System.Drawing.Point(776, 265)
         Me.SimpleButton7.Name = "SimpleButton7"
         Me.SimpleButton7.Size = New System.Drawing.Size(125, 33)
         Me.SimpleButton7.TabIndex = 107
