@@ -5,10 +5,10 @@
     
     Version 2.0
     
-    THE primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. THE generation and parsing of THE 
-    various data types are done through THE TypeConverter classes 
-    associated with THE data types.
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
     
     Example:
     
@@ -23,41 +23,41 @@
         <value>[base64 mime encoded serialized .NET Framework object]</value>
     </data>
     <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of THE .NET Framework object]</value>
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
                 
-    THEre are any number of "resheader" rows that contain simple 
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
     
-    Each data row contains a name, and value. THE row also contains a 
+    Each data row contains a name, and value. The row also contains a 
     type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through THE TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with THE 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
     
-    THE mimetype is used for serialized objects, and tells THE 
-    ResXResourceReader how to depersist THE object. This is currently not 
-    extensible. For a given mimetype THE value must be set accordingly:
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
     
-    Note - application/x-microsoft.net.object.binary.base64 is THE format 
-    that THE ResXResourceWriter will generate, however THE reader can 
-    read any of THE formats listed below.
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
     
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : THE object must be serialized with 
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and THEn encoded with base64 encoding.
+            : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : THE object must be serialized with 
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and THEn encoded with base64 encoding.
+            : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : THE object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
-            : and THEn encoded with base64 encoding.
+            : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -145,5 +145,8 @@
   </data>
   <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>52</value>
   </metadata>
 </root>

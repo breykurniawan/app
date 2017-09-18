@@ -23,17 +23,15 @@ Imports AForge.Video
 
 Public Class FrmWbOut
     Private Delegate Sub AppendTextBoxDelegate(ByVal TB As String, ByVal txt As String)
+
     Dim source1 As String '//CAM1
     Dim source2 As String ' //CAM2
-    Dim stream1 As JPEGStream
-    Dim Stream2 As JPEGStream
 
     Public Sub New()
         InitializeComponent()
         '//CCTV
-        Stream1 = New JPEGStream(source1)
-        Stream2 = New JPEGStream(source2)
-
+        Stream1 = New MJPEGStream(source1)
+        Stream2 = New MJPEGStream(source2)
         AddHandler Stream1.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream1)
         AddHandler Stream2.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream2)
 
@@ -43,12 +41,14 @@ Public Class FrmWbOut
     End Sub
 
     Private Sub FrmWbOut_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Text = "WB OUT"
+        Me.Text = nFormName
         resultLabel.Text = "Start"
+        'NYALKAN INDIKATOR
         WB_ON = True
-        GetWBConfig()
+
         INDICATORON()
-        'CCTV_ON()
+        GetWBConfig()
+        CCTV_ON()
     End Sub
 #Region "BW"
     ' This event handler is WHERE THE time-consuming work is done.
@@ -72,9 +72,15 @@ Public Class FrmWbOut
         Catch ex As Exception
         End Try
     End Sub
+
+
+    ' This event handler updates THE progress.
     Private Sub backgroundWorker1_ProgressChanged(ByVal sender As System.Object, ByVal e As ProgressChangedEventArgs) Handles Bw1.ProgressChanged
+        'resultLabel.Text = (e.ProgressPercentage.ToString())
         TxtWeight.Text = (e.ProgressPercentage.ToString())
     End Sub
+
+    ' This event handler deals with THE results of THE background operation.
     Private Sub backgroundWorker1_RunWorkerCompleted(ByVal sender As System.Object, ByVal e As RunWorkerCompletedEventArgs) Handles Bw1.RunWorkerCompleted
         If e.Cancelled = True Then
             resultLabel.Text = "Canceled!"
@@ -82,13 +88,17 @@ Public Class FrmWbOut
             resultLabel.Text = "Error: " & e.Error.Message
         Else
             resultLabel.Text = "Done!"
-            INDICATORON()
         End If
-
     End Sub
 #End Region
 #Region "CCTV"
+    Dim Stream1 As MJPEGStream
+    Dim Stream2 As MJPEGStream
+    'Dim Stream1 As JPEGStream
+    'Dim Stream2 As JPEGStream
+
     Private counter As Integer
+
     Private Sub Stream_NewFream1(sender As Object, eventargs As NewFrameEventArgs)
         Dim bmp As Bitmap = DirectCast(eventargs.Frame.Clone(), Bitmap)
         PictureBox1.Image = bmp
@@ -142,10 +152,7 @@ Public Class FrmWbOut
             TextEdit3.Text = Format(Now, "dd-MM-yyyy")   'DATE
             '//TAMPILKAN DATA YANG BELUM TIMBANG KELUAR..
             ShowDataWBin()
-            '//CCTV ON
-            CCTV_ON()
         End If
-
     End Sub
     Private Sub ClearAllText()
         TextEdit1.Text = "" : TextEdit2.Text = "" : TextEdit3.Text = "" : TextEdit4.Text = "" : TextEdit5.Text = "" : TextEdit6.Text = "" : TextEdit7.Text = "" : TextEdit8.Text = "" : TextEdit9.Text = "" : TextEdit10.Text = ""
@@ -166,7 +173,8 @@ Public Class FrmWbOut
 
     Private Sub ShowDataWBin()
         'CARI TIKET KELUAR
-        LSQL = " SELECT NO_TICKET,POLICE_NO,WEIGHT_IN,NETTO,DATE_IN FROM V_TICKET_FINISH WHERE WEIGHT_OUT =0 ORDER BY DATE_IN DESC"
+
+        LSQL = " SELECT NO_TICKET,POLICE_NO,WEIGHT_IN,DATE_IN FROM V_TICKET_FINISH WHERE WEIGHT_OUT IS NULL ORDER BY DATE_IN DESC"
         LField = "NO_TICKET"
         ValueLoV = ""
         TextEdit2.Text = FrmShowLOV(FrmLoV, LSQL, "NO_TICKET", "WB IN DATA")
@@ -177,6 +185,7 @@ Public Class FrmWbOut
             " FROM T_WBTICKET A " +
             " LEFT JOIN T_WBTICKET_DETAIL B ON B.NO_TICKET= A.NO_TICKET " +
             " WHERE A.NO_TICKET ='" & TextEdit2.Text & "'"
+
             DT = ExecuteQuery(SQL)
             If DT.Rows.Count > 0 Then
                 'ISI DATA 
@@ -284,6 +293,7 @@ Public Class FrmWbOut
 
         If Val(TxtWeight.Text) <> "0" Then
             'GET PIC & WB
+
             TextEdit5.Text = TxtWeight.Text 'WEIGHT
             TextEdit9.Text = TextEdit5.Text 'WEIGHT OUT
             TextEdit10.Text = Val(TextEdit9.Text) - Val(TextEdit8.Text) 'NETTO
@@ -293,20 +303,21 @@ Public Class FrmWbOut
     End Sub
 
     Private Sub CCTV_OFF()
-        If stream1.IsRunning = True Then stream1.SignalToStop() : stream1.Stop()
         LabelControl41.Text = "CAM 1 Off"
-        If Stream2.IsRunning = True Then Stream2.SignalToStop() : Stream2.Stop()
         LabelControl42.Text = "CAM 2 Off"
+        If Stream1.IsRunning = True Then Stream1.Stop()
+        If Stream2.IsRunning = True Then Stream2.Stop()
     End Sub
-    Private Sub CCTV_ON()
-        GetWBConfig()
-        stream1.Source = GetCCTVParam(IPCamera1)
-        If stream1.IsRunning = False Then stream1.Start()
-        LabelControl41.Text = "CAM 1 Start"
 
-        Stream2.Source = GetCCTVParam(IPCamera2)
-        If Stream2.IsRunning = False Then Stream2.Start()
+    Private Sub CCTV_ON()
+        Dim source1 As String = GetCCTVParam(IPCamera1)
+        Dim source2 As String = GetCCTVParam(IPCamera2)
+        LabelControl41.Text = "CAM 1 Start"
         LabelControl42.Text = "CAM 2 Start"
+        Stream1.Source = source1
+        Stream2.Source = source2
+        If Stream1.IsRunning = False Then Stream1.Start()
+        If Stream2.IsRunning = False Then Stream2.Start()
     End Sub
 
     Private Sub SimpleButton14_Click(sender As Object, e As EventArgs) Handles SimpleButton14.Click
@@ -327,48 +338,33 @@ Public Class FrmWbOut
         If TextEdit38.Text <> "" Then TextEdit11.Text = ""
     End Sub
 
-    Private Sub CAPTURE_CCTV(ByVal NOTICKET As String)
-        'PROSES GAMBAR
+    Private Sub CAPTURE_CCTV()
+        Dim tiket As String = TextEdit2.Text
         Dim time As DateTime = DateTime.Now
         Dim format As String = "MMM ddd d HH mm yyyy"
-        Dim strFilename As [String] = "CAM1-OUT" + NOTICKET + ".jpg"
-        strFilename = My.Settings.PathImage & "/" & strFilename
-        If Stream1.IsRunning = False Then
+        'Dim strFilename As [String] = "Capture-" + time.ToString(format) + ".jpg"
+        Dim strFilename As String = "CAM1" + tiket + ".jpg"
+        If Stream1.IsRunning Then
             Dim picture As Bitmap = PictureBox1.Image
-            If picture IsNot Nothing Then
-                picture.Save(strFilename, ImageFormat.Jpeg)
-                LabelControl41.Text = strFilename
-            Else
-                strFilename = My.Settings.PathImage & "/SWS1.JPG"
-                picture.Save(strFilename, ImageFormat.Jpeg)
-                LabelControl41.Text = strFilename
-            End If
+            picture.Save(strFilename, ImageFormat.Jpeg)
         End If
-
-        Dim strFilename2 As [String] = "CAM2-OUT" + NOTICKET + ".jpg"
-        strFilename2 = My.Settings.PathImage & "/" & strFilename2
-        If Stream2.IsRunning = False Then
-            Dim picture2 As Bitmap = PictureBox2.Image
-            If picture2 IsNot Nothing Then
-                picture2.Save(strFilename2, ImageFormat.Jpeg)
-                LabelControl42.Text = strFilename2
-            Else
-                strFilename2 = My.Settings.PathImage & "/SWS2.JPG"
-                picture2.Save(strFilename2, ImageFormat.Jpeg)
-                LabelControl42.Text = strFilename2
-            End If
+        Dim strFilename2 As String = "CAM2" + tiket + ".jpg"
+        If Stream2.IsRunning Then
+            Dim picture As Bitmap = PictureBox2.Image
+            picture.Save(strFilename, ImageFormat.Jpeg)
         End If
     End Sub
 
     Private Sub SimpleButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
         'SAVE
-        Dim NOTIKET As String = TextEdit2.Text
+        CAPTURE_CCTV()
 
-        SQL = "SELECT * FROM T_WBTICKET WHERE NO_TICKET ='" & NOTIKET & "'"
+
+        Dim NO_TIKET As String = TextEdit2.Text
+        SQL = "SELECT * FROM T_WBTICKET WHERE NO_TICKET ='" & NO_TIKET & "'"
         If CheckRecord(SQL) > 0 Then
-            UpdateTWB(NOTIKET)
+            UpdateTWB(NO_TIKET)
         End If
-
         ' PRINT TIKET BY MATERIAL
         Dim MATERIAL As String = TextEdit13.Text
         Dim DTX As New DataTable
@@ -390,24 +386,6 @@ Public Class FrmWbOut
         End If
     End Sub
     Private Sub UpdateTWB(NOTICKET)
-        Dim NOTIKET As String = TextEdit2.Text
-        CAPTURE_CCTV(NOTIKET)
-
-        Dim imagename As String = LabelControl41.Text
-        Dim fls As FileStream
-        fls = New FileStream(imagename, FileMode.Open, FileAccess.Read)
-        Dim blob As Byte() = New Byte(fls.Length - 1) {}
-        fls.Read(blob, 0, System.Convert.ToInt32(fls.Length))
-        fls.Close()
-
-        Dim imagename2 As String = LabelControl42.Text
-        Dim fls2 As FileStream
-        fls2 = New FileStream(imagename2, FileMode.Open, FileAccess.Read)
-        Dim blob2 As Byte() = New Byte(fls2.Length - 1) {}
-        fls2.Read(blob2, 0, System.Convert.ToInt32(fls2.Length))
-        fls2.Close()
-
-
         SQL = "Update T_WBTICKET SET " +
             " CUSTOMER_CODE ='" & TextEdit16.Text & "'," +
             " SUPPLIER_CODE ='" & TextEdit14.Text & "'," +
@@ -437,22 +415,8 @@ Public Class FrmWbOut
             " SO_NUMBER1 ='" & TextEdit17.Text & "'," +
             " SO_NUMBER2 ='" & TextEdit37.Text & "'," +
             " ABW='" & TextEdit29.Text & "' " +
-            " PIC_PLAT_OUT = " + " :BlobParameter " +
-            " PIC_DRIVEROUT= " + " :BlobParameter2 " +
             " WHERE NO_TICKET ='" & NOTICKET & "'"
-        'ExecuteNonQuery(SQL)
-
-        Dim CMD As OracleCommand = New OracleCommand(SQL, CONN)
-        Dim paramCollection As OracleParameterCollection = CMD.Parameters
-        Dim parameter As Object = New OracleParameter("BlobParameter", OracleDbType.Blob)
-        Dim parameter2 As Object = New OracleParameter("BlobParameter2", OracleDbType.Blob)
-
-        paramCollection.AddWithValue(":BlobParameter", blob)
-        paramCollection.AddWithValue(":BlobParameter2", blob2)
-
-        CMD.Connection.Open()
-        CMD.ExecuteNonQuery()
-        CMD.Dispose()
+        ExecuteNonQuery(SQL)
 
         SQL = "UPDATE T_WBTICKET_DETAIL " +
             " SET " +
@@ -468,7 +432,6 @@ Public Class FrmWbOut
             " WHERE NO_TICKET ='" & NOTICKET & "'"
         ExecuteNonQuery(SQL)
         MsgBox("SAVE SUCCESFUL", vbInformation, Me.Text)
-
     End Sub
 
     Private Sub SimpleButton3_Click(sender As Object, e As EventArgs) Handles SimpleButton3.Click
@@ -479,9 +442,5 @@ Public Class FrmWbOut
         ValueLoV = ""
         TextEdit13.Text = FrmShowLOV(FrmLoV, LSQL, "MATERIAL", "MATERIAL")
 
-    End Sub
-
-    Private Sub FrmWbOut_Resize(sender As Object, e As EventArgs) Handles Me.Resize
-        PanelControl4.Height = Me.Height - 275
     End Sub
 End Class

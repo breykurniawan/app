@@ -62,7 +62,7 @@ Partial Class FrmUserRole
         Me.BunifuGradientPanel1.Name = "BunifuGradientPanel1"
         Me.BunifuGradientPanel1.Quality = 10
         Me.BunifuGradientPanel1.Size = New System.Drawing.Size(963, 43)
-        Me.BunifuGradientPanel1.TabIndex = 4
+        Me.BunifuGradientPanel1.TabIndex = 2
         '
         'LabelControl1
         '
@@ -103,7 +103,7 @@ Partial Class FrmUserRole
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel1.Controls.Add(Me.LabelControl3)
         Me.Panel1.Controls.Add(Me.LabelControl2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
@@ -155,7 +155,7 @@ Partial Class FrmUserRole
         Me.SimpleButton4.Location = New System.Drawing.Point(236, 5)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 53
+        Me.SimpleButton4.TabIndex = 3
         Me.SimpleButton4.Text = "Cancel"
         '
         'SimpleButton2
@@ -168,7 +168,7 @@ Partial Class FrmUserRole
         Me.SimpleButton2.Location = New System.Drawing.Point(159, 5)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 51
+        Me.SimpleButton2.TabIndex = 2
         Me.SimpleButton2.Text = "Delete"
         '
         'SimpleButton1
@@ -181,7 +181,7 @@ Partial Class FrmUserRole
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 5)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 50
+        Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Add"
         '
         'SimpleButton5
@@ -194,7 +194,7 @@ Partial Class FrmUserRole
         Me.SimpleButton5.Location = New System.Drawing.Point(313, 5)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 49
+        Me.SimpleButton5.TabIndex = 4
         Me.SimpleButton5.Text = "Close"
         '
         'SimpleButton3
@@ -207,22 +207,24 @@ Partial Class FrmUserRole
         Me.SimpleButton3.Location = New System.Drawing.Point(82, 5)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton3.TabIndex = 48
+        Me.SimpleButton3.TabIndex = 1
         Me.SimpleButton3.Text = "Save"
         '
         'TextEdit1
         '
+        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(149, 88)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(249, 20)
-        Me.TextEdit1.TabIndex = 50
+        Me.TextEdit1.TabIndex = 0
         '
         'TextEdit2
         '
+        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(149, 112)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Size = New System.Drawing.Size(249, 20)
-        Me.TextEdit2.TabIndex = 51
+        Me.TextEdit2.TabIndex = 1
         '
         'FrmUserRole
         '

@@ -109,7 +109,7 @@ Partial Class FrmRePrintTicket
         Me.SimpleButton4.Location = New System.Drawing.Point(88, 6)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 109
+        Me.SimpleButton4.TabIndex = 0
         Me.SimpleButton4.Text = "Find"
         '
         'PanelControl1
@@ -139,7 +139,7 @@ Partial Class FrmRePrintTicket
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl4)
         Me.Panel7.Controls.Add(Me.LabelControl3)
         Me.Panel7.Controls.Add(Me.LabelControl2)
@@ -221,7 +221,7 @@ Partial Class FrmRePrintTicket
         Me.PanelControl6.Location = New System.Drawing.Point(153, 43)
         Me.PanelControl6.Name = "PanelControl6"
         Me.PanelControl6.Size = New System.Drawing.Size(713, 39)
-        Me.PanelControl6.TabIndex = 112
+        Me.PanelControl6.TabIndex = 6
         '
         'PanelControl2
         '
@@ -243,7 +243,7 @@ Partial Class FrmRePrintTicket
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 53
+        Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Print"
         '
         'SimpleButton5
@@ -265,7 +265,7 @@ Partial Class FrmRePrintTicket
         Me.RadioButton1.Location = New System.Drawing.Point(160, 91)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(43, 17)
-        Me.RadioButton1.TabIndex = 113
+        Me.RadioButton1.TabIndex = 0
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "FFB"
         Me.RadioButton1.UseVisualStyleBackColor = True
@@ -276,45 +276,49 @@ Partial Class FrmRePrintTicket
         Me.RadioButton2.Location = New System.Drawing.Point(244, 91)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(68, 17)
-        Me.RadioButton2.TabIndex = 114
+        Me.RadioButton2.TabIndex = 1
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "NON FFB"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'TextEdit2
         '
+        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(161, 158)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Size = New System.Drawing.Size(158, 20)
-        Me.TextEdit2.TabIndex = 109
+        Me.TextEdit2.TabIndex = 4
         '
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
+        Me.DateEdit1.EnterMoveNextControl = True
         Me.DateEdit1.Location = New System.Drawing.Point(161, 114)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Size = New System.Drawing.Size(158, 20)
-        Me.DateEdit1.TabIndex = 0
+        Me.DateEdit1.TabIndex = 2
         '
         'TextEdit1
         '
+        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(161, 180)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(158, 20)
-        Me.TextEdit1.TabIndex = 110
+        Me.TextEdit1.TabIndex = 5
         '
         'DateEdit2
         '
         Me.DateEdit2.EditValue = Nothing
+        Me.DateEdit2.EnterMoveNextControl = True
         Me.DateEdit2.Location = New System.Drawing.Point(161, 136)
         Me.DateEdit2.Name = "DateEdit2"
         Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.DateEdit2.Size = New System.Drawing.Size(158, 20)
-        Me.DateEdit2.TabIndex = 111
+        Me.DateEdit2.TabIndex = 3
         '
         'TextEdit3
         '
@@ -332,7 +336,7 @@ Partial Class FrmRePrintTicket
         '
         'LabelControl5
         '
-        Me.LabelControl5.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.LabelControl5.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl5.Appearance.Options.UseBackColor = True
         Me.LabelControl5.Appearance.Options.UseFont = True
@@ -346,7 +350,7 @@ Partial Class FrmRePrintTicket
         '
         'LabelControl6
         '
-        Me.LabelControl6.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.LabelControl6.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl6.Appearance.Options.UseBackColor = True
         Me.LabelControl6.Appearance.Options.UseFont = True
@@ -360,7 +364,7 @@ Partial Class FrmRePrintTicket
         '
         'LabelControl7
         '
-        Me.LabelControl7.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.LabelControl7.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl7.Appearance.Options.UseBackColor = True
         Me.LabelControl7.Appearance.Options.UseFont = True

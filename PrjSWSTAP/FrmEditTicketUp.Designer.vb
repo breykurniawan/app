@@ -313,7 +313,7 @@ Partial Class FrmEditTicketUp
         Me.PanelControl6.Location = New System.Drawing.Point(153, 43)
         Me.PanelControl6.Name = "PanelControl6"
         Me.PanelControl6.Size = New System.Drawing.Size(646, 39)
-        Me.PanelControl6.TabIndex = 106
+        Me.PanelControl6.TabIndex = 14
         '
         'PanelControl2
         '
@@ -335,7 +335,7 @@ Partial Class FrmEditTicketUp
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 53
+        Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Save"
         '
         'SimpleButton5
@@ -348,7 +348,7 @@ Partial Class FrmEditTicketUp
         Me.SimpleButton5.Location = New System.Drawing.Point(91, 6)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 49
+        Me.SimpleButton5.TabIndex = 1
         Me.SimpleButton5.Text = "Close"
         '
         'PanelControl1
@@ -391,10 +391,11 @@ Partial Class FrmEditTicketUp
         '
         'TextEdit12
         '
+        Me.TextEdit12.EnterMoveNextControl = True
         Me.TextEdit12.Location = New System.Drawing.Point(7, 248)
         Me.TextEdit12.Name = "TextEdit12"
         Me.TextEdit12.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit12.TabIndex = 22
+        Me.TextEdit12.TabIndex = 11
         '
         'SimpleButton8
         '
@@ -418,10 +419,11 @@ Partial Class FrmEditTicketUp
         '
         'TextEdit13
         '
+        Me.TextEdit13.EnterMoveNextControl = True
         Me.TextEdit13.Location = New System.Drawing.Point(7, 270)
         Me.TextEdit13.Name = "TextEdit13"
         Me.TextEdit13.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit13.TabIndex = 21
+        Me.TextEdit13.TabIndex = 12
         '
         'SimpleButton6
         '
@@ -455,74 +457,84 @@ Partial Class FrmEditTicketUp
         '
         'TextEdit11
         '
+        Me.TextEdit11.EnterMoveNextControl = True
         Me.TextEdit11.Location = New System.Drawing.Point(7, 226)
         Me.TextEdit11.Name = "TextEdit11"
         Me.TextEdit11.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit11.TabIndex = 11
+        Me.TextEdit11.TabIndex = 10
         '
         'TextEdit10
         '
+        Me.TextEdit10.EnterMoveNextControl = True
         Me.TextEdit10.Location = New System.Drawing.Point(7, 204)
         Me.TextEdit10.Name = "TextEdit10"
         Me.TextEdit10.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit10.TabIndex = 10
+        Me.TextEdit10.TabIndex = 9
         '
         'TextEdit9
         '
+        Me.TextEdit9.EnterMoveNextControl = True
         Me.TextEdit9.Location = New System.Drawing.Point(7, 182)
         Me.TextEdit9.Name = "TextEdit9"
         Me.TextEdit9.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit9.TabIndex = 9
+        Me.TextEdit9.TabIndex = 8
         '
         'TextEdit8
         '
+        Me.TextEdit8.EnterMoveNextControl = True
         Me.TextEdit8.Location = New System.Drawing.Point(7, 160)
         Me.TextEdit8.Name = "TextEdit8"
         Me.TextEdit8.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit8.TabIndex = 8
+        Me.TextEdit8.TabIndex = 7
         '
         'TextEdit7
         '
+        Me.TextEdit7.EnterMoveNextControl = True
         Me.TextEdit7.Location = New System.Drawing.Point(7, 138)
         Me.TextEdit7.Name = "TextEdit7"
         Me.TextEdit7.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit7.TabIndex = 7
+        Me.TextEdit7.TabIndex = 6
         '
         'TextEdit6
         '
+        Me.TextEdit6.EnterMoveNextControl = True
         Me.TextEdit6.Location = New System.Drawing.Point(7, 116)
         Me.TextEdit6.Name = "TextEdit6"
         Me.TextEdit6.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit6.TabIndex = 6
+        Me.TextEdit6.TabIndex = 5
         '
         'TextEdit5
         '
+        Me.TextEdit5.EnterMoveNextControl = True
         Me.TextEdit5.Location = New System.Drawing.Point(7, 94)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit5.TabIndex = 5
+        Me.TextEdit5.TabIndex = 4
         '
         'TextEdit4
         '
+        Me.TextEdit4.EnterMoveNextControl = True
         Me.TextEdit4.Location = New System.Drawing.Point(7, 72)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit4.TabIndex = 4
+        Me.TextEdit4.TabIndex = 3
         '
         'TextEdit3
         '
+        Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(7, 50)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit3.TabIndex = 3
+        Me.TextEdit3.TabIndex = 2
         '
         'TextEdit2
         '
+        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(7, 28)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.ReadOnly = True
         Me.TextEdit2.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit2.TabIndex = 2
+        Me.TextEdit2.TabIndex = 1
         '
         'SimpleButton2
         '
@@ -536,6 +548,7 @@ Partial Class FrmEditTicketUp
         '
         'TextEdit1
         '
+        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(7, 6)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.ReadOnly = True
@@ -686,66 +699,75 @@ Partial Class FrmEditTicketUp
         '
         'TextEdit14
         '
+        Me.TextEdit14.EnterMoveNextControl = True
         Me.TextEdit14.Location = New System.Drawing.Point(562, 264)
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit14.TabIndex = 20
+        Me.TextEdit14.TabIndex = 8
         '
         'TextEdit15
         '
+        Me.TextEdit15.EnterMoveNextControl = True
         Me.TextEdit15.Location = New System.Drawing.Point(562, 242)
         Me.TextEdit15.Name = "TextEdit15"
         Me.TextEdit15.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit15.TabIndex = 19
+        Me.TextEdit15.TabIndex = 7
         '
         'TextEdit16
         '
+        Me.TextEdit16.EnterMoveNextControl = True
         Me.TextEdit16.Location = New System.Drawing.Point(562, 220)
         Me.TextEdit16.Name = "TextEdit16"
         Me.TextEdit16.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit16.TabIndex = 18
+        Me.TextEdit16.TabIndex = 6
         '
         'TextEdit17
         '
+        Me.TextEdit17.EnterMoveNextControl = True
         Me.TextEdit17.Location = New System.Drawing.Point(562, 198)
         Me.TextEdit17.Name = "TextEdit17"
         Me.TextEdit17.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit17.TabIndex = 17
+        Me.TextEdit17.TabIndex = 5
         '
         'TextEdit18
         '
+        Me.TextEdit18.EnterMoveNextControl = True
         Me.TextEdit18.Location = New System.Drawing.Point(562, 176)
         Me.TextEdit18.Name = "TextEdit18"
         Me.TextEdit18.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit18.TabIndex = 16
+        Me.TextEdit18.TabIndex = 4
         '
         'TextEdit19
         '
+        Me.TextEdit19.EnterMoveNextControl = True
         Me.TextEdit19.Location = New System.Drawing.Point(562, 154)
         Me.TextEdit19.Name = "TextEdit19"
         Me.TextEdit19.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit19.TabIndex = 15
+        Me.TextEdit19.TabIndex = 3
         '
         'TextEdit20
         '
+        Me.TextEdit20.EnterMoveNextControl = True
         Me.TextEdit20.Location = New System.Drawing.Point(562, 132)
         Me.TextEdit20.Name = "TextEdit20"
         Me.TextEdit20.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit20.TabIndex = 14
+        Me.TextEdit20.TabIndex = 2
         '
         'TextEdit21
         '
+        Me.TextEdit21.EnterMoveNextControl = True
         Me.TextEdit21.Location = New System.Drawing.Point(562, 110)
         Me.TextEdit21.Name = "TextEdit21"
         Me.TextEdit21.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit21.TabIndex = 13
+        Me.TextEdit21.TabIndex = 1
         '
         'TextEdit22
         '
+        Me.TextEdit22.EnterMoveNextControl = True
         Me.TextEdit22.Location = New System.Drawing.Point(562, 88)
         Me.TextEdit22.Name = "TextEdit22"
         Me.TextEdit22.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit22.TabIndex = 12
+        Me.TextEdit22.TabIndex = 0
         '
         'SimpleButton9
         '
@@ -755,28 +777,31 @@ Partial Class FrmEditTicketUp
         Me.SimpleButton9.Location = New System.Drawing.Point(755, 330)
         Me.SimpleButton9.Name = "SimpleButton9"
         Me.SimpleButton9.Size = New System.Drawing.Size(38, 20)
-        Me.SimpleButton9.TabIndex = 17
+        Me.SimpleButton9.TabIndex = 12
         '
         'TextEdit23
         '
+        Me.TextEdit23.EnterMoveNextControl = True
         Me.TextEdit23.Location = New System.Drawing.Point(562, 352)
         Me.TextEdit23.Name = "TextEdit23"
         Me.TextEdit23.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit23.TabIndex = 18
+        Me.TextEdit23.TabIndex = 11
         '
         'TextEdit24
         '
+        Me.TextEdit24.EnterMoveNextControl = True
         Me.TextEdit24.Location = New System.Drawing.Point(562, 330)
         Me.TextEdit24.Name = "TextEdit24"
         Me.TextEdit24.Size = New System.Drawing.Size(189, 20)
-        Me.TextEdit24.TabIndex = 109
+        Me.TextEdit24.TabIndex = 10
         '
         'MemoEdit1
         '
+        Me.MemoEdit1.EnterMoveNextControl = True
         Me.MemoEdit1.Location = New System.Drawing.Point(562, 286)
         Me.MemoEdit1.Name = "MemoEdit1"
         Me.MemoEdit1.Size = New System.Drawing.Size(189, 42)
-        Me.MemoEdit1.TabIndex = 110
+        Me.MemoEdit1.TabIndex = 9
         '
         'SimpleButton10
         '
@@ -786,7 +811,7 @@ Partial Class FrmEditTicketUp
         Me.SimpleButton10.Location = New System.Drawing.Point(755, 353)
         Me.SimpleButton10.Name = "SimpleButton10"
         Me.SimpleButton10.Size = New System.Drawing.Size(38, 20)
-        Me.SimpleButton10.TabIndex = 111
+        Me.SimpleButton10.TabIndex = 13
         '
         'FrmEditTicketUp
         '
