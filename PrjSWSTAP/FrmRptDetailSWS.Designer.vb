@@ -125,26 +125,28 @@ Partial Class FrmRptDetailSWS
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
+        Me.DateEdit1.EnterMoveNextControl = True
         Me.DateEdit1.Location = New System.Drawing.Point(160, 88)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Size = New System.Drawing.Size(192, 20)
-        Me.DateEdit1.TabIndex = 143
+        Me.DateEdit1.TabIndex = 0
         '
         'DateEdit2
         '
         Me.DateEdit2.EditValue = Nothing
+        Me.DateEdit2.EnterMoveNextControl = True
         Me.DateEdit2.Location = New System.Drawing.Point(160, 111)
         Me.DateEdit2.Name = "DateEdit2"
         Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Size = New System.Drawing.Size(192, 20)
-        Me.DateEdit2.TabIndex = 146
+        Me.DateEdit2.TabIndex = 1
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl5)
         Me.Panel7.Controls.Add(Me.LabelControl4)
         Me.Panel7.Controls.Add(Me.LabelControl3)
@@ -248,7 +250,7 @@ Partial Class FrmRptDetailSWS
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 53
+        Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "View"
         '
         'SimpleButton2
@@ -261,7 +263,7 @@ Partial Class FrmRptDetailSWS
         Me.SimpleButton2.Location = New System.Drawing.Point(82, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(107, 27)
-        Me.SimpleButton2.TabIndex = 128
+        Me.SimpleButton2.TabIndex = 1
         Me.SimpleButton2.Text = "Exsport to Excels"
         '
         'SimpleButton4
@@ -274,32 +276,35 @@ Partial Class FrmRptDetailSWS
         Me.SimpleButton4.Location = New System.Drawing.Point(197, 7)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 130
+        Me.SimpleButton4.TabIndex = 0
         Me.SimpleButton4.Text = "Close"
         '
         'ComboBoxEdit1
         '
+        Me.ComboBoxEdit1.EnterMoveNextControl = True
         Me.ComboBoxEdit1.Location = New System.Drawing.Point(160, 134)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(192, 20)
-        Me.ComboBoxEdit1.TabIndex = 152
+        Me.ComboBoxEdit1.TabIndex = 2
         '
         'ComboBoxEdit2
         '
+        Me.ComboBoxEdit2.EnterMoveNextControl = True
         Me.ComboBoxEdit2.Location = New System.Drawing.Point(160, 157)
         Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
         Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit2.Size = New System.Drawing.Size(192, 20)
-        Me.ComboBoxEdit2.TabIndex = 153
+        Me.ComboBoxEdit2.TabIndex = 3
         '
         'ComboBoxEdit3
         '
+        Me.ComboBoxEdit3.EnterMoveNextControl = True
         Me.ComboBoxEdit3.Location = New System.Drawing.Point(160, 180)
         Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
         Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit3.Size = New System.Drawing.Size(192, 20)
-        Me.ComboBoxEdit3.TabIndex = 154
+        Me.ComboBoxEdit3.TabIndex = 4
         '
         'PanelControl3
         '

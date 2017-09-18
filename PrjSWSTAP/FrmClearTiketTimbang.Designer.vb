@@ -104,7 +104,7 @@ Partial Class FrmClearTiketTimbang
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl64)
         Me.Panel7.Controls.Add(Me.LabelControl75)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Left
@@ -164,7 +164,7 @@ Partial Class FrmClearTiketTimbang
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 53
+        Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Delete"
         '
         'SimpleButton5
@@ -177,22 +177,24 @@ Partial Class FrmClearTiketTimbang
         Me.SimpleButton5.Location = New System.Drawing.Point(91, 6)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 49
+        Me.SimpleButton5.TabIndex = 1
         Me.SimpleButton5.Text = "Close"
         '
         'TextEdit1
         '
+        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(160, 88)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(219, 20)
-        Me.TextEdit1.TabIndex = 105
+        Me.TextEdit1.TabIndex = 0
         '
         'MemoEdit1
         '
+        Me.MemoEdit1.EnterMoveNextControl = True
         Me.MemoEdit1.Location = New System.Drawing.Point(160, 114)
         Me.MemoEdit1.Name = "MemoEdit1"
         Me.MemoEdit1.Size = New System.Drawing.Size(264, 30)
-        Me.MemoEdit1.TabIndex = 106
+        Me.MemoEdit1.TabIndex = 1
         '
         'SimpleButton4
         '

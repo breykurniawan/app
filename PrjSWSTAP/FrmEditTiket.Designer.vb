@@ -29,6 +29,7 @@ Partial Class FrmEditTiket
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl64 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl75 = New DevExpress.XtraEditors.LabelControl()
         Me.PanelControl6 = New DevExpress.XtraEditors.PanelControl()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
@@ -43,7 +44,6 @@ Partial Class FrmEditTiket
         Me.PanelControl4 = New DevExpress.XtraEditors.PanelControl()
         Me.GridControl2 = New DevExpress.XtraGrid.GridControl()
         Me.GridView2 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.LabelControl75 = New DevExpress.XtraEditors.LabelControl()
         Me.BunifuGradientPanel2.SuspendLayout()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
@@ -123,7 +123,7 @@ Partial Class FrmEditTiket
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl1)
         Me.Panel7.Controls.Add(Me.LabelControl2)
         Me.Panel7.Controls.Add(Me.LabelControl64)
@@ -165,6 +165,16 @@ Partial Class FrmEditTiket
         Me.LabelControl64.TabIndex = 59
         Me.LabelControl64.Text = "Ticket Number"
         '
+        'LabelControl75
+        '
+        Me.LabelControl75.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.LabelControl75.Appearance.Options.UseFont = True
+        Me.LabelControl75.Location = New System.Drawing.Point(12, 48)
+        Me.LabelControl75.Name = "LabelControl75"
+        Me.LabelControl75.Size = New System.Drawing.Size(123, 13)
+        Me.LabelControl75.TabIndex = 58
+        Me.LabelControl75.Text = "Periode Awal (m/d/y)"
+        '
         'PanelControl6
         '
         Me.PanelControl6.Controls.Add(Me.PanelControl2)
@@ -195,7 +205,7 @@ Partial Class FrmEditTiket
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 53
+        Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Revisi"
         '
         'SimpleButton5
@@ -208,7 +218,7 @@ Partial Class FrmEditTiket
         Me.SimpleButton5.Location = New System.Drawing.Point(91, 6)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 49
+        Me.SimpleButton5.TabIndex = 0
         Me.SimpleButton5.Text = "Close"
         '
         'PanelControl3
@@ -235,15 +245,16 @@ Partial Class FrmEditTiket
         Me.SimpleButton2.Location = New System.Drawing.Point(7, 95)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 117
+        Me.SimpleButton2.TabIndex = 5
         Me.SimpleButton2.Text = "View"
         '
         'TextEdit2
         '
+        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(7, 49)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Size = New System.Drawing.Size(155, 20)
-        Me.TextEdit2.TabIndex = 114
+        Me.TextEdit2.TabIndex = 2
         '
         'SimpleButton3
         '
@@ -258,31 +269,34 @@ Partial Class FrmEditTiket
         'DateEdit2
         '
         Me.DateEdit2.EditValue = Nothing
+        Me.DateEdit2.EnterMoveNextControl = True
         Me.DateEdit2.Location = New System.Drawing.Point(7, 27)
         Me.DateEdit2.Name = "DateEdit2"
         Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.DateEdit2.Size = New System.Drawing.Size(196, 20)
-        Me.DateEdit2.TabIndex = 113
+        Me.DateEdit2.TabIndex = 1
         '
         'TextEdit1
         '
+        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(7, 71)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(196, 20)
-        Me.TextEdit1.TabIndex = 112
+        Me.TextEdit1.TabIndex = 3
         '
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
+        Me.DateEdit1.EnterMoveNextControl = True
         Me.DateEdit1.Location = New System.Drawing.Point(7, 5)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.DateEdit1.Size = New System.Drawing.Size(196, 20)
-        Me.DateEdit1.TabIndex = 111
+        Me.DateEdit1.TabIndex = 0
         '
         'PanelControl4
         '
@@ -300,7 +314,7 @@ Partial Class FrmEditTiket
         Me.GridControl2.MainView = Me.GridView2
         Me.GridControl2.Name = "GridControl2"
         Me.GridControl2.Size = New System.Drawing.Size(505, 124)
-        Me.GridControl2.TabIndex = 1
+        Me.GridControl2.TabIndex = 0
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
         'GridView2
@@ -308,16 +322,6 @@ Partial Class FrmEditTiket
         Me.GridView2.GridControl = Me.GridControl2
         Me.GridView2.Name = "GridView2"
         Me.GridView2.OptionsView.ShowGroupPanel = False
-        '
-        'LabelControl75
-        '
-        Me.LabelControl75.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl75.Appearance.Options.UseFont = True
-        Me.LabelControl75.Location = New System.Drawing.Point(12, 48)
-        Me.LabelControl75.Name = "LabelControl75"
-        Me.LabelControl75.Size = New System.Drawing.Size(123, 13)
-        Me.LabelControl75.TabIndex = 58
-        Me.LabelControl75.Text = "Periode Awal (m/d/y)"
         '
         'FrmEditTiket
         '

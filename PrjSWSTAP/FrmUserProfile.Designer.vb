@@ -115,13 +115,13 @@ Partial Class FrmUserProfile
         '
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
-        Me.GridView1.OptionsSELECTion.ShowCheckBoxSELECTorInColumnHeader = DevExpress.Utils.DefaultBoolean.[True]
-        Me.GridView1.OptionsSELECTion.ShowCheckBoxSELECTorInGroupRow = DevExpress.Utils.DefaultBoolean.[True]
+        Me.GridView1.OptionsSelection.ShowCheckBoxSelectorInColumnHeader = DevExpress.Utils.DefaultBoolean.[True]
+        Me.GridView1.OptionsSelection.ShowCheckBoxSelectorInGroupRow = DevExpress.Utils.DefaultBoolean.[True]
         Me.GridView1.OptionsView.ShowGroupPanel = False
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl1)
         Me.Panel7.Controls.Add(Me.LabelControl75)
         Me.Panel7.Controls.Add(Me.LabelControl78)
@@ -218,7 +218,7 @@ Partial Class FrmUserProfile
         Me.SimpleButton4.Location = New System.Drawing.Point(236, 5)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 53
+        Me.SimpleButton4.TabIndex = 3
         Me.SimpleButton4.Text = "Cancel"
         '
         'SimpleButton2
@@ -231,7 +231,7 @@ Partial Class FrmUserProfile
         Me.SimpleButton2.Location = New System.Drawing.Point(82, 5)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 51
+        Me.SimpleButton2.TabIndex = 1
         Me.SimpleButton2.Text = "Save"
         '
         'SimpleButton1
@@ -244,7 +244,7 @@ Partial Class FrmUserProfile
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 5)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 50
+        Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Add"
         '
         'SimpleButton5
@@ -257,7 +257,7 @@ Partial Class FrmUserProfile
         Me.SimpleButton5.Location = New System.Drawing.Point(313, 5)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 49
+        Me.SimpleButton5.TabIndex = 4
         Me.SimpleButton5.Text = "Close"
         '
         'SimpleButton3
@@ -270,7 +270,7 @@ Partial Class FrmUserProfile
         Me.SimpleButton3.Location = New System.Drawing.Point(159, 5)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton3.TabIndex = 48
+        Me.SimpleButton3.TabIndex = 2
         Me.SimpleButton3.Text = "Delete"
         '
         'SimpleButton6
@@ -289,35 +289,39 @@ Partial Class FrmUserProfile
         '
         'TextEdit1
         '
+        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(159, 86)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit1.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit1.Properties.MaxLength = 2
         Me.TextEdit1.Size = New System.Drawing.Size(228, 20)
-        Me.TextEdit1.TabIndex = 63
+        Me.TextEdit1.TabIndex = 0
         '
         'TextEdit2
         '
+        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(159, 109)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Size = New System.Drawing.Size(228, 20)
-        Me.TextEdit2.TabIndex = 64
+        Me.TextEdit2.TabIndex = 1
         '
         'TextEdit3
         '
+        Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(159, 154)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Size = New System.Drawing.Size(228, 20)
-        Me.TextEdit3.TabIndex = 65
+        Me.TextEdit3.TabIndex = 3
         '
         'ComboBoxEdit1
         '
+        Me.ComboBoxEdit1.EnterMoveNextControl = True
         Me.ComboBoxEdit1.Location = New System.Drawing.Point(159, 175)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(228, 20)
-        Me.ComboBoxEdit1.TabIndex = 67
+        Me.ComboBoxEdit1.TabIndex = 4
         '
         'PictureBox1
         '
@@ -339,17 +343,18 @@ Partial Class FrmUserProfile
         Me.MemoEdit1.Location = New System.Drawing.Point(201, 199)
         Me.MemoEdit1.Name = "MemoEdit1"
         Me.MemoEdit1.Size = New System.Drawing.Size(310, 48)
-        Me.MemoEdit1.TabIndex = 69
+        Me.MemoEdit1.TabIndex = 5
         '
         'TextEdit4
         '
         Me.TextEdit4.EditValue = "123456"
+        Me.TextEdit4.EnterMoveNextControl = True
         Me.TextEdit4.Location = New System.Drawing.Point(159, 132)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextEdit4.Properties.ReadOnly = True
         Me.TextEdit4.Size = New System.Drawing.Size(228, 20)
-        Me.TextEdit4.TabIndex = 70
+        Me.TextEdit4.TabIndex = 2
         '
         'FrmUserProfile
         '
