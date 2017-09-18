@@ -69,7 +69,7 @@ Partial Class FrmRptBeritaAcara
         Me.SimpleButton2.Location = New System.Drawing.Point(79, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(107, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 128
         Me.SimpleButton2.Text = "Exsport All Status"
         '
         'SimpleButton3
@@ -82,32 +82,30 @@ Partial Class FrmRptBeritaAcara
         Me.SimpleButton3.Location = New System.Drawing.Point(188, 4)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(104, 27)
-        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.TabIndex = 129
         Me.SimpleButton3.Text = "Exsport Verified"
         '
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
-        Me.DateEdit1.EnterMoveNextControl = True
         Me.DateEdit1.Location = New System.Drawing.Point(159, 88)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.Mask.EditMask = "dd-MM-yyyy"
         Me.DateEdit1.Size = New System.Drawing.Size(192, 20)
-        Me.DateEdit1.TabIndex = 0
+        Me.DateEdit1.TabIndex = 128
         '
         'DateEdit2
         '
         Me.DateEdit2.EditValue = Nothing
-        Me.DateEdit2.EnterMoveNextControl = True
         Me.DateEdit2.Location = New System.Drawing.Point(159, 111)
         Me.DateEdit2.Name = "DateEdit2"
         Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.Mask.EditMask = "dd-MM-yyyy"
         Me.DateEdit2.Size = New System.Drawing.Size(192, 20)
-        Me.DateEdit2.TabIndex = 1
+        Me.DateEdit2.TabIndex = 133
         '
         'PanelControl6
         '
@@ -141,7 +139,7 @@ Partial Class FrmRptBeritaAcara
         Me.SimpleButton1.Location = New System.Drawing.Point(2, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 53
         Me.SimpleButton1.Text = "Pint"
         '
         'SimpleButton4
@@ -154,7 +152,7 @@ Partial Class FrmRptBeritaAcara
         Me.SimpleButton4.Location = New System.Drawing.Point(298, 6)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 0
+        Me.SimpleButton4.TabIndex = 130
         Me.SimpleButton4.Text = "Close"
         '
         'SimpleButton5
@@ -167,7 +165,7 @@ Partial Class FrmRptBeritaAcara
         Me.SimpleButton5.Location = New System.Drawing.Point(357, 88)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(70, 43)
-        Me.SimpleButton5.TabIndex = 2
+        Me.SimpleButton5.TabIndex = 130
         Me.SimpleButton5.Text = "Process"
         '
         'LabelControl89
@@ -184,7 +182,7 @@ Partial Class FrmRptBeritaAcara
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl3)
         Me.Panel7.Controls.Add(Me.LabelControl2)
         Me.Panel7.Controls.Add(Me.LabelControl1)
@@ -287,7 +285,7 @@ Partial Class FrmRptBeritaAcara
         Me.SimpleButton6.Location = New System.Drawing.Point(160, 137)
         Me.SimpleButton6.Name = "SimpleButton6"
         Me.SimpleButton6.Size = New System.Drawing.Size(36, 33)
-        Me.SimpleButton6.TabIndex = 3
+        Me.SimpleButton6.TabIndex = 141
         '
         'SimpleButton7
         '
@@ -300,7 +298,7 @@ Partial Class FrmRptBeritaAcara
         Me.SimpleButton7.Location = New System.Drawing.Point(202, 137)
         Me.SimpleButton7.Name = "SimpleButton7"
         Me.SimpleButton7.Size = New System.Drawing.Size(36, 33)
-        Me.SimpleButton7.TabIndex = 4
+        Me.SimpleButton7.TabIndex = 142
         '
         'SimpleButton8
         '
@@ -313,7 +311,7 @@ Partial Class FrmRptBeritaAcara
         Me.SimpleButton8.Location = New System.Drawing.Point(244, 137)
         Me.SimpleButton8.Name = "SimpleButton8"
         Me.SimpleButton8.Size = New System.Drawing.Size(36, 33)
-        Me.SimpleButton8.TabIndex = 5
+        Me.SimpleButton8.TabIndex = 143
         '
         'FrmRptBeritaAcara
         '

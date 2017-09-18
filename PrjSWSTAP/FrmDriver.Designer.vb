@@ -95,7 +95,7 @@ Partial Class FrmDriver
         Me.TextEdit1.Location = New System.Drawing.Point(159, 88)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.TextEdit1.TabIndex = 85
         '
         'TextEdit2
         '
@@ -104,17 +104,17 @@ Partial Class FrmDriver
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextEdit2.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit2.TabIndex = 1
+        Me.TextEdit2.TabIndex = 86
         '
         'TextEdit3
         '
         Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(159, 157)
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit3.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit3.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit3.TabIndex = 3
+        Me.TextEdit3.TabIndex = 87
         '
         'PanelControl2
         '
@@ -143,7 +143,7 @@ Partial Class FrmDriver
         '
         'Panel9
         '
-        Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel9.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel9.Controls.Add(Me.LabelControl124)
         Me.Panel9.Controls.Add(Me.LabelControl127)
         Me.Panel9.Controls.Add(Me.LabelControl129)
@@ -216,7 +216,7 @@ Partial Class FrmDriver
         Me.PanelControl1.Location = New System.Drawing.Point(2, 2)
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(312, 35)
-        Me.PanelControl1.TabIndex = 0
+        Me.PanelControl1.TabIndex = 90
         '
         'SimpleButton4
         '
@@ -228,7 +228,7 @@ Partial Class FrmDriver
         Me.SimpleButton4.Location = New System.Drawing.Point(235, 3)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 2
+        Me.SimpleButton4.TabIndex = 57
         Me.SimpleButton4.Text = "Cancel"
         '
         'SimpleButton2
@@ -241,7 +241,7 @@ Partial Class FrmDriver
         Me.SimpleButton2.Location = New System.Drawing.Point(81, 3)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 0
+        Me.SimpleButton2.TabIndex = 56
         Me.SimpleButton2.Text = "Save"
         '
         'SimpleButton1
@@ -254,7 +254,7 @@ Partial Class FrmDriver
         Me.SimpleButton1.Location = New System.Drawing.Point(4, 3)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 3
+        Me.SimpleButton1.TabIndex = 55
         Me.SimpleButton1.Text = "Add"
         '
         'SimpleButton3
@@ -267,7 +267,7 @@ Partial Class FrmDriver
         Me.SimpleButton3.Location = New System.Drawing.Point(158, 3)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton3.TabIndex = 1
+        Me.SimpleButton3.TabIndex = 54
         Me.SimpleButton3.Text = "Delete"
         '
         'SimpleButton5
@@ -280,7 +280,7 @@ Partial Class FrmDriver
         Me.SimpleButton5.Location = New System.Drawing.Point(317, 5)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 1
+        Me.SimpleButton5.TabIndex = 49
         Me.SimpleButton5.Text = "Close"
         '
         'TextEdit4
@@ -290,7 +290,7 @@ Partial Class FrmDriver
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextEdit4.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit4.TabIndex = 2
+        Me.TextEdit4.TabIndex = 94
         '
         'SimpleButton6
         '
@@ -304,7 +304,7 @@ Partial Class FrmDriver
         Me.SimpleButton6.Location = New System.Drawing.Point(404, 134)
         Me.SimpleButton6.Name = "SimpleButton6"
         Me.SimpleButton6.Size = New System.Drawing.Size(42, 20)
-        Me.SimpleButton6.TabIndex = 4
+        Me.SimpleButton6.TabIndex = 95
         '
         'FrmDriver
         '

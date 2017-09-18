@@ -21,18 +21,16 @@ Imports AForge.Video
 
 Public Class FrmWbIn
     Private Delegate Sub AppendTextBoxDelegate(ByVal TB As String, ByVal txt As String)
-
     Dim source1 As String '//CAM1
     Dim source2 As String ' //CAM2
-
-    Dim stream1 As MJPEGStream
-    Dim stream2 As MJPEGStream
+    Dim stream1 As JPEGStream
+    Dim stream2 As JPEGStream
 
     Public Sub New()
         InitializeComponent()
         '//CCTV
-        Stream1 = New MJPEGStream(source1)
-        Stream2 = New MJPEGStream(source2)
+        stream1 = New JPEGStream(source1)
+        stream2 = New JPEGStream(source2)
         AddHandler stream1.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream1)
         AddHandler stream2.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream2)
         'BW
@@ -43,12 +41,13 @@ Public Class FrmWbIn
     End Sub
 
     Private Sub FrmWbOut_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Text = nFormName
+        Me.Text = "WB IN"
         resultLabel.Text = "Start"
+        LoadViewWB()
         GetWBConfig()
         WB_ON = True
         INDICATORON() '//WB
-        CCTV_ON()      'CAM 12
+        'CCTV_ON()      'CAM 12
     End Sub
 #Region "BW"
     Private Sub backgroundWorker1_DoWork(ByVal sender As System.Object, ByVal e As DoWorkEventArgs) Handles BW1.DoWork
@@ -65,6 +64,7 @@ Public Class FrmWbIn
                     Dim responseData As [String] = [String].Empty
                     responseData = GetSCSMessage(Ip, Port)
                     worker.ReportProgress(responseData)
+
                 End If
             Loop
         Catch ex As Exception
@@ -80,6 +80,7 @@ Public Class FrmWbIn
             resultLabel.Text = "Error: " & e.Error.Message
         Else
             resultLabel.Text = "Done!"
+            INDICATORON()
         End If
     End Sub
 #End Region
@@ -121,8 +122,6 @@ Public Class FrmWbIn
     End Sub
     Private Sub SimpleButton1_Click(sender As Object, e As EventArgs) Handles SimpleButton1.Click
         'ADD 
-        If stream1.IsRunning = False Then stream1.Start()
-        If stream2.IsRunning = False Then stream2.Start()
         'VALIDASI AWAL INPUT HARUS KONDISI TIMBANGAN KOSONG
         'WARNING BERAT SAAT MULAI HARUS KOSONG
         If Val(TxtWeight.Text) > 0 Then
@@ -136,6 +135,8 @@ Public Class FrmWbIn
             TextEdit3.Text = Format(Now, "dd-MM-yyyy")   'DATE
             'GETTIKET
             TextEdit2.Text = GetTiketNew(WBCode)
+            '/CCTV
+            CCTV_ON()
         End If
         'DEFAULT DISEBEL
         'KIT,CUSTOMER,SO,DELIVERY,TRANSPOT,
@@ -291,20 +292,20 @@ Public Class FrmWbIn
     End Sub
 
     Private Sub CCTV_OFF()
+        If stream1.IsRunning = True Then stream1.SignalToStop() : stream1.Stop()
         LabelControl41.Text = "CAM 1 Off"
+        If stream2.IsRunning = True Then stream2.SignalToStop() : stream2.Stop()
         LabelControl42.Text = "CAM 2 Off"
-        If stream1.IsRunning = True Then stream1.Stop()
-        If stream2.IsRunning = True Then stream2.Stop()
     End Sub
     Private Sub CCTV_ON()
-        LabelControl41.Text = "CAM 1 Start"
-        LabelControl42.Text = "CAM 2 Start"
         GetWBConfig()
         stream1.Source = GetCCTVParam(IPCamera1)
-        stream2.Source = GetCCTVParam(IPCamera2)
-
         If stream1.IsRunning = False Then stream1.Start()
+        LabelControl41.Text = "CAM 1 Start"
+
+        stream2.Source = GetCCTVParam(IPCamera2)
         If stream2.IsRunning = False Then stream2.Start()
+        LabelControl42.Text = "CAM 2 Start"
     End Sub
     Private Sub SimpleButton14_Click(sender As Object, e As EventArgs) Handles SimpleButton14.Click
         'CANCEL
@@ -547,8 +548,13 @@ Public Class FrmWbIn
     End Sub
     Private Sub TextEdit4_LostFocus(sender As Object, e As EventArgs) Handles TextEdit4.LostFocus
         'VALIDASI INPUT NO KENDARAAN
-
     End Sub
+
+    Private Sub LoadViewWB()
+        SQL = "SELECT * FROM  T_WBTICKET WHERE WEIGHT_OUT=0 AND DELETED=0 ORDER BY DATE_IN "
+        FILLGridView(SQL, GridControl1)
+    End Sub
+
 
     Private Sub TxtWeight_EditValueChanged(sender As Object, e As EventArgs) Handles TxtWeight.EditValueChanged
         Dim KG As Integer = TxtWeight.Text
@@ -559,4 +565,7 @@ Public Class FrmWbIn
         End If
     End Sub
 
+    Private Sub FrmWbIn_Resize(sender As Object, e As EventArgs) Handles Me.Resize
+        PanelControl4.Height = Me.Height - 400
+    End Sub
 End Class

@@ -249,7 +249,7 @@ Partial Class FrmBeritaAcara
         Me.SimpleButton2.Location = New System.Drawing.Point(4, 6)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 0
+        Me.SimpleButton2.TabIndex = 54
         Me.SimpleButton2.Text = "Save"
         '
         'SimpleButton5
@@ -262,7 +262,7 @@ Partial Class FrmBeritaAcara
         Me.SimpleButton5.Location = New System.Drawing.Point(85, 6)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 1
+        Me.SimpleButton5.TabIndex = 49
         Me.SimpleButton5.Text = "Close"
         '
         'TextEdit1
@@ -271,7 +271,7 @@ Partial Class FrmBeritaAcara
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.UseReadOnlyAppearance = False
         Me.TextEdit1.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.TextEdit1.TabIndex = 99
         '
         'DateEdit1
         '
@@ -281,7 +281,7 @@ Partial Class FrmBeritaAcara
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Size = New System.Drawing.Size(206, 20)
-        Me.DateEdit1.TabIndex = 1
+        Me.DateEdit1.TabIndex = 100
         '
         'TextEdit2
         '
@@ -289,7 +289,7 @@ Partial Class FrmBeritaAcara
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.ReadOnly = True
         Me.TextEdit2.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit2.TabIndex = 2
+        Me.TextEdit2.TabIndex = 101
         '
         'TextEdit3
         '
@@ -297,7 +297,7 @@ Partial Class FrmBeritaAcara
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Properties.ReadOnly = True
         Me.TextEdit3.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit3.TabIndex = 3
+        Me.TextEdit3.TabIndex = 102
         '
         'TextEdit4
         '
@@ -306,7 +306,7 @@ Partial Class FrmBeritaAcara
         Me.TextEdit4.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.TextEdit4.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit4.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit4.TabIndex = 4
+        Me.TextEdit4.TabIndex = 103
         '
         'TextEdit5
         '
@@ -315,37 +315,37 @@ Partial Class FrmBeritaAcara
         Me.TextEdit5.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.TextEdit5.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit5.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit5.TabIndex = 5
+        Me.TextEdit5.TabIndex = 104
         '
         'TextEdit6
         '
         Me.TextEdit6.Location = New System.Drawing.Point(158, 223)
         Me.TextEdit6.Name = "TextEdit6"
-        Me.TextEdit6.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit6.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit6.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit6.Properties.ReadOnly = True
         Me.TextEdit6.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit6.TabIndex = 6
+        Me.TextEdit6.TabIndex = 105
         '
         'TextEdit7
         '
         Me.TextEdit7.Location = New System.Drawing.Point(158, 246)
         Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit7.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit7.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit7.Properties.ReadOnly = True
         Me.TextEdit7.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit7.TabIndex = 7
+        Me.TextEdit7.TabIndex = 106
         '
         'TextEdit9
         '
         Me.TextEdit9.Location = New System.Drawing.Point(158, 268)
         Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit9.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit9.Properties.ReadOnly = True
         Me.TextEdit9.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit9.TabIndex = 8
+        Me.TextEdit9.TabIndex = 108
         '
         'LabelControl12
         '
@@ -363,18 +363,18 @@ Partial Class FrmBeritaAcara
         Me.TextEdit10.Name = "TextEdit10"
         Me.TextEdit10.Properties.ReadOnly = True
         Me.TextEdit10.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit10.TabIndex = 9
+        Me.TextEdit10.TabIndex = 110
         '
         'MemoEdit1
         '
         Me.MemoEdit1.Location = New System.Drawing.Point(158, 292)
         Me.MemoEdit1.Name = "MemoEdit1"
         Me.MemoEdit1.Size = New System.Drawing.Size(524, 57)
-        Me.MemoEdit1.TabIndex = 10
+        Me.MemoEdit1.TabIndex = 111
         '
         'FrmBeritaAcara
         '
-        Me.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Appearance.Options.UseBackColor = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font

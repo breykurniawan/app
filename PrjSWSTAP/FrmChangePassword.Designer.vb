@@ -40,7 +40,7 @@ Partial Class FrmChangePassword
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel1.Controls.Add(Me.LabelControl4)
         Me.Panel1.Controls.Add(Me.LabelControl3)
         Me.Panel1.Controls.Add(Me.LabelControl2)
@@ -86,7 +86,7 @@ Partial Class FrmChangePassword
         Me.SimpleButton2.Location = New System.Drawing.Point(231, 134)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 4
+        Me.SimpleButton2.TabIndex = 35
         Me.SimpleButton2.Text = "Close"
         '
         'SimpleButton1
@@ -95,35 +95,32 @@ Partial Class FrmChangePassword
         Me.SimpleButton1.Location = New System.Drawing.Point(150, 134)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 3
+        Me.SimpleButton1.TabIndex = 34
         Me.SimpleButton1.Text = "Save"
         '
         'TextEdit1
         '
-        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(149, 55)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextEdit1.Size = New System.Drawing.Size(273, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.TextEdit1.TabIndex = 37
         '
         'TextEdit2
         '
-        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(149, 81)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextEdit2.Size = New System.Drawing.Size(273, 20)
-        Me.TextEdit2.TabIndex = 1
+        Me.TextEdit2.TabIndex = 38
         '
         'TextEdit3
         '
-        Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(149, 107)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextEdit3.Size = New System.Drawing.Size(273, 20)
-        Me.TextEdit3.TabIndex = 2
+        Me.TextEdit3.TabIndex = 39
         '
         'BunifuGradientPanel1
         '

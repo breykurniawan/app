@@ -37,7 +37,7 @@ Partial Class FrmUserLogin
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel1.Controls.Add(Me.LabelControl3)
         Me.Panel1.Controls.Add(Me.LabelControl2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
@@ -76,7 +76,7 @@ Partial Class FrmUserLogin
         Me.SimpleButton2.Location = New System.Drawing.Point(230, 108)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 3
+        Me.SimpleButton2.TabIndex = 35
         Me.SimpleButton2.Text = "Cancel"
         '
         'SimpleButton1
@@ -89,25 +89,23 @@ Partial Class FrmUserLogin
         Me.SimpleButton1.Location = New System.Drawing.Point(149, 108)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 2
+        Me.SimpleButton1.TabIndex = 34
         Me.SimpleButton1.Text = "Sign In"
         '
         'TextEdit1
         '
-        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(149, 55)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(264, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.TextEdit1.TabIndex = 38
         '
         'TextEdit2
         '
-        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(149, 81)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextEdit2.Size = New System.Drawing.Size(264, 20)
-        Me.TextEdit2.TabIndex = 1
+        Me.TextEdit2.TabIndex = 39
         '
         'BunifuGradientPanel1
         '

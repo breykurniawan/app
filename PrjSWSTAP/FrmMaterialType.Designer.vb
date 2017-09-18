@@ -106,7 +106,7 @@ Partial Class FrmMaterialType
         '
         'Panel10
         '
-        Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel10.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel10.Controls.Add(Me.LabelControl126)
         Me.Panel10.Controls.Add(Me.LabelControl128)
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Left
@@ -157,7 +157,7 @@ Partial Class FrmMaterialType
         Me.PanelControl2.Location = New System.Drawing.Point(2, 2)
         Me.PanelControl2.Name = "PanelControl2"
         Me.PanelControl2.Size = New System.Drawing.Size(312, 35)
-        Me.PanelControl2.TabIndex = 0
+        Me.PanelControl2.TabIndex = 90
         '
         'SimpleButton4
         '
@@ -169,7 +169,7 @@ Partial Class FrmMaterialType
         Me.SimpleButton4.Location = New System.Drawing.Point(235, 3)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 3
+        Me.SimpleButton4.TabIndex = 57
         Me.SimpleButton4.Text = "Cancel"
         '
         'SimpleButton2
@@ -182,7 +182,7 @@ Partial Class FrmMaterialType
         Me.SimpleButton2.Location = New System.Drawing.Point(81, 3)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 56
         Me.SimpleButton2.Text = "Save"
         '
         'SimpleButton1
@@ -195,7 +195,7 @@ Partial Class FrmMaterialType
         Me.SimpleButton1.Location = New System.Drawing.Point(4, 3)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 55
         Me.SimpleButton1.Text = "Add"
         '
         'SimpleButton3
@@ -208,7 +208,7 @@ Partial Class FrmMaterialType
         Me.SimpleButton3.Location = New System.Drawing.Point(158, 3)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.TabIndex = 54
         Me.SimpleButton3.Text = "Delete"
         '
         'SimpleButton5
@@ -221,24 +221,22 @@ Partial Class FrmMaterialType
         Me.SimpleButton5.Location = New System.Drawing.Point(317, 5)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 0
+        Me.SimpleButton5.TabIndex = 49
         Me.SimpleButton5.Text = "Close"
         '
         'TextEdit1
         '
-        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(159, 88)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(229, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.TextEdit1.TabIndex = 96
         '
         'TextEdit2
         '
-        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(159, 112)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Size = New System.Drawing.Size(229, 20)
-        Me.TextEdit2.TabIndex = 1
+        Me.TextEdit2.TabIndex = 97
         '
         'FrmMaterialType
         '

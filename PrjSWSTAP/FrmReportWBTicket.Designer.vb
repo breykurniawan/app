@@ -79,7 +79,6 @@ Partial Class FrmReportWBTicket
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
-        Me.DateEdit1.EnterMoveNextControl = True
         Me.DateEdit1.Location = New System.Drawing.Point(159, 88)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -113,7 +112,7 @@ Partial Class FrmReportWBTicket
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 53
         Me.SimpleButton1.Text = "View"
         '
         'PanelControl6
@@ -148,7 +147,7 @@ Partial Class FrmReportWBTicket
         Me.SimpleButton2.Location = New System.Drawing.Point(82, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(107, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 128
         Me.SimpleButton2.Text = "Exsport All Status"
         '
         'SimpleButton3
@@ -161,7 +160,7 @@ Partial Class FrmReportWBTicket
         Me.SimpleButton3.Location = New System.Drawing.Point(191, 4)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(104, 27)
-        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.TabIndex = 129
         Me.SimpleButton3.Text = "Exsport Verified"
         '
         'SimpleButton4
@@ -174,7 +173,7 @@ Partial Class FrmReportWBTicket
         Me.SimpleButton4.Location = New System.Drawing.Point(304, 6)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 0
+        Me.SimpleButton4.TabIndex = 130
         Me.SimpleButton4.Text = "Close"
         '
         'LabelControl64
@@ -188,7 +187,7 @@ Partial Class FrmReportWBTicket
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl2)
         Me.Panel7.Controls.Add(Me.LabelControl1)
         Me.Panel7.Controls.Add(Me.LabelControl75)
@@ -250,22 +249,20 @@ Partial Class FrmReportWBTicket
         'DateEdit2
         '
         Me.DateEdit2.EditValue = Nothing
-        Me.DateEdit2.EnterMoveNextControl = True
         Me.DateEdit2.Location = New System.Drawing.Point(159, 111)
         Me.DateEdit2.Name = "DateEdit2"
         Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Size = New System.Drawing.Size(192, 20)
-        Me.DateEdit2.TabIndex = 1
+        Me.DateEdit2.TabIndex = 126
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.EnterMoveNextControl = True
         Me.ComboBoxEdit1.Location = New System.Drawing.Point(159, 135)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(192, 20)
-        Me.ComboBoxEdit1.TabIndex = 2
+        Me.ComboBoxEdit1.TabIndex = 127
         '
         'FrmReportWBTicket
         '

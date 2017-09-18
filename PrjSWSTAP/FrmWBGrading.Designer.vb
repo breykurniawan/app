@@ -255,7 +255,7 @@ Partial Class FrmWBGrading
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl23)
         Me.Panel7.Controls.Add(Me.LabelControl22)
         Me.Panel7.Controls.Add(Me.LabelControl21)
@@ -562,25 +562,23 @@ Partial Class FrmWBGrading
         '
         'TextEdit78
         '
-        Me.TextEdit78.EnterMoveNextControl = True
         Me.TextEdit78.Location = New System.Drawing.Point(390, 77)
         Me.TextEdit78.Name = "TextEdit78"
         Me.TextEdit78.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextEdit78.Properties.Appearance.Options.UseFont = True
         Me.TextEdit78.Properties.ReadOnly = True
         Me.TextEdit78.Size = New System.Drawing.Size(94, 26)
-        Me.TextEdit78.TabIndex = 7
+        Me.TextEdit78.TabIndex = 120
         '
         'TextEdit63
         '
-        Me.TextEdit63.EnterMoveNextControl = True
         Me.TextEdit63.Location = New System.Drawing.Point(390, 50)
         Me.TextEdit63.Name = "TextEdit63"
         Me.TextEdit63.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextEdit63.Properties.Appearance.Options.UseFont = True
         Me.TextEdit63.Properties.ReadOnly = True
         Me.TextEdit63.Size = New System.Drawing.Size(94, 26)
-        Me.TextEdit63.TabIndex = 6
+        Me.TextEdit63.TabIndex = 119
         '
         'LabelControl26
         '
@@ -623,47 +621,42 @@ Partial Class FrmWBGrading
         '
         'TextEdit6
         '
-        Me.TextEdit6.EnterMoveNextControl = True
         Me.TextEdit6.Location = New System.Drawing.Point(7, 90)
         Me.TextEdit6.Name = "TextEdit6"
         Me.TextEdit6.Size = New System.Drawing.Size(113, 20)
-        Me.TextEdit6.TabIndex = 4
+        Me.TextEdit6.TabIndex = 115
         '
         'TextEdit5
         '
-        Me.TextEdit5.EnterMoveNextControl = True
         Me.TextEdit5.Location = New System.Drawing.Point(7, 69)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Size = New System.Drawing.Size(113, 20)
-        Me.TextEdit5.TabIndex = 3
+        Me.TextEdit5.TabIndex = 114
         '
         'TextEdit4
         '
-        Me.TextEdit4.EnterMoveNextControl = True
         Me.TextEdit4.Location = New System.Drawing.Point(7, 48)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Size = New System.Drawing.Size(113, 20)
-        Me.TextEdit4.TabIndex = 2
+        Me.TextEdit4.TabIndex = 113
         '
         'TextEdit3
         '
-        Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(7, 27)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Properties.ReadOnly = True
         Me.TextEdit3.Size = New System.Drawing.Size(265, 20)
-        Me.TextEdit3.TabIndex = 1
+        Me.TextEdit3.TabIndex = 112
         '
         'TextEdit2
         '
-        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(390, 23)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextEdit2.Properties.Appearance.Options.UseFont = True
         Me.TextEdit2.Properties.ReadOnly = True
         Me.TextEdit2.Size = New System.Drawing.Size(94, 26)
-        Me.TextEdit2.TabIndex = 5
+        Me.TextEdit2.TabIndex = 111
         '
         'LabelControl4
         '
@@ -694,12 +687,11 @@ Partial Class FrmWBGrading
         '
         'TextEdit1
         '
-        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(7, 6)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.ReadOnly = True
         Me.TextEdit1.Size = New System.Drawing.Size(220, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.TextEdit1.TabIndex = 108
         '
         'LabelControl5
         '
@@ -734,744 +726,674 @@ Partial Class FrmWBGrading
         'TextEdit7
         '
         Me.TextEdit7.EditValue = "0"
-        Me.TextEdit7.EnterMoveNextControl = True
         Me.TextEdit7.Location = New System.Drawing.Point(159, 218)
         Me.TextEdit7.Name = "TextEdit7"
         Me.TextEdit7.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit7.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit7.TabIndex = 0
+        Me.TextEdit7.TabIndex = 116
         '
         'TextEdit8
         '
         Me.TextEdit8.EditValue = "0"
-        Me.TextEdit8.EnterMoveNextControl = True
         Me.TextEdit8.Location = New System.Drawing.Point(159, 239)
         Me.TextEdit8.Name = "TextEdit8"
         Me.TextEdit8.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit8.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit8.TabIndex = 1
+        Me.TextEdit8.TabIndex = 117
         '
         'TextEdit9
         '
         Me.TextEdit9.EditValue = "0"
-        Me.TextEdit9.EnterMoveNextControl = True
         Me.TextEdit9.Location = New System.Drawing.Point(159, 260)
         Me.TextEdit9.Name = "TextEdit9"
         Me.TextEdit9.Properties.ReadOnly = True
         Me.TextEdit9.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit9.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit9.TabIndex = 2
+        Me.TextEdit9.TabIndex = 118
         '
         'TextEdit10
         '
         Me.TextEdit10.EditValue = "0"
-        Me.TextEdit10.EnterMoveNextControl = True
         Me.TextEdit10.Location = New System.Drawing.Point(159, 281)
         Me.TextEdit10.Name = "TextEdit10"
         Me.TextEdit10.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit10.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit10.TabIndex = 3
+        Me.TextEdit10.TabIndex = 119
         '
         'TextEdit11
         '
         Me.TextEdit11.EditValue = "0"
-        Me.TextEdit11.EnterMoveNextControl = True
         Me.TextEdit11.Location = New System.Drawing.Point(159, 302)
         Me.TextEdit11.Name = "TextEdit11"
         Me.TextEdit11.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit11.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit11.TabIndex = 4
+        Me.TextEdit11.TabIndex = 120
         '
         'TextEdit12
         '
         Me.TextEdit12.EditValue = "0"
-        Me.TextEdit12.EnterMoveNextControl = True
         Me.TextEdit12.Location = New System.Drawing.Point(159, 323)
         Me.TextEdit12.Name = "TextEdit12"
         Me.TextEdit12.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit12.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit12.TabIndex = 5
+        Me.TextEdit12.TabIndex = 121
         '
         'TextEdit13
         '
         Me.TextEdit13.EditValue = "0"
-        Me.TextEdit13.EnterMoveNextControl = True
         Me.TextEdit13.Location = New System.Drawing.Point(159, 344)
         Me.TextEdit13.Name = "TextEdit13"
         Me.TextEdit13.Properties.ReadOnly = True
         Me.TextEdit13.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit13.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit13.TabIndex = 6
+        Me.TextEdit13.TabIndex = 122
         '
         'TextEdit14
         '
         Me.TextEdit14.EditValue = "0"
-        Me.TextEdit14.EnterMoveNextControl = True
         Me.TextEdit14.Location = New System.Drawing.Point(159, 365)
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Properties.ReadOnly = True
         Me.TextEdit14.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit14.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit14.TabIndex = 7
+        Me.TextEdit14.TabIndex = 123
         '
         'TextEdit15
         '
         Me.TextEdit15.EditValue = "0"
-        Me.TextEdit15.EnterMoveNextControl = True
         Me.TextEdit15.Location = New System.Drawing.Point(159, 386)
         Me.TextEdit15.Name = "TextEdit15"
         Me.TextEdit15.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit15.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit15.TabIndex = 8
+        Me.TextEdit15.TabIndex = 124
         '
         'TextEdit16
         '
         Me.TextEdit16.EditValue = "0"
-        Me.TextEdit16.EnterMoveNextControl = True
         Me.TextEdit16.Location = New System.Drawing.Point(159, 407)
         Me.TextEdit16.Name = "TextEdit16"
         Me.TextEdit16.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit16.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit16.TabIndex = 9
+        Me.TextEdit16.TabIndex = 125
         '
         'TextEdit17
         '
         Me.TextEdit17.EditValue = "0"
-        Me.TextEdit17.EnterMoveNextControl = True
         Me.TextEdit17.Location = New System.Drawing.Point(159, 428)
         Me.TextEdit17.Name = "TextEdit17"
         Me.TextEdit17.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit17.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit17.TabIndex = 10
+        Me.TextEdit17.TabIndex = 126
         '
         'TextEdit18
         '
         Me.TextEdit18.EditValue = "0"
-        Me.TextEdit18.EnterMoveNextControl = True
         Me.TextEdit18.Location = New System.Drawing.Point(159, 449)
         Me.TextEdit18.Name = "TextEdit18"
         Me.TextEdit18.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit18.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit18.TabIndex = 11
+        Me.TextEdit18.TabIndex = 127
         '
         'TextEdit19
         '
         Me.TextEdit19.EditValue = "0"
-        Me.TextEdit19.EnterMoveNextControl = True
         Me.TextEdit19.Location = New System.Drawing.Point(159, 470)
         Me.TextEdit19.Name = "TextEdit19"
         Me.TextEdit19.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit19.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit19.TabIndex = 12
+        Me.TextEdit19.TabIndex = 128
         '
         'TextEdit20
         '
         Me.TextEdit20.EditValue = "0"
-        Me.TextEdit20.EnterMoveNextControl = True
         Me.TextEdit20.Location = New System.Drawing.Point(159, 491)
         Me.TextEdit20.Name = "TextEdit20"
         Me.TextEdit20.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit20.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit20.TabIndex = 13
+        Me.TextEdit20.TabIndex = 129
         '
         'TextEdit21
         '
         Me.TextEdit21.EditValue = "0"
-        Me.TextEdit21.EnterMoveNextControl = True
         Me.TextEdit21.Location = New System.Drawing.Point(212, 218)
         Me.TextEdit21.Name = "TextEdit21"
         Me.TextEdit21.Properties.ReadOnly = True
         Me.TextEdit21.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit21.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit21.TabIndex = 14
+        Me.TextEdit21.TabIndex = 130
         '
         'TextEdit22
         '
         Me.TextEdit22.EditValue = "0"
-        Me.TextEdit22.EnterMoveNextControl = True
         Me.TextEdit22.Location = New System.Drawing.Point(212, 239)
         Me.TextEdit22.Name = "TextEdit22"
         Me.TextEdit22.Properties.ReadOnly = True
         Me.TextEdit22.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit22.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit22.TabIndex = 15
+        Me.TextEdit22.TabIndex = 131
         '
         'TextEdit23
         '
         Me.TextEdit23.EditValue = "0"
-        Me.TextEdit23.EnterMoveNextControl = True
         Me.TextEdit23.Location = New System.Drawing.Point(213, 261)
         Me.TextEdit23.Name = "TextEdit23"
         Me.TextEdit23.Properties.ReadOnly = True
         Me.TextEdit23.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit23.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit23.TabIndex = 16
+        Me.TextEdit23.TabIndex = 132
         '
         'TextEdit24
         '
         Me.TextEdit24.EditValue = "0"
-        Me.TextEdit24.EnterMoveNextControl = True
         Me.TextEdit24.Location = New System.Drawing.Point(213, 282)
         Me.TextEdit24.Name = "TextEdit24"
         Me.TextEdit24.Properties.ReadOnly = True
         Me.TextEdit24.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit24.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit24.TabIndex = 17
+        Me.TextEdit24.TabIndex = 133
         '
         'TextEdit25
         '
         Me.TextEdit25.EditValue = "0"
-        Me.TextEdit25.EnterMoveNextControl = True
         Me.TextEdit25.Location = New System.Drawing.Point(213, 303)
         Me.TextEdit25.Name = "TextEdit25"
         Me.TextEdit25.Properties.ReadOnly = True
         Me.TextEdit25.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit25.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit25.TabIndex = 18
+        Me.TextEdit25.TabIndex = 134
         '
         'TextEdit26
         '
         Me.TextEdit26.EditValue = "0"
-        Me.TextEdit26.EnterMoveNextControl = True
         Me.TextEdit26.Location = New System.Drawing.Point(213, 324)
         Me.TextEdit26.Name = "TextEdit26"
         Me.TextEdit26.Properties.ReadOnly = True
         Me.TextEdit26.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit26.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit26.TabIndex = 19
+        Me.TextEdit26.TabIndex = 135
         '
         'TextEdit27
         '
         Me.TextEdit27.EditValue = "0"
-        Me.TextEdit27.EnterMoveNextControl = True
         Me.TextEdit27.Location = New System.Drawing.Point(213, 345)
         Me.TextEdit27.Name = "TextEdit27"
         Me.TextEdit27.Properties.ReadOnly = True
         Me.TextEdit27.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit27.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit27.TabIndex = 20
+        Me.TextEdit27.TabIndex = 136
         '
         'TextEdit28
         '
         Me.TextEdit28.EditValue = "0"
-        Me.TextEdit28.EnterMoveNextControl = True
         Me.TextEdit28.Location = New System.Drawing.Point(213, 366)
         Me.TextEdit28.Name = "TextEdit28"
         Me.TextEdit28.Properties.ReadOnly = True
         Me.TextEdit28.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit28.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit28.TabIndex = 21
+        Me.TextEdit28.TabIndex = 137
         '
         'TextEdit29
         '
         Me.TextEdit29.EditValue = "0"
-        Me.TextEdit29.EnterMoveNextControl = True
         Me.TextEdit29.Location = New System.Drawing.Point(213, 387)
         Me.TextEdit29.Name = "TextEdit29"
         Me.TextEdit29.Properties.ReadOnly = True
         Me.TextEdit29.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit29.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit29.TabIndex = 22
+        Me.TextEdit29.TabIndex = 138
         '
         'TextEdit30
         '
         Me.TextEdit30.EditValue = "0"
-        Me.TextEdit30.EnterMoveNextControl = True
         Me.TextEdit30.Location = New System.Drawing.Point(213, 408)
         Me.TextEdit30.Name = "TextEdit30"
         Me.TextEdit30.Properties.ReadOnly = True
         Me.TextEdit30.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit30.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit30.TabIndex = 23
+        Me.TextEdit30.TabIndex = 139
         '
         'TextEdit31
         '
         Me.TextEdit31.EditValue = "0"
-        Me.TextEdit31.EnterMoveNextControl = True
         Me.TextEdit31.Location = New System.Drawing.Point(213, 429)
         Me.TextEdit31.Name = "TextEdit31"
         Me.TextEdit31.Properties.ReadOnly = True
         Me.TextEdit31.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit31.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit31.TabIndex = 24
+        Me.TextEdit31.TabIndex = 140
         '
         'TextEdit32
         '
         Me.TextEdit32.EditValue = "0"
-        Me.TextEdit32.EnterMoveNextControl = True
         Me.TextEdit32.Location = New System.Drawing.Point(213, 450)
         Me.TextEdit32.Name = "TextEdit32"
         Me.TextEdit32.Properties.ReadOnly = True
         Me.TextEdit32.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit32.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit32.TabIndex = 25
+        Me.TextEdit32.TabIndex = 141
         '
         'TextEdit33
         '
         Me.TextEdit33.EditValue = "0"
-        Me.TextEdit33.EnterMoveNextControl = True
         Me.TextEdit33.Location = New System.Drawing.Point(269, 218)
         Me.TextEdit33.Name = "TextEdit33"
         Me.TextEdit33.Properties.ReadOnly = True
         Me.TextEdit33.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit33.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit33.TabIndex = 26
+        Me.TextEdit33.TabIndex = 142
         '
         'TextEdit34
         '
         Me.TextEdit34.EditValue = "0"
-        Me.TextEdit34.EnterMoveNextControl = True
         Me.TextEdit34.Location = New System.Drawing.Point(269, 239)
         Me.TextEdit34.Name = "TextEdit34"
         Me.TextEdit34.Properties.ReadOnly = True
         Me.TextEdit34.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit34.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit34.TabIndex = 27
+        Me.TextEdit34.TabIndex = 143
         '
         'TextEdit35
         '
         Me.TextEdit35.EditValue = "0"
-        Me.TextEdit35.EnterMoveNextControl = True
         Me.TextEdit35.Location = New System.Drawing.Point(269, 260)
         Me.TextEdit35.Name = "TextEdit35"
         Me.TextEdit35.Properties.ReadOnly = True
         Me.TextEdit35.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit35.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit35.TabIndex = 28
+        Me.TextEdit35.TabIndex = 144
         '
         'TextEdit36
         '
         Me.TextEdit36.EditValue = "0"
-        Me.TextEdit36.EnterMoveNextControl = True
         Me.TextEdit36.Location = New System.Drawing.Point(269, 281)
         Me.TextEdit36.Name = "TextEdit36"
         Me.TextEdit36.Properties.ReadOnly = True
         Me.TextEdit36.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit36.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit36.TabIndex = 29
+        Me.TextEdit36.TabIndex = 145
         '
         'TextEdit37
         '
         Me.TextEdit37.EditValue = "0"
-        Me.TextEdit37.EnterMoveNextControl = True
         Me.TextEdit37.Location = New System.Drawing.Point(269, 302)
         Me.TextEdit37.Name = "TextEdit37"
         Me.TextEdit37.Properties.ReadOnly = True
         Me.TextEdit37.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit37.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit37.TabIndex = 30
+        Me.TextEdit37.TabIndex = 146
         '
         'TextEdit38
         '
         Me.TextEdit38.EditValue = "0"
-        Me.TextEdit38.EnterMoveNextControl = True
         Me.TextEdit38.Location = New System.Drawing.Point(269, 323)
         Me.TextEdit38.Name = "TextEdit38"
         Me.TextEdit38.Properties.ReadOnly = True
         Me.TextEdit38.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit38.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit38.TabIndex = 31
+        Me.TextEdit38.TabIndex = 147
         '
         'TextEdit39
         '
         Me.TextEdit39.EditValue = "0"
-        Me.TextEdit39.EnterMoveNextControl = True
         Me.TextEdit39.Location = New System.Drawing.Point(269, 344)
         Me.TextEdit39.Name = "TextEdit39"
         Me.TextEdit39.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit39.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit39.TabIndex = 32
+        Me.TextEdit39.TabIndex = 148
         '
         'TextEdit40
         '
         Me.TextEdit40.EditValue = "0"
-        Me.TextEdit40.EnterMoveNextControl = True
         Me.TextEdit40.Location = New System.Drawing.Point(269, 365)
         Me.TextEdit40.Name = "TextEdit40"
         Me.TextEdit40.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit40.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit40.TabIndex = 33
+        Me.TextEdit40.TabIndex = 149
         '
         'TextEdit41
         '
         Me.TextEdit41.EditValue = "0"
-        Me.TextEdit41.EnterMoveNextControl = True
         Me.TextEdit41.Location = New System.Drawing.Point(269, 386)
         Me.TextEdit41.Name = "TextEdit41"
         Me.TextEdit41.Properties.ReadOnly = True
         Me.TextEdit41.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit41.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit41.TabIndex = 34
+        Me.TextEdit41.TabIndex = 150
         '
         'TextEdit42
         '
         Me.TextEdit42.EditValue = "0"
-        Me.TextEdit42.EnterMoveNextControl = True
         Me.TextEdit42.Location = New System.Drawing.Point(269, 407)
         Me.TextEdit42.Name = "TextEdit42"
         Me.TextEdit42.Properties.ReadOnly = True
         Me.TextEdit42.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit42.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit42.TabIndex = 35
+        Me.TextEdit42.TabIndex = 151
         '
         'TextEdit43
         '
         Me.TextEdit43.EditValue = "0"
-        Me.TextEdit43.EnterMoveNextControl = True
         Me.TextEdit43.Location = New System.Drawing.Point(269, 428)
         Me.TextEdit43.Name = "TextEdit43"
         Me.TextEdit43.Properties.ReadOnly = True
         Me.TextEdit43.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit43.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit43.TabIndex = 36
+        Me.TextEdit43.TabIndex = 152
         '
         'TextEdit44
         '
         Me.TextEdit44.EditValue = "0"
-        Me.TextEdit44.EnterMoveNextControl = True
         Me.TextEdit44.Location = New System.Drawing.Point(269, 449)
         Me.TextEdit44.Name = "TextEdit44"
         Me.TextEdit44.Properties.ReadOnly = True
         Me.TextEdit44.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit44.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit44.TabIndex = 37
+        Me.TextEdit44.TabIndex = 153
         '
         'TextEdit45
         '
         Me.TextEdit45.EditValue = "0"
-        Me.TextEdit45.EnterMoveNextControl = True
         Me.TextEdit45.Location = New System.Drawing.Point(269, 470)
         Me.TextEdit45.Name = "TextEdit45"
         Me.TextEdit45.Properties.ReadOnly = True
         Me.TextEdit45.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit45.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit45.TabIndex = 38
+        Me.TextEdit45.TabIndex = 154
         '
         'TextEdit46
         '
         Me.TextEdit46.EditValue = "0"
-        Me.TextEdit46.EnterMoveNextControl = True
         Me.TextEdit46.Location = New System.Drawing.Point(269, 491)
         Me.TextEdit46.Name = "TextEdit46"
         Me.TextEdit46.Properties.ReadOnly = True
         Me.TextEdit46.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit46.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit46.TabIndex = 39
+        Me.TextEdit46.TabIndex = 155
         '
         'TextEdit47
         '
         Me.TextEdit47.EditValue = "0"
-        Me.TextEdit47.EnterMoveNextControl = True
         Me.TextEdit47.Location = New System.Drawing.Point(269, 512)
         Me.TextEdit47.Name = "TextEdit47"
         Me.TextEdit47.Properties.ReadOnly = True
         Me.TextEdit47.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit47.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit47.TabIndex = 40
+        Me.TextEdit47.TabIndex = 156
         '
         'TextEdit48
         '
         Me.TextEdit48.EditValue = "0"
-        Me.TextEdit48.EnterMoveNextControl = True
         Me.TextEdit48.Location = New System.Drawing.Point(323, 512)
         Me.TextEdit48.Name = "TextEdit48"
         Me.TextEdit48.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit48.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit48.TabIndex = 55
+        Me.TextEdit48.TabIndex = 171
         '
         'TextEdit49
         '
         Me.TextEdit49.EditValue = "0"
-        Me.TextEdit49.EnterMoveNextControl = True
         Me.TextEdit49.Location = New System.Drawing.Point(323, 491)
         Me.TextEdit49.Name = "TextEdit49"
         Me.TextEdit49.Properties.ReadOnly = True
         Me.TextEdit49.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit49.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit49.TabIndex = 54
+        Me.TextEdit49.TabIndex = 170
         '
         'TextEdit50
         '
         Me.TextEdit50.EditValue = "0"
-        Me.TextEdit50.EnterMoveNextControl = True
         Me.TextEdit50.Location = New System.Drawing.Point(323, 470)
         Me.TextEdit50.Name = "TextEdit50"
         Me.TextEdit50.Properties.ReadOnly = True
         Me.TextEdit50.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit50.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit50.TabIndex = 53
+        Me.TextEdit50.TabIndex = 169
         '
         'TextEdit51
         '
         Me.TextEdit51.EditValue = "0"
-        Me.TextEdit51.EnterMoveNextControl = True
         Me.TextEdit51.Location = New System.Drawing.Point(323, 449)
         Me.TextEdit51.Name = "TextEdit51"
         Me.TextEdit51.Properties.ReadOnly = True
         Me.TextEdit51.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit51.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit51.TabIndex = 52
+        Me.TextEdit51.TabIndex = 168
         '
         'TextEdit52
         '
         Me.TextEdit52.EditValue = "0"
-        Me.TextEdit52.EnterMoveNextControl = True
         Me.TextEdit52.Location = New System.Drawing.Point(323, 428)
         Me.TextEdit52.Name = "TextEdit52"
         Me.TextEdit52.Properties.ReadOnly = True
         Me.TextEdit52.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit52.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit52.TabIndex = 51
+        Me.TextEdit52.TabIndex = 167
         '
         'TextEdit53
         '
         Me.TextEdit53.EditValue = "0"
-        Me.TextEdit53.EnterMoveNextControl = True
         Me.TextEdit53.Location = New System.Drawing.Point(323, 407)
         Me.TextEdit53.Name = "TextEdit53"
         Me.TextEdit53.Properties.ReadOnly = True
         Me.TextEdit53.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit53.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit53.TabIndex = 50
+        Me.TextEdit53.TabIndex = 166
         '
         'TextEdit54
         '
         Me.TextEdit54.EditValue = "0"
-        Me.TextEdit54.EnterMoveNextControl = True
         Me.TextEdit54.Location = New System.Drawing.Point(323, 386)
         Me.TextEdit54.Name = "TextEdit54"
         Me.TextEdit54.Properties.ReadOnly = True
         Me.TextEdit54.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit54.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit54.TabIndex = 49
+        Me.TextEdit54.TabIndex = 165
         '
         'TextEdit55
         '
         Me.TextEdit55.EditValue = "0"
-        Me.TextEdit55.EnterMoveNextControl = True
         Me.TextEdit55.Location = New System.Drawing.Point(323, 365)
         Me.TextEdit55.Name = "TextEdit55"
         Me.TextEdit55.Properties.ReadOnly = True
         Me.TextEdit55.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit55.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit55.TabIndex = 48
+        Me.TextEdit55.TabIndex = 164
         '
         'TextEdit56
         '
         Me.TextEdit56.EditValue = "0"
-        Me.TextEdit56.EnterMoveNextControl = True
         Me.TextEdit56.Location = New System.Drawing.Point(323, 344)
         Me.TextEdit56.Name = "TextEdit56"
         Me.TextEdit56.Properties.ReadOnly = True
         Me.TextEdit56.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit56.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit56.TabIndex = 47
+        Me.TextEdit56.TabIndex = 163
         '
         'TextEdit57
         '
         Me.TextEdit57.EditValue = "0"
-        Me.TextEdit57.EnterMoveNextControl = True
         Me.TextEdit57.Location = New System.Drawing.Point(323, 323)
         Me.TextEdit57.Name = "TextEdit57"
         Me.TextEdit57.Properties.ReadOnly = True
         Me.TextEdit57.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit57.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit57.TabIndex = 46
+        Me.TextEdit57.TabIndex = 162
         '
         'TextEdit58
         '
         Me.TextEdit58.EditValue = "0"
-        Me.TextEdit58.EnterMoveNextControl = True
         Me.TextEdit58.Location = New System.Drawing.Point(323, 302)
         Me.TextEdit58.Name = "TextEdit58"
         Me.TextEdit58.Properties.ReadOnly = True
         Me.TextEdit58.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit58.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit58.TabIndex = 45
+        Me.TextEdit58.TabIndex = 161
         '
         'TextEdit59
         '
         Me.TextEdit59.EditValue = "0"
-        Me.TextEdit59.EnterMoveNextControl = True
         Me.TextEdit59.Location = New System.Drawing.Point(323, 281)
         Me.TextEdit59.Name = "TextEdit59"
         Me.TextEdit59.Properties.ReadOnly = True
         Me.TextEdit59.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit59.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit59.TabIndex = 44
+        Me.TextEdit59.TabIndex = 160
         '
         'TextEdit60
         '
         Me.TextEdit60.EditValue = "0"
-        Me.TextEdit60.EnterMoveNextControl = True
         Me.TextEdit60.Location = New System.Drawing.Point(323, 260)
         Me.TextEdit60.Name = "TextEdit60"
         Me.TextEdit60.Properties.ReadOnly = True
         Me.TextEdit60.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit60.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit60.TabIndex = 43
+        Me.TextEdit60.TabIndex = 159
         '
         'TextEdit61
         '
         Me.TextEdit61.EditValue = "0"
-        Me.TextEdit61.EnterMoveNextControl = True
         Me.TextEdit61.Location = New System.Drawing.Point(323, 239)
         Me.TextEdit61.Name = "TextEdit61"
         Me.TextEdit61.Properties.ReadOnly = True
         Me.TextEdit61.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit61.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit61.TabIndex = 42
+        Me.TextEdit61.TabIndex = 158
         '
         'TextEdit62
         '
         Me.TextEdit62.EditValue = "0"
-        Me.TextEdit62.EnterMoveNextControl = True
         Me.TextEdit62.Location = New System.Drawing.Point(323, 218)
         Me.TextEdit62.Name = "TextEdit62"
         Me.TextEdit62.Properties.ReadOnly = True
         Me.TextEdit62.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit62.Size = New System.Drawing.Size(50, 20)
-        Me.TextEdit62.TabIndex = 41
+        Me.TextEdit62.TabIndex = 157
         '
         'TextEdit64
         '
         Me.TextEdit64.EditValue = ""
-        Me.TextEdit64.EnterMoveNextControl = True
         Me.TextEdit64.Location = New System.Drawing.Point(379, 491)
         Me.TextEdit64.Name = "TextEdit64"
         Me.TextEdit64.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit64.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit64.TabIndex = 69
+        Me.TextEdit64.TabIndex = 185
         '
         'TextEdit65
         '
         Me.TextEdit65.EditValue = ""
-        Me.TextEdit65.EnterMoveNextControl = True
         Me.TextEdit65.Location = New System.Drawing.Point(379, 470)
         Me.TextEdit65.Name = "TextEdit65"
         Me.TextEdit65.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit65.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit65.TabIndex = 68
+        Me.TextEdit65.TabIndex = 184
         '
         'TextEdit66
         '
         Me.TextEdit66.EditValue = ""
-        Me.TextEdit66.EnterMoveNextControl = True
         Me.TextEdit66.Location = New System.Drawing.Point(379, 449)
         Me.TextEdit66.Name = "TextEdit66"
         Me.TextEdit66.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit66.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit66.TabIndex = 67
+        Me.TextEdit66.TabIndex = 183
         '
         'TextEdit67
         '
         Me.TextEdit67.EditValue = ""
-        Me.TextEdit67.EnterMoveNextControl = True
         Me.TextEdit67.Location = New System.Drawing.Point(379, 428)
         Me.TextEdit67.Name = "TextEdit67"
         Me.TextEdit67.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit67.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit67.TabIndex = 66
+        Me.TextEdit67.TabIndex = 182
         '
         'TextEdit68
         '
         Me.TextEdit68.EditValue = ""
-        Me.TextEdit68.EnterMoveNextControl = True
         Me.TextEdit68.Location = New System.Drawing.Point(379, 407)
         Me.TextEdit68.Name = "TextEdit68"
         Me.TextEdit68.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit68.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit68.TabIndex = 65
+        Me.TextEdit68.TabIndex = 181
         '
         'TextEdit69
         '
         Me.TextEdit69.EditValue = ""
-        Me.TextEdit69.EnterMoveNextControl = True
         Me.TextEdit69.Location = New System.Drawing.Point(379, 386)
         Me.TextEdit69.Name = "TextEdit69"
         Me.TextEdit69.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit69.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit69.TabIndex = 64
+        Me.TextEdit69.TabIndex = 180
         '
         'TextEdit70
         '
         Me.TextEdit70.EditValue = ""
-        Me.TextEdit70.EnterMoveNextControl = True
         Me.TextEdit70.Location = New System.Drawing.Point(379, 365)
         Me.TextEdit70.Name = "TextEdit70"
         Me.TextEdit70.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit70.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit70.TabIndex = 63
+        Me.TextEdit70.TabIndex = 179
         '
         'TextEdit71
         '
         Me.TextEdit71.EditValue = ""
-        Me.TextEdit71.EnterMoveNextControl = True
         Me.TextEdit71.Location = New System.Drawing.Point(379, 344)
         Me.TextEdit71.Name = "TextEdit71"
         Me.TextEdit71.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit71.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit71.TabIndex = 62
+        Me.TextEdit71.TabIndex = 178
         '
         'TextEdit72
         '
         Me.TextEdit72.EditValue = ""
-        Me.TextEdit72.EnterMoveNextControl = True
         Me.TextEdit72.Location = New System.Drawing.Point(379, 323)
         Me.TextEdit72.Name = "TextEdit72"
         Me.TextEdit72.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit72.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit72.TabIndex = 61
+        Me.TextEdit72.TabIndex = 177
         '
         'TextEdit73
         '
         Me.TextEdit73.EditValue = ""
-        Me.TextEdit73.EnterMoveNextControl = True
         Me.TextEdit73.Location = New System.Drawing.Point(379, 302)
         Me.TextEdit73.Name = "TextEdit73"
         Me.TextEdit73.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit73.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit73.TabIndex = 60
+        Me.TextEdit73.TabIndex = 176
         '
         'TextEdit74
         '
         Me.TextEdit74.EditValue = ""
-        Me.TextEdit74.EnterMoveNextControl = True
         Me.TextEdit74.Location = New System.Drawing.Point(379, 281)
         Me.TextEdit74.Name = "TextEdit74"
         Me.TextEdit74.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit74.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit74.TabIndex = 59
+        Me.TextEdit74.TabIndex = 175
         '
         'TextEdit75
         '
         Me.TextEdit75.EditValue = ""
-        Me.TextEdit75.EnterMoveNextControl = True
         Me.TextEdit75.Location = New System.Drawing.Point(379, 260)
         Me.TextEdit75.Name = "TextEdit75"
         Me.TextEdit75.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit75.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit75.TabIndex = 58
+        Me.TextEdit75.TabIndex = 174
         '
         'TextEdit76
         '
         Me.TextEdit76.EditValue = ""
-        Me.TextEdit76.EnterMoveNextControl = True
         Me.TextEdit76.Location = New System.Drawing.Point(379, 239)
         Me.TextEdit76.Name = "TextEdit76"
         Me.TextEdit76.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit76.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit76.TabIndex = 57
+        Me.TextEdit76.TabIndex = 173
         '
         'TextEdit77
         '
         Me.TextEdit77.EditValue = ""
-        Me.TextEdit77.EnterMoveNextControl = True
         Me.TextEdit77.Location = New System.Drawing.Point(379, 218)
         Me.TextEdit77.Name = "TextEdit77"
         Me.TextEdit77.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TextEdit77.Size = New System.Drawing.Size(258, 20)
-        Me.TextEdit77.TabIndex = 56
+        Me.TextEdit77.TabIndex = 172
         '
         'Timer1
         '

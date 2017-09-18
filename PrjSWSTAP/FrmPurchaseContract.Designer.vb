@@ -116,7 +116,7 @@ Partial Class FrmPurchaseContract
         '
         'PanelControl2
         '
-        Me.PanelControl2.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.PanelControl2.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.PanelControl2.Appearance.Options.UseBackColor = True
         Me.PanelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PanelControl2.Controls.Add(Me.GridControl1)
@@ -144,7 +144,7 @@ Partial Class FrmPurchaseContract
         '
         'Panel6
         '
-        Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel6.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel6.Controls.Add(Me.LabelControl90)
         Me.Panel6.Controls.Add(Me.LabelControl94)
         Me.Panel6.Controls.Add(Me.LabelControl95)
@@ -261,7 +261,7 @@ Partial Class FrmPurchaseContract
         Me.SimpleButton4.Location = New System.Drawing.Point(235, 3)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 3
+        Me.SimpleButton4.TabIndex = 57
         Me.SimpleButton4.Text = "Cancel"
         '
         'SimpleButton2
@@ -274,7 +274,7 @@ Partial Class FrmPurchaseContract
         Me.SimpleButton2.Location = New System.Drawing.Point(81, 3)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 56
         Me.SimpleButton2.Text = "Save"
         '
         'SimpleButton1
@@ -287,7 +287,7 @@ Partial Class FrmPurchaseContract
         Me.SimpleButton1.Location = New System.Drawing.Point(4, 3)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 55
         Me.SimpleButton1.Text = "Add"
         '
         'SimpleButton3
@@ -300,7 +300,7 @@ Partial Class FrmPurchaseContract
         Me.SimpleButton3.Location = New System.Drawing.Point(158, 3)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.TabIndex = 54
         Me.SimpleButton3.Text = "Delete"
         '
         'SimpleButton5
@@ -313,77 +313,70 @@ Partial Class FrmPurchaseContract
         Me.SimpleButton5.Location = New System.Drawing.Point(317, 5)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 0
+        Me.SimpleButton5.TabIndex = 49
         Me.SimpleButton5.Text = "Close"
         '
         'DateEdit2
         '
         Me.DateEdit2.EditValue = Nothing
-        Me.DateEdit2.EnterMoveNextControl = True
         Me.DateEdit2.Location = New System.Drawing.Point(159, 158)
         Me.DateEdit2.Name = "DateEdit2"
         Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Size = New System.Drawing.Size(241, 20)
-        Me.DateEdit2.TabIndex = 3
+        Me.DateEdit2.TabIndex = 112
         '
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
-        Me.DateEdit1.EnterMoveNextControl = True
         Me.DateEdit1.Location = New System.Drawing.Point(159, 136)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Size = New System.Drawing.Size(241, 20)
-        Me.DateEdit1.TabIndex = 2
+        Me.DateEdit1.TabIndex = 111
         '
         'TextEdit4
         '
-        Me.TextEdit4.EnterMoveNextControl = True
         Me.TextEdit4.Location = New System.Drawing.Point(565, 92)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Size = New System.Drawing.Size(241, 20)
-        Me.TextEdit4.TabIndex = 6
+        Me.TextEdit4.TabIndex = 110
         '
         'TextEdit3
         '
-        Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(159, 202)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Size = New System.Drawing.Size(241, 20)
-        Me.TextEdit3.TabIndex = 5
+        Me.TextEdit3.TabIndex = 109
         '
         'TextEdit2
         '
-        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(159, 114)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.MaxLength = 4
         Me.TextEdit2.Size = New System.Drawing.Size(241, 20)
-        Me.TextEdit2.TabIndex = 1
+        Me.TextEdit2.TabIndex = 106
         '
         'TextEdit1
         '
-        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(159, 92)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(241, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.TextEdit1.TabIndex = 108
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.EnterMoveNextControl = True
         Me.ComboBoxEdit1.Location = New System.Drawing.Point(159, 180)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.MaxLength = 10
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(241, 20)
-        Me.ComboBoxEdit1.TabIndex = 4
+        Me.ComboBoxEdit1.TabIndex = 107
         '
         'PanelControl1
         '
-        Me.PanelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.PanelControl1.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.PanelControl1.Appearance.ForeColor = System.Drawing.Color.Black
         Me.PanelControl1.Appearance.Options.UseBackColor = True
         Me.PanelControl1.Appearance.Options.UseForeColor = True
@@ -440,39 +433,35 @@ Partial Class FrmPurchaseContract
         '
         'ComboBoxEdit2
         '
-        Me.ComboBoxEdit2.EnterMoveNextControl = True
         Me.ComboBoxEdit2.Location = New System.Drawing.Point(565, 136)
         Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
         Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit2.Size = New System.Drawing.Size(241, 20)
-        Me.ComboBoxEdit2.TabIndex = 8
+        Me.ComboBoxEdit2.TabIndex = 125
         '
         'TextEdit8
         '
-        Me.TextEdit8.EnterMoveNextControl = True
         Me.TextEdit8.Location = New System.Drawing.Point(565, 180)
         Me.TextEdit8.Name = "TextEdit8"
         Me.TextEdit8.Properties.MaxLength = 2
         Me.TextEdit8.Size = New System.Drawing.Size(241, 20)
-        Me.TextEdit8.TabIndex = 10
+        Me.TextEdit8.TabIndex = 124
         '
         'TextEdit6
         '
-        Me.TextEdit6.EnterMoveNextControl = True
         Me.TextEdit6.Location = New System.Drawing.Point(565, 158)
         Me.TextEdit6.Name = "TextEdit6"
         Me.TextEdit6.Size = New System.Drawing.Size(241, 20)
-        Me.TextEdit6.TabIndex = 9
+        Me.TextEdit6.TabIndex = 122
         '
         'TextEdit5
         '
-        Me.TextEdit5.EnterMoveNextControl = True
         Me.TextEdit5.Location = New System.Drawing.Point(565, 114)
         Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit5.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit5.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit5.Size = New System.Drawing.Size(241, 20)
-        Me.TextEdit5.TabIndex = 7
+        Me.TextEdit5.TabIndex = 121
         '
         'FrmPurchaseContract
         '

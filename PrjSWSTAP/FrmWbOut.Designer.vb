@@ -472,7 +472,7 @@ Partial Class FrmWbOut
         Me.SimpleButton5.Location = New System.Drawing.Point(237, 5)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 0
+        Me.SimpleButton5.TabIndex = 100
         Me.SimpleButton5.Text = "Close"
         '
         'PanelControl1
@@ -497,7 +497,7 @@ Partial Class FrmWbOut
         Me.SimpleButton14.Location = New System.Drawing.Point(158, 3)
         Me.SimpleButton14.Name = "SimpleButton14"
         Me.SimpleButton14.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton14.TabIndex = 2
+        Me.SimpleButton14.TabIndex = 57
         Me.SimpleButton14.Text = "Cancel"
         '
         'SimpleButton2
@@ -510,7 +510,7 @@ Partial Class FrmWbOut
         Me.SimpleButton2.Location = New System.Drawing.Point(81, 3)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 56
         Me.SimpleButton2.Text = "Save"
         '
         'SimpleButton1
@@ -523,7 +523,7 @@ Partial Class FrmWbOut
         Me.SimpleButton1.Location = New System.Drawing.Point(4, 3)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 55
         Me.SimpleButton1.Text = "Add"
         '
         'PanelControl2
@@ -559,7 +559,7 @@ Partial Class FrmWbOut
         Me.PanelControl2.Location = New System.Drawing.Point(153, 82)
         Me.PanelControl2.Name = "PanelControl2"
         Me.PanelControl2.Size = New System.Drawing.Size(236, 532)
-        Me.PanelControl2.TabIndex = 1
+        Me.PanelControl2.TabIndex = 96
         '
         'LabelControl44
         '
@@ -583,7 +583,6 @@ Partial Class FrmWbOut
         '
         'TextEdit38
         '
-        Me.TextEdit38.EnterMoveNextControl = True
         Me.TextEdit38.Location = New System.Drawing.Point(96, 225)
         Me.TextEdit38.Name = "TextEdit38"
         Me.TextEdit38.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -593,7 +592,7 @@ Partial Class FrmWbOut
         Me.TextEdit38.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit38.Properties.ReadOnly = True
         Me.TextEdit38.Size = New System.Drawing.Size(69, 20)
-        Me.TextEdit38.TabIndex = 11
+        Me.TextEdit38.TabIndex = 89
         '
         'SimpleButton3
         '
@@ -611,7 +610,6 @@ Partial Class FrmWbOut
         '
         'TextEdit37
         '
-        Me.TextEdit37.EnterMoveNextControl = True
         Me.TextEdit37.Location = New System.Drawing.Point(6, 378)
         Me.TextEdit37.Name = "TextEdit37"
         Me.TextEdit37.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -620,19 +618,17 @@ Partial Class FrmWbOut
         Me.TextEdit37.Properties.Appearance.Options.UseFont = True
         Me.TextEdit37.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit37.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit37.TabIndex = 18
+        Me.TextEdit37.TabIndex = 87
         '
         'MemoEdit1
         '
-        Me.MemoEdit1.EnterMoveNextControl = True
         Me.MemoEdit1.Location = New System.Drawing.Point(6, 403)
         Me.MemoEdit1.Name = "MemoEdit1"
         Me.MemoEdit1.Size = New System.Drawing.Size(180, 120)
-        Me.MemoEdit1.TabIndex = 19
+        Me.MemoEdit1.TabIndex = 86
         '
         'TextEdit17
         '
-        Me.TextEdit17.EnterMoveNextControl = True
         Me.TextEdit17.Location = New System.Drawing.Point(6, 356)
         Me.TextEdit17.Name = "TextEdit17"
         Me.TextEdit17.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -641,11 +637,10 @@ Partial Class FrmWbOut
         Me.TextEdit17.Properties.Appearance.Options.UseFont = True
         Me.TextEdit17.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit17.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit17.TabIndex = 17
+        Me.TextEdit17.TabIndex = 74
         '
         'TextEdit16
         '
-        Me.TextEdit16.EnterMoveNextControl = True
         Me.TextEdit16.Location = New System.Drawing.Point(6, 335)
         Me.TextEdit16.Name = "TextEdit16"
         Me.TextEdit16.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -654,11 +649,10 @@ Partial Class FrmWbOut
         Me.TextEdit16.Properties.Appearance.Options.UseFont = True
         Me.TextEdit16.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit16.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit16.TabIndex = 16
+        Me.TextEdit16.TabIndex = 73
         '
         'TextEdit15
         '
-        Me.TextEdit15.EnterMoveNextControl = True
         Me.TextEdit15.Location = New System.Drawing.Point(6, 314)
         Me.TextEdit15.Name = "TextEdit15"
         Me.TextEdit15.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -668,11 +662,10 @@ Partial Class FrmWbOut
         Me.TextEdit15.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit15.Properties.ReadOnly = True
         Me.TextEdit15.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit15.TabIndex = 15
+        Me.TextEdit15.TabIndex = 72
         '
         'TextEdit14
         '
-        Me.TextEdit14.EnterMoveNextControl = True
         Me.TextEdit14.Location = New System.Drawing.Point(6, 293)
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -681,11 +674,10 @@ Partial Class FrmWbOut
         Me.TextEdit14.Properties.Appearance.Options.UseFont = True
         Me.TextEdit14.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit14.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit14.TabIndex = 14
+        Me.TextEdit14.TabIndex = 71
         '
         'TextEdit13
         '
-        Me.TextEdit13.EnterMoveNextControl = True
         Me.TextEdit13.Location = New System.Drawing.Point(6, 272)
         Me.TextEdit13.Name = "TextEdit13"
         Me.TextEdit13.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -694,11 +686,10 @@ Partial Class FrmWbOut
         Me.TextEdit13.Properties.Appearance.Options.UseFont = True
         Me.TextEdit13.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit13.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit13.TabIndex = 13
+        Me.TextEdit13.TabIndex = 70
         '
         'TextEdit12
         '
-        Me.TextEdit12.EnterMoveNextControl = True
         Me.TextEdit12.Location = New System.Drawing.Point(6, 246)
         Me.TextEdit12.Name = "TextEdit12"
         Me.TextEdit12.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -707,11 +698,10 @@ Partial Class FrmWbOut
         Me.TextEdit12.Properties.Appearance.Options.UseFont = True
         Me.TextEdit12.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit12.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit12.TabIndex = 12
+        Me.TextEdit12.TabIndex = 69
         '
         'TextEdit7
         '
-        Me.TextEdit7.EnterMoveNextControl = True
         Me.TextEdit7.Location = New System.Drawing.Point(6, 132)
         Me.TextEdit7.Name = "TextEdit7"
         Me.TextEdit7.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -721,11 +711,10 @@ Partial Class FrmWbOut
         Me.TextEdit7.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit7.Properties.ReadOnly = True
         Me.TextEdit7.Size = New System.Drawing.Size(179, 20)
-        Me.TextEdit7.TabIndex = 6
+        Me.TextEdit7.TabIndex = 65
         '
         'TextEdit11
         '
-        Me.TextEdit11.EnterMoveNextControl = True
         Me.TextEdit11.Location = New System.Drawing.Point(6, 225)
         Me.TextEdit11.Name = "TextEdit11"
         Me.TextEdit11.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -735,7 +724,7 @@ Partial Class FrmWbOut
         Me.TextEdit11.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit11.Properties.ReadOnly = True
         Me.TextEdit11.Size = New System.Drawing.Size(69, 20)
-        Me.TextEdit11.TabIndex = 10
+        Me.TextEdit11.TabIndex = 68
         '
         'SimpleButton6
         '
@@ -754,7 +743,6 @@ Partial Class FrmWbOut
         '
         'TextEdit6
         '
-        Me.TextEdit6.EnterMoveNextControl = True
         Me.TextEdit6.Location = New System.Drawing.Point(6, 111)
         Me.TextEdit6.Name = "TextEdit6"
         Me.TextEdit6.Properties.Appearance.BackColor = System.Drawing.Color.LemonChiffon
@@ -764,11 +752,10 @@ Partial Class FrmWbOut
         Me.TextEdit6.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit6.Properties.ReadOnly = True
         Me.TextEdit6.Size = New System.Drawing.Size(179, 20)
-        Me.TextEdit6.TabIndex = 5
+        Me.TextEdit6.TabIndex = 66
         '
         'TextEdit8
         '
-        Me.TextEdit8.EnterMoveNextControl = True
         Me.TextEdit8.Location = New System.Drawing.Point(6, 162)
         Me.TextEdit8.Name = "TextEdit8"
         Me.TextEdit8.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -778,11 +765,10 @@ Partial Class FrmWbOut
         Me.TextEdit8.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit8.Properties.ReadOnly = True
         Me.TextEdit8.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit8.TabIndex = 7
+        Me.TextEdit8.TabIndex = 64
         '
         'TextEdit9
         '
-        Me.TextEdit9.EnterMoveNextControl = True
         Me.TextEdit9.Location = New System.Drawing.Point(6, 183)
         Me.TextEdit9.Name = "TextEdit9"
         Me.TextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -792,11 +778,10 @@ Partial Class FrmWbOut
         Me.TextEdit9.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit9.Properties.ReadOnly = True
         Me.TextEdit9.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit9.TabIndex = 8
+        Me.TextEdit9.TabIndex = 63
         '
         'TextEdit10
         '
-        Me.TextEdit10.EnterMoveNextControl = True
         Me.TextEdit10.Location = New System.Drawing.Point(6, 204)
         Me.TextEdit10.Name = "TextEdit10"
         Me.TextEdit10.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -806,11 +791,10 @@ Partial Class FrmWbOut
         Me.TextEdit10.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit10.Properties.ReadOnly = True
         Me.TextEdit10.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit10.TabIndex = 9
+        Me.TextEdit10.TabIndex = 62
         '
         'TextEdit5
         '
-        Me.TextEdit5.EnterMoveNextControl = True
         Me.TextEdit5.Location = New System.Drawing.Point(6, 90)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Properties.Appearance.BackColor = System.Drawing.Color.LemonChiffon
@@ -820,11 +804,10 @@ Partial Class FrmWbOut
         Me.TextEdit5.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit5.Properties.ReadOnly = True
         Me.TextEdit5.Size = New System.Drawing.Size(179, 20)
-        Me.TextEdit5.TabIndex = 4
+        Me.TextEdit5.TabIndex = 61
         '
         'TextEdit4
         '
-        Me.TextEdit4.EnterMoveNextControl = True
         Me.TextEdit4.Location = New System.Drawing.Point(6, 69)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -834,11 +817,10 @@ Partial Class FrmWbOut
         Me.TextEdit4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit4.Properties.ReadOnly = True
         Me.TextEdit4.Size = New System.Drawing.Size(179, 20)
-        Me.TextEdit4.TabIndex = 3
+        Me.TextEdit4.TabIndex = 60
         '
         'TextEdit3
         '
-        Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(6, 48)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke
@@ -847,11 +829,10 @@ Partial Class FrmWbOut
         Me.TextEdit3.Properties.Appearance.Options.UseFont = True
         Me.TextEdit3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit3.Size = New System.Drawing.Size(179, 20)
-        Me.TextEdit3.TabIndex = 2
+        Me.TextEdit3.TabIndex = 59
         '
         'TextEdit2
         '
-        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(6, 27)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke
@@ -860,12 +841,11 @@ Partial Class FrmWbOut
         Me.TextEdit2.Properties.Appearance.Options.UseFont = True
         Me.TextEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit2.Size = New System.Drawing.Size(179, 20)
-        Me.TextEdit2.TabIndex = 1
+        Me.TextEdit2.TabIndex = 58
         '
         'TextEdit1
         '
         Me.TextEdit1.Enabled = False
-        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(6, 6)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke
@@ -1197,128 +1177,116 @@ Partial Class FrmWbOut
         '
         'TextEdit36
         '
-        Me.TextEdit36.EnterMoveNextControl = True
         Me.TextEdit36.Location = New System.Drawing.Point(6, 391)
         Me.TextEdit36.Name = "TextEdit36"
         Me.TextEdit36.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit36.Properties.Appearance.Options.UseFont = True
         Me.TextEdit36.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit36.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit36.TabIndex = 18
+        Me.TextEdit36.TabIndex = 96
         '
         'TextEdit35
         '
-        Me.TextEdit35.EnterMoveNextControl = True
         Me.TextEdit35.Location = New System.Drawing.Point(6, 370)
         Me.TextEdit35.Name = "TextEdit35"
         Me.TextEdit35.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit35.Properties.Appearance.Options.UseFont = True
         Me.TextEdit35.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit35.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit35.TabIndex = 17
+        Me.TextEdit35.TabIndex = 95
         '
         'TextEdit34
         '
-        Me.TextEdit34.EnterMoveNextControl = True
         Me.TextEdit34.Location = New System.Drawing.Point(6, 349)
         Me.TextEdit34.Name = "TextEdit34"
         Me.TextEdit34.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit34.Properties.Appearance.Options.UseFont = True
         Me.TextEdit34.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit34.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit34.TabIndex = 16
+        Me.TextEdit34.TabIndex = 94
         '
         'TextEdit33
         '
-        Me.TextEdit33.EnterMoveNextControl = True
         Me.TextEdit33.Location = New System.Drawing.Point(6, 328)
         Me.TextEdit33.Name = "TextEdit33"
         Me.TextEdit33.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit33.Properties.Appearance.Options.UseFont = True
         Me.TextEdit33.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit33.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit33.TabIndex = 15
+        Me.TextEdit33.TabIndex = 93
         '
         'TextEdit32
         '
-        Me.TextEdit32.EnterMoveNextControl = True
         Me.TextEdit32.Location = New System.Drawing.Point(6, 302)
         Me.TextEdit32.Name = "TextEdit32"
         Me.TextEdit32.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit32.Properties.Appearance.Options.UseFont = True
         Me.TextEdit32.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit32.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit32.TabIndex = 14
+        Me.TextEdit32.TabIndex = 92
         '
         'TextEdit31
         '
-        Me.TextEdit31.EnterMoveNextControl = True
         Me.TextEdit31.Location = New System.Drawing.Point(6, 281)
         Me.TextEdit31.Name = "TextEdit31"
         Me.TextEdit31.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit31.Properties.Appearance.Options.UseFont = True
         Me.TextEdit31.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit31.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit31.TabIndex = 13
+        Me.TextEdit31.TabIndex = 91
         '
         'TextEdit30
         '
-        Me.TextEdit30.EnterMoveNextControl = True
         Me.TextEdit30.Location = New System.Drawing.Point(6, 260)
         Me.TextEdit30.Name = "TextEdit30"
         Me.TextEdit30.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit30.Properties.Appearance.Options.UseFont = True
         Me.TextEdit30.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit30.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit30.TabIndex = 12
+        Me.TextEdit30.TabIndex = 90
         '
         'TextEdit20
         '
-        Me.TextEdit20.EnterMoveNextControl = True
         Me.TextEdit20.Location = New System.Drawing.Point(6, 46)
         Me.TextEdit20.Name = "TextEdit20"
         Me.TextEdit20.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit20.Properties.Appearance.Options.UseFont = True
         Me.TextEdit20.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit20.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit20.TabIndex = 2
+        Me.TextEdit20.TabIndex = 89
         '
         'TextEdit19
         '
-        Me.TextEdit19.EnterMoveNextControl = True
         Me.TextEdit19.Location = New System.Drawing.Point(6, 25)
         Me.TextEdit19.Name = "TextEdit19"
         Me.TextEdit19.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit19.Properties.Appearance.Options.UseFont = True
         Me.TextEdit19.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit19.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit19.TabIndex = 1
+        Me.TextEdit19.TabIndex = 88
         '
         'TextEdit18
         '
-        Me.TextEdit18.EnterMoveNextControl = True
         Me.TextEdit18.Location = New System.Drawing.Point(6, 4)
         Me.TextEdit18.Name = "TextEdit18"
         Me.TextEdit18.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit18.Properties.Appearance.Options.UseFont = True
         Me.TextEdit18.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit18.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit18.TabIndex = 0
+        Me.TextEdit18.TabIndex = 87
         '
         'TextEdit29
         '
-        Me.TextEdit29.EnterMoveNextControl = True
         Me.TextEdit29.Location = New System.Drawing.Point(6, 239)
         Me.TextEdit29.Name = "TextEdit29"
         Me.TextEdit29.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit29.Properties.Appearance.Options.UseFont = True
         Me.TextEdit29.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit29.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit29.TabIndex = 11
+        Me.TextEdit29.TabIndex = 86
         '
         'TextEdit28
         '
-        Me.TextEdit28.EnterMoveNextControl = True
         Me.TextEdit28.Location = New System.Drawing.Point(6, 218)
         Me.TextEdit28.Name = "TextEdit28"
         Me.TextEdit28.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -1327,11 +1295,10 @@ Partial Class FrmWbOut
         Me.TextEdit28.Properties.Appearance.Options.UseFont = True
         Me.TextEdit28.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit28.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit28.TabIndex = 10
+        Me.TextEdit28.TabIndex = 85
         '
         'TextEdit27
         '
-        Me.TextEdit27.EnterMoveNextControl = True
         Me.TextEdit27.Location = New System.Drawing.Point(6, 197)
         Me.TextEdit27.Name = "TextEdit27"
         Me.TextEdit27.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -1340,11 +1307,10 @@ Partial Class FrmWbOut
         Me.TextEdit27.Properties.Appearance.Options.UseFont = True
         Me.TextEdit27.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit27.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit27.TabIndex = 9
+        Me.TextEdit27.TabIndex = 84
         '
         'TextEdit26
         '
-        Me.TextEdit26.EnterMoveNextControl = True
         Me.TextEdit26.Location = New System.Drawing.Point(6, 176)
         Me.TextEdit26.Name = "TextEdit26"
         Me.TextEdit26.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -1353,11 +1319,10 @@ Partial Class FrmWbOut
         Me.TextEdit26.Properties.Appearance.Options.UseFont = True
         Me.TextEdit26.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit26.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit26.TabIndex = 8
+        Me.TextEdit26.TabIndex = 83
         '
         'TextEdit25
         '
-        Me.TextEdit25.EnterMoveNextControl = True
         Me.TextEdit25.Location = New System.Drawing.Point(6, 155)
         Me.TextEdit25.Name = "TextEdit25"
         Me.TextEdit25.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -1366,11 +1331,10 @@ Partial Class FrmWbOut
         Me.TextEdit25.Properties.Appearance.Options.UseFont = True
         Me.TextEdit25.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit25.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit25.TabIndex = 7
+        Me.TextEdit25.TabIndex = 82
         '
         'TextEdit24
         '
-        Me.TextEdit24.EnterMoveNextControl = True
         Me.TextEdit24.Location = New System.Drawing.Point(6, 134)
         Me.TextEdit24.Name = "TextEdit24"
         Me.TextEdit24.Properties.Appearance.BackColor = System.Drawing.Color.White
@@ -1379,40 +1343,37 @@ Partial Class FrmWbOut
         Me.TextEdit24.Properties.Appearance.Options.UseFont = True
         Me.TextEdit24.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit24.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit24.TabIndex = 6
+        Me.TextEdit24.TabIndex = 81
         '
         'TextEdit23
         '
-        Me.TextEdit23.EnterMoveNextControl = True
         Me.TextEdit23.Location = New System.Drawing.Point(6, 113)
         Me.TextEdit23.Name = "TextEdit23"
         Me.TextEdit23.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit23.Properties.Appearance.Options.UseFont = True
         Me.TextEdit23.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit23.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit23.TabIndex = 5
+        Me.TextEdit23.TabIndex = 80
         '
         'TextEdit22
         '
-        Me.TextEdit22.EnterMoveNextControl = True
         Me.TextEdit22.Location = New System.Drawing.Point(6, 88)
         Me.TextEdit22.Name = "TextEdit22"
         Me.TextEdit22.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit22.Properties.Appearance.Options.UseFont = True
         Me.TextEdit22.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit22.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit22.TabIndex = 4
+        Me.TextEdit22.TabIndex = 79
         '
         'TextEdit21
         '
-        Me.TextEdit21.EnterMoveNextControl = True
         Me.TextEdit21.Location = New System.Drawing.Point(6, 67)
         Me.TextEdit21.Name = "TextEdit21"
         Me.TextEdit21.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.TextEdit21.Properties.Appearance.Options.UseFont = True
         Me.TextEdit21.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
         Me.TextEdit21.Size = New System.Drawing.Size(180, 20)
-        Me.TextEdit21.TabIndex = 3
+        Me.TextEdit21.TabIndex = 78
         '
         'PanelControl4
         '
@@ -1421,9 +1382,9 @@ Partial Class FrmWbOut
         Me.PanelControl4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PanelControl4.Controls.Add(Me.GridControl1)
         Me.PanelControl4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PanelControl4.Location = New System.Drawing.Point(776, 443)
+        Me.PanelControl4.Location = New System.Drawing.Point(776, 299)
         Me.PanelControl4.Name = "PanelControl4"
-        Me.PanelControl4.Size = New System.Drawing.Size(278, 171)
+        Me.PanelControl4.Size = New System.Drawing.Size(278, 315)
         Me.PanelControl4.TabIndex = 106
         '
         'GridControl1
@@ -1432,7 +1393,7 @@ Partial Class FrmWbOut
         Me.GridControl1.Location = New System.Drawing.Point(0, 0)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(278, 171)
+        Me.GridControl1.Size = New System.Drawing.Size(278, 315)
         Me.GridControl1.TabIndex = 0
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -1457,7 +1418,7 @@ Partial Class FrmWbOut
         Me.SimpleButton7.Appearance.Options.UseForeColor = True
         Me.SimpleButton7.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat
         Me.SimpleButton7.Image = CType(resources.GetObject("SimpleButton7.Image"), System.Drawing.Image)
-        Me.SimpleButton7.Location = New System.Drawing.Point(776, 400)
+        Me.SimpleButton7.Location = New System.Drawing.Point(776, 260)
         Me.SimpleButton7.Name = "SimpleButton7"
         Me.SimpleButton7.Size = New System.Drawing.Size(125, 33)
         Me.SimpleButton7.TabIndex = 107

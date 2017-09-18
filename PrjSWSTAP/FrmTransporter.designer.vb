@@ -105,27 +105,27 @@ Partial Class FrmTransporter
         Me.TextEdit17.Location = New System.Drawing.Point(158, 88)
         Me.TextEdit17.Name = "TextEdit17"
         Me.TextEdit17.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit17.TabIndex = 0
+        Me.TextEdit17.TabIndex = 76
         '
         'TextEdit67
         '
         Me.TextEdit67.EnterMoveNextControl = True
         Me.TextEdit67.Location = New System.Drawing.Point(158, 154)
         Me.TextEdit67.Name = "TextEdit67"
-        Me.TextEdit67.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit67.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit67.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit67.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit67.TabIndex = 3
+        Me.TextEdit67.TabIndex = 79
         '
         'TextEdit69
         '
         Me.TextEdit69.EnterMoveNextControl = True
         Me.TextEdit69.Location = New System.Drawing.Point(559, 109)
         Me.TextEdit69.Name = "TextEdit69"
-        Me.TextEdit69.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit69.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit69.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit69.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit69.TabIndex = 5
+        Me.TextEdit69.TabIndex = 81
         '
         'TextEdit70
         '
@@ -133,17 +133,17 @@ Partial Class FrmTransporter
         Me.TextEdit70.Location = New System.Drawing.Point(158, 132)
         Me.TextEdit70.Name = "TextEdit70"
         Me.TextEdit70.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit70.TabIndex = 2
+        Me.TextEdit70.TabIndex = 78
         '
         'TextEdit71
         '
         Me.TextEdit71.EnterMoveNextControl = True
         Me.TextEdit71.Location = New System.Drawing.Point(559, 87)
         Me.TextEdit71.Name = "TextEdit71"
-        Me.TextEdit71.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit71.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit71.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit71.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit71.TabIndex = 4
+        Me.TextEdit71.TabIndex = 80
         '
         'TextEdit72
         '
@@ -151,7 +151,7 @@ Partial Class FrmTransporter
         Me.TextEdit72.Location = New System.Drawing.Point(158, 110)
         Me.TextEdit72.Name = "TextEdit72"
         Me.TextEdit72.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit72.TabIndex = 1
+        Me.TextEdit72.TabIndex = 77
         '
         'PanelControl1
         '
@@ -180,7 +180,7 @@ Partial Class FrmTransporter
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel3.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel3.Controls.Add(Me.LabelControl83)
         Me.Panel3.Controls.Add(Me.LabelControl86)
         Me.Panel3.Controls.Add(Me.LabelControl87)
@@ -265,7 +265,7 @@ Partial Class FrmTransporter
         Me.SimpleButton4.Location = New System.Drawing.Point(242, 4)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 3
+        Me.SimpleButton4.TabIndex = 55
         Me.SimpleButton4.Text = "Cancel"
         '
         'SimpleButton2
@@ -278,7 +278,7 @@ Partial Class FrmTransporter
         Me.SimpleButton2.Location = New System.Drawing.Point(84, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 54
         Me.SimpleButton2.Text = "Save"
         '
         'SimpleButton1
@@ -291,7 +291,7 @@ Partial Class FrmTransporter
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 53
         Me.SimpleButton1.Text = "Add"
         '
         'SimpleButton3
@@ -304,7 +304,7 @@ Partial Class FrmTransporter
         Me.SimpleButton3.Location = New System.Drawing.Point(163, 4)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.TabIndex = 52
         Me.SimpleButton3.Text = "Delete"
         '
         'SimpleButton5
@@ -317,12 +317,12 @@ Partial Class FrmTransporter
         Me.SimpleButton5.Location = New System.Drawing.Point(323, 6)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 0
+        Me.SimpleButton5.TabIndex = 54
         Me.SimpleButton5.Text = "Close"
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel1.Controls.Add(Me.LabelControl2)
         Me.Panel1.Controls.Add(Me.LabelControl4)
         Me.Panel1.Controls.Add(Me.LabelControl5)
@@ -364,11 +364,10 @@ Partial Class FrmTransporter
         '
         'MemoEdit1
         '
-        Me.MemoEdit1.EnterMoveNextControl = True
         Me.MemoEdit1.Location = New System.Drawing.Point(559, 133)
         Me.MemoEdit1.Name = "MemoEdit1"
         Me.MemoEdit1.Size = New System.Drawing.Size(236, 39)
-        Me.MemoEdit1.TabIndex = 6
+        Me.MemoEdit1.TabIndex = 92
         '
         'FrmTransporter
         '

@@ -115,7 +115,7 @@ Partial Class FrmVehicle
         Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"Y", "N"})
         Me.ComboBoxEdit1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(234, 20)
-        Me.ComboBoxEdit1.TabIndex = 1
+        Me.ComboBoxEdit1.TabIndex = 81
         '
         'PanelControl1
         '
@@ -144,7 +144,7 @@ Partial Class FrmVehicle
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel4.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel4.Controls.Add(Me.LabelControl1)
         Me.Panel4.Controls.Add(Me.LabelControl19)
         Me.Panel4.Controls.Add(Me.LabelControl21)
@@ -161,7 +161,7 @@ Partial Class FrmVehicle
         '
         'LabelControl1
         '
-        Me.LabelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.LabelControl1.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl1.Appearance.ForeColor = System.Drawing.Color.Black
         Me.LabelControl1.Appearance.Options.UseBackColor = True
@@ -267,7 +267,7 @@ Partial Class FrmVehicle
         Me.SimpleButton4.Location = New System.Drawing.Point(242, 4)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 3
+        Me.SimpleButton4.TabIndex = 55
         Me.SimpleButton4.Text = "Cancel"
         '
         'SimpleButton2
@@ -280,7 +280,7 @@ Partial Class FrmVehicle
         Me.SimpleButton2.Location = New System.Drawing.Point(84, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 54
         Me.SimpleButton2.Text = "Save"
         '
         'SimpleButton1
@@ -293,7 +293,7 @@ Partial Class FrmVehicle
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 53
         Me.SimpleButton1.Text = "Add"
         '
         'SimpleButton3
@@ -306,7 +306,7 @@ Partial Class FrmVehicle
         Me.SimpleButton3.Location = New System.Drawing.Point(163, 4)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.TabIndex = 52
         Me.SimpleButton3.Text = "Delete"
         '
         'SimpleButton5
@@ -319,48 +319,44 @@ Partial Class FrmVehicle
         Me.SimpleButton5.Location = New System.Drawing.Point(323, 6)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 0
+        Me.SimpleButton5.TabIndex = 54
         Me.SimpleButton5.Text = "Close"
         '
         'TextEdit1
         '
-        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(160, 86)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(234, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.TextEdit1.TabIndex = 92
         '
         'TextEdit3
         '
-        Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(160, 130)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Size = New System.Drawing.Size(234, 20)
-        Me.TextEdit3.TabIndex = 2
+        Me.TextEdit3.TabIndex = 94
         '
         'TextEdit4
         '
         Me.TextEdit4.EditValue = "0"
-        Me.TextEdit4.EnterMoveNextControl = True
         Me.TextEdit4.Location = New System.Drawing.Point(160, 152)
         Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit4.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit4.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit4.Properties.ReadOnly = True
         Me.TextEdit4.Size = New System.Drawing.Size(173, 20)
-        Me.TextEdit4.TabIndex = 3
+        Me.TextEdit4.TabIndex = 95
         '
         'TextEdit5
         '
-        Me.TextEdit5.EnterMoveNextControl = True
         Me.TextEdit5.Location = New System.Drawing.Point(160, 174)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Size = New System.Drawing.Size(234, 20)
-        Me.TextEdit5.TabIndex = 4
+        Me.TextEdit5.TabIndex = 96
         '
         'LabelControl45
         '
-        Me.LabelControl45.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.LabelControl45.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.LabelControl45.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl45.Appearance.ForeColor = System.Drawing.Color.Black
         Me.LabelControl45.Appearance.Options.UseBackColor = True
@@ -378,9 +374,9 @@ Partial Class FrmVehicle
         Me.TxtWeight.EditValue = "0"
         Me.TxtWeight.Location = New System.Drawing.Point(443, 134)
         Me.TxtWeight.Name = "TxtWeight"
-        Me.TxtWeight.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TxtWeight.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TxtWeight.Properties.Appearance.Font = New System.Drawing.Font("Impact", 27.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel)
-        Me.TxtWeight.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TxtWeight.Properties.Appearance.ForeColor = System.Drawing.Color.FROMArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TxtWeight.Properties.Appearance.Options.UseBackColor = True
         Me.TxtWeight.Properties.Appearance.Options.UseFont = True
         Me.TxtWeight.Properties.Appearance.Options.UseForeColor = True
@@ -415,11 +411,11 @@ Partial Class FrmVehicle
         Me.ComboBoxEdit2.Properties.Items.AddRange(New Object() {"Y", "N"})
         Me.ComboBoxEdit2.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.ComboBoxEdit2.Size = New System.Drawing.Size(234, 20)
-        Me.ComboBoxEdit2.TabIndex = 5
+        Me.ComboBoxEdit2.TabIndex = 103
         '
         'LabelControl2
         '
-        Me.LabelControl2.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.LabelControl2.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl2.Appearance.ForeColor = System.Drawing.Color.Black
         Me.LabelControl2.Appearance.Options.UseBackColor = True
@@ -437,7 +433,7 @@ Partial Class FrmVehicle
         Me.SimpleButton6.Location = New System.Drawing.Point(339, 153)
         Me.SimpleButton6.Name = "SimpleButton6"
         Me.SimpleButton6.Size = New System.Drawing.Size(55, 17)
-        Me.SimpleButton6.TabIndex = 6
+        Me.SimpleButton6.TabIndex = 105
         Me.SimpleButton6.Text = "Capture"
         '
         'Timer1

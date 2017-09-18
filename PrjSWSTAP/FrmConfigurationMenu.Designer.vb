@@ -23,7 +23,6 @@ Partial Class FrmConfigurationMenu
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmConfigurationMenu))
         Me.BackstageViewControl1 = New DevExpress.XtraBars.Ribbon.BackstageViewControl()
         Me.BackstageViewClientControl1 = New DevExpress.XtraBars.Ribbon.BackstageViewClientControl()
-        Me.SimpleButton19 = New DevExpress.XtraEditors.SimpleButton()
         Me.ComboBoxEdit8 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit7 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit6 = New DevExpress.XtraEditors.ComboBoxEdit()
@@ -180,6 +179,7 @@ Partial Class FrmConfigurationMenu
         Me.ComboBoxEdit12 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit13 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.BackstageViewClientControl5 = New DevExpress.XtraBars.Ribbon.BackstageViewClientControl()
+        Me.SimpleButton19 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.BackstageViewControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.BackstageViewControl1.SuspendLayout()
         Me.BackstageViewClientControl1.SuspendLayout()
@@ -298,8 +298,8 @@ Partial Class FrmConfigurationMenu
         Me.BackstageViewControl1.Location = New System.Drawing.Point(0, 43)
         Me.BackstageViewControl1.Name = "BackstageViewControl1"
         Me.BackstageViewControl1.PaintStyle = DevExpress.XtraBars.Ribbon.BackstageViewPaintStyle.Flat
-        Me.BackstageViewControl1.SelectedTab = Me.BackstageViewTabItem4
-        Me.BackstageViewControl1.SelectedTabIndex = 3
+        Me.BackstageViewControl1.SelectedTab = Me.BackstageViewTabItem1
+        Me.BackstageViewControl1.SelectedTabIndex = 0
         Me.BackstageViewControl1.Size = New System.Drawing.Size(810, 489)
         Me.BackstageViewControl1.TabIndex = 9
         Me.BackstageViewControl1.Text = "BackstageViewControl1"
@@ -325,150 +325,116 @@ Partial Class FrmConfigurationMenu
         Me.BackstageViewClientControl1.Location = New System.Drawing.Point(125, 0)
         Me.BackstageViewClientControl1.Name = "BackstageViewClientControl1"
         Me.BackstageViewClientControl1.Size = New System.Drawing.Size(685, 489)
-        Me.BackstageViewClientControl1.TabIndex = 0
-        '
-        'SimpleButton19
-        '
-        Me.SimpleButton19.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.SimpleButton19.Appearance.ForeColor = System.Drawing.Color.Green
-        Me.SimpleButton19.Appearance.Options.UseFont = True
-        Me.SimpleButton19.Appearance.Options.UseForeColor = True
-        Me.SimpleButton19.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat
-        Me.SimpleButton19.Image = CType(resources.GetObject("SimpleButton19.Image"), System.Drawing.Image)
-        Me.SimpleButton19.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.SimpleButton19.Location = New System.Drawing.Point(385, 45)
-        Me.SimpleButton19.Name = "SimpleButton19"
-        Me.SimpleButton19.Size = New System.Drawing.Size(46, 22)
-        Me.SimpleButton19.TabIndex = 13
+        Me.BackstageViewClientControl1.TabIndex = 1
         '
         'ComboBoxEdit8
         '
-        Me.ComboBoxEdit8.AllowDrop = True
-        Me.ComboBoxEdit8.EnterMoveNextControl = True
         Me.ComboBoxEdit8.Location = New System.Drawing.Point(160, 280)
         Me.ComboBoxEdit8.Name = "ComboBoxEdit8"
         Me.ComboBoxEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit8.Size = New System.Drawing.Size(271, 20)
-        Me.ComboBoxEdit8.TabIndex = 10
+        Me.ComboBoxEdit8.TabIndex = 68
         '
         'ComboBoxEdit7
         '
-        Me.ComboBoxEdit7.EnterMoveNextControl = True
         Me.ComboBoxEdit7.Location = New System.Drawing.Point(160, 257)
         Me.ComboBoxEdit7.Name = "ComboBoxEdit7"
         Me.ComboBoxEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit7.Size = New System.Drawing.Size(271, 20)
-        Me.ComboBoxEdit7.TabIndex = 9
+        Me.ComboBoxEdit7.TabIndex = 67
         '
         'ComboBoxEdit6
         '
-        Me.ComboBoxEdit6.EnterMoveNextControl = True
         Me.ComboBoxEdit6.Location = New System.Drawing.Point(160, 188)
         Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
         Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit6.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.ComboBoxEdit6.Size = New System.Drawing.Size(271, 20)
-        Me.ComboBoxEdit6.TabIndex = 6
+        Me.ComboBoxEdit6.TabIndex = 66
         '
         'TextEdit31
         '
-        Me.TextEdit31.EnterMoveNextControl = True
         Me.TextEdit31.Location = New System.Drawing.Point(160, 211)
         Me.TextEdit31.Name = "TextEdit31"
         Me.TextEdit31.Properties.ReadOnly = True
         Me.TextEdit31.Size = New System.Drawing.Size(271, 20)
-        Me.TextEdit31.TabIndex = 7
+        Me.TextEdit31.TabIndex = 65
         '
         'TextEdit35
         '
-        Me.TextEdit35.EnterMoveNextControl = True
         Me.TextEdit35.Location = New System.Drawing.Point(160, 234)
         Me.TextEdit35.Name = "TextEdit35"
         Me.TextEdit35.Properties.ReadOnly = True
         Me.TextEdit35.Size = New System.Drawing.Size(271, 20)
-        Me.TextEdit35.TabIndex = 8
+        Me.TextEdit35.TabIndex = 61
         '
         'TextEdit36
         '
-        Me.TextEdit36.EnterMoveNextControl = True
         Me.TextEdit36.Location = New System.Drawing.Point(160, 165)
         Me.TextEdit36.Name = "TextEdit36"
         Me.TextEdit36.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextEdit36.Properties.MaxLength = 4
         Me.TextEdit36.Size = New System.Drawing.Size(271, 20)
-        Me.TextEdit36.TabIndex = 5
+        Me.TextEdit36.TabIndex = 60
         '
         'TextEdit37
         '
-        Me.TextEdit37.EnterMoveNextControl = True
         Me.TextEdit37.Location = New System.Drawing.Point(160, 142)
         Me.TextEdit37.Name = "TextEdit37"
         Me.TextEdit37.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextEdit37.Properties.MaxLength = 4
         Me.TextEdit37.Size = New System.Drawing.Size(271, 20)
-        Me.TextEdit37.TabIndex = 4
+        Me.TextEdit37.TabIndex = 59
         '
         'TextEdit38
         '
-        Me.TextEdit38.EnterMoveNextControl = True
         Me.TextEdit38.Location = New System.Drawing.Point(160, 118)
         Me.TextEdit38.Name = "TextEdit38"
         Me.TextEdit38.Size = New System.Drawing.Size(271, 20)
-        Me.TextEdit38.TabIndex = 3
+        Me.TextEdit38.TabIndex = 58
         '
         'TextEdit39
         '
-        Me.TextEdit39.EnterMoveNextControl = True
         Me.TextEdit39.Location = New System.Drawing.Point(160, 94)
         Me.TextEdit39.Name = "TextEdit39"
         Me.TextEdit39.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.TextEdit39.Properties.Mask.BeepOnError = True
         Me.TextEdit39.Properties.MaxLength = 4
         Me.TextEdit39.Size = New System.Drawing.Size(271, 20)
-        Me.TextEdit39.TabIndex = 2
+        Me.TextEdit39.TabIndex = 57
         '
         'TextEdit40
         '
-        Me.TextEdit40.EnterMoveNextControl = True
         Me.TextEdit40.Location = New System.Drawing.Point(160, 70)
         Me.TextEdit40.Name = "TextEdit40"
         Me.TextEdit40.Size = New System.Drawing.Size(271, 20)
-        Me.TextEdit40.TabIndex = 1
+        Me.TextEdit40.TabIndex = 56
         '
         'TextEdit41
         '
-        Me.TextEdit41.EnterMoveNextControl = True
         Me.TextEdit41.Location = New System.Drawing.Point(160, 46)
         Me.TextEdit41.Name = "TextEdit41"
         Me.TextEdit41.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.TextEdit41.Properties.MaxLength = 2
         Me.TextEdit41.Size = New System.Drawing.Size(220, 20)
-        Me.TextEdit41.TabIndex = 0
+        Me.TextEdit41.TabIndex = 55
         '
         'ComboBoxEdit3
         '
-        Me.ComboBoxEdit3.AllowDrop = True
-        Me.ComboBoxEdit3.AllowHtmlTextInToolTip = DevExpress.Utils.DefaultBoolean.[False]
-        Me.ComboBoxEdit3.Enabled = False
-        Me.ComboBoxEdit3.EnterMoveNextControl = True
         Me.ComboBoxEdit3.Location = New System.Drawing.Point(160, 310)
         Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
         Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit3.Properties.Items.AddRange(New Object() {"Y", "N"})
-        Me.ComboBoxEdit3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.ComboBoxEdit3.Size = New System.Drawing.Size(46, 20)
-        Me.ComboBoxEdit3.TabIndex = 11
+        Me.ComboBoxEdit3.TabIndex = 54
         '
         'ComboBoxEdit4
         '
-        Me.ComboBoxEdit4.EnterMoveNextControl = True
         Me.ComboBoxEdit4.Location = New System.Drawing.Point(160, 334)
         Me.ComboBoxEdit4.Name = "ComboBoxEdit4"
         Me.ComboBoxEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit4.Properties.Items.AddRange(New Object() {"Y", "N"})
-        Me.ComboBoxEdit4.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.ComboBoxEdit4.Size = New System.Drawing.Size(46, 20)
-        Me.ComboBoxEdit4.TabIndex = 12
+        Me.ComboBoxEdit4.TabIndex = 53
         '
         'PanelControl11
         '
@@ -479,7 +445,7 @@ Partial Class FrmConfigurationMenu
         Me.PanelControl11.Location = New System.Drawing.Point(153, 0)
         Me.PanelControl11.Name = "PanelControl11"
         Me.PanelControl11.Size = New System.Drawing.Size(532, 39)
-        Me.PanelControl11.TabIndex = 13
+        Me.PanelControl11.TabIndex = 52
         '
         'SimpleButton15
         '
@@ -491,7 +457,7 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton15.Location = New System.Drawing.Point(6, 7)
         Me.SimpleButton15.Name = "SimpleButton15"
         Me.SimpleButton15.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton15.TabIndex = 0
+        Me.SimpleButton15.TabIndex = 52
         Me.SimpleButton15.Text = "Edit"
         '
         'SimpleButton12
@@ -504,7 +470,7 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton12.Location = New System.Drawing.Point(160, 7)
         Me.SimpleButton12.Name = "SimpleButton12"
         Me.SimpleButton12.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton12.TabIndex = 2
+        Me.SimpleButton12.TabIndex = 51
         Me.SimpleButton12.Text = "Close"
         '
         'SimpleButton13
@@ -517,7 +483,7 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton13.Location = New System.Drawing.Point(83, 7)
         Me.SimpleButton13.Name = "SimpleButton13"
         Me.SimpleButton13.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton13.TabIndex = 1
+        Me.SimpleButton13.TabIndex = 50
         Me.SimpleButton13.Text = "Save"
         '
         'Panel5
@@ -700,11 +666,10 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit19
         '
-        Me.TextEdit19.EnterMoveNextControl = True
         Me.TextEdit19.Location = New System.Drawing.Point(5, 112)
         Me.TextEdit19.Name = "TextEdit19"
         Me.TextEdit19.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit19.TabIndex = 3
+        Me.TextEdit19.TabIndex = 50
         '
         'PanelControl5
         '
@@ -726,7 +691,7 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton2.Location = New System.Drawing.Point(86, 5)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 49
         Me.SimpleButton2.Text = "Close"
         '
         'SimpleButton1
@@ -739,59 +704,52 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 5)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 48
         Me.SimpleButton1.Text = "Save + Test"
         '
         'TextEdit5
         '
-        Me.TextEdit5.EnterMoveNextControl = True
         Me.TextEdit5.Location = New System.Drawing.Point(5, 178)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit5.TabIndex = 6
+        Me.TextEdit5.TabIndex = 45
         '
         'TextEdit4
         '
-        Me.TextEdit4.EnterMoveNextControl = True
         Me.TextEdit4.Location = New System.Drawing.Point(5, 156)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit4.TabIndex = 5
+        Me.TextEdit4.TabIndex = 44
         '
         'TextEdit3
         '
-        Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(5, 90)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit3.TabIndex = 2
+        Me.TextEdit3.TabIndex = 43
         '
         'TextEdit2
         '
-        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(5, 134)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit2.TabIndex = 4
+        Me.TextEdit2.TabIndex = 42
         '
         'TextEdit1
         '
-        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(5, 68)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit1.TabIndex = 1
+        Me.TextEdit1.TabIndex = 41
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.EnterMoveNextControl = True
         Me.ComboBoxEdit1.Location = New System.Drawing.Point(5, 46)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"LOKAL", "STAGING"})
-        Me.ComboBoxEdit1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(236, 20)
-        Me.ComboBoxEdit1.TabIndex = 7
+        Me.ComboBoxEdit1.TabIndex = 40
         '
         'Panel1
         '
@@ -946,7 +904,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit13
         '
-        Me.TextEdit13.EnterMoveNextControl = True
         Me.TextEdit13.Location = New System.Drawing.Point(5, 222)
         Me.TextEdit13.Name = "TextEdit13"
         Me.TextEdit13.Size = New System.Drawing.Size(236, 20)
@@ -954,7 +911,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit12
         '
-        Me.TextEdit12.EnterMoveNextControl = True
         Me.TextEdit12.Location = New System.Drawing.Point(5, 197)
         Me.TextEdit12.Name = "TextEdit12"
         Me.TextEdit12.Size = New System.Drawing.Size(236, 20)
@@ -962,7 +918,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit11
         '
-        Me.TextEdit11.EnterMoveNextControl = True
         Me.TextEdit11.Location = New System.Drawing.Point(5, 47)
         Me.TextEdit11.Name = "TextEdit11"
         Me.TextEdit11.Size = New System.Drawing.Size(236, 20)
@@ -1048,7 +1003,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit6
         '
-        Me.TextEdit6.EnterMoveNextControl = True
         Me.TextEdit6.Location = New System.Drawing.Point(5, 172)
         Me.TextEdit6.Name = "TextEdit6"
         Me.TextEdit6.Size = New System.Drawing.Size(236, 20)
@@ -1056,7 +1010,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit7
         '
-        Me.TextEdit7.EnterMoveNextControl = True
         Me.TextEdit7.Location = New System.Drawing.Point(5, 147)
         Me.TextEdit7.Name = "TextEdit7"
         Me.TextEdit7.Size = New System.Drawing.Size(236, 20)
@@ -1064,7 +1017,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit8
         '
-        Me.TextEdit8.EnterMoveNextControl = True
         Me.TextEdit8.Location = New System.Drawing.Point(5, 97)
         Me.TextEdit8.Name = "TextEdit8"
         Me.TextEdit8.Size = New System.Drawing.Size(236, 20)
@@ -1072,7 +1024,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit9
         '
-        Me.TextEdit9.EnterMoveNextControl = True
         Me.TextEdit9.Location = New System.Drawing.Point(5, 122)
         Me.TextEdit9.Name = "TextEdit9"
         Me.TextEdit9.Size = New System.Drawing.Size(236, 20)
@@ -1080,7 +1031,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit10
         '
-        Me.TextEdit10.EnterMoveNextControl = True
         Me.TextEdit10.Location = New System.Drawing.Point(5, 72)
         Me.TextEdit10.Name = "TextEdit10"
         Me.TextEdit10.Size = New System.Drawing.Size(236, 20)
@@ -1254,19 +1204,16 @@ Partial Class FrmConfigurationMenu
         '
         'ComboBoxEdit14
         '
-        Me.ComboBoxEdit14.EnterMoveNextControl = True
         Me.ComboBoxEdit14.Location = New System.Drawing.Point(6, 215)
         Me.ComboBoxEdit14.Name = "ComboBoxEdit14"
         Me.ComboBoxEdit14.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit14.Properties.Items.AddRange(New Object() {"RIGHT", "LEFT", "NONE"})
-        Me.ComboBoxEdit14.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.ComboBoxEdit14.Size = New System.Drawing.Size(148, 20)
         Me.ComboBoxEdit14.TabIndex = 66
         '
         'TextEdit14
         '
         Me.TextEdit14.EditValue = "0"
-        Me.TextEdit14.EnterMoveNextControl = True
         Me.TextEdit14.Location = New System.Drawing.Point(160, 215)
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Size = New System.Drawing.Size(82, 20)
@@ -1274,7 +1221,6 @@ Partial Class FrmConfigurationMenu
         '
         'ToggleSwitch2
         '
-        Me.ToggleSwitch2.EnterMoveNextControl = True
         Me.ToggleSwitch2.Location = New System.Drawing.Point(6, 238)
         Me.ToggleSwitch2.Name = "ToggleSwitch2"
         Me.ToggleSwitch2.Properties.OffText = "Off"
@@ -1284,20 +1230,17 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit18
         '
-        Me.TextEdit18.EnterMoveNextControl = True
         Me.TextEdit18.Location = New System.Drawing.Point(6, 47)
         Me.TextEdit18.Name = "TextEdit18"
         Me.TextEdit18.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit18.TabIndex = 1
+        Me.TextEdit18.TabIndex = 63
         '
         'ComboBoxEdit5
         '
-        Me.ComboBoxEdit5.EnterMoveNextControl = True
         Me.ComboBoxEdit5.Location = New System.Drawing.Point(6, 167)
         Me.ComboBoxEdit5.Name = "ComboBoxEdit5"
         Me.ComboBoxEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit5.Properties.Items.AddRange(New Object() {"KG", "LB"})
-        Me.ComboBoxEdit5.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.ComboBoxEdit5.Size = New System.Drawing.Size(236, 20)
         Me.ComboBoxEdit5.TabIndex = 60
         '
@@ -1349,7 +1292,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit17
         '
-        Me.TextEdit17.EnterMoveNextControl = True
         Me.TextEdit17.Location = New System.Drawing.Point(6, 191)
         Me.TextEdit17.Name = "TextEdit17"
         Me.TextEdit17.Size = New System.Drawing.Size(236, 20)
@@ -1366,7 +1308,7 @@ Partial Class FrmConfigurationMenu
         Me.PanelControl8.Location = New System.Drawing.Point(2, 2)
         Me.PanelControl8.Name = "PanelControl8"
         Me.PanelControl8.Size = New System.Drawing.Size(528, 39)
-        Me.PanelControl8.TabIndex = 0
+        Me.PanelControl8.TabIndex = 48
         '
         'SimpleButton18
         '
@@ -1378,7 +1320,7 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton18.Location = New System.Drawing.Point(235, 5)
         Me.SimpleButton18.Name = "SimpleButton18"
         Me.SimpleButton18.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton18.TabIndex = 4
+        Me.SimpleButton18.TabIndex = 52
         Me.SimpleButton18.Text = "Cancel"
         '
         'SimpleButton14
@@ -1391,7 +1333,7 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton14.Location = New System.Drawing.Point(158, 5)
         Me.SimpleButton14.Name = "SimpleButton14"
         Me.SimpleButton14.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton14.TabIndex = 2
+        Me.SimpleButton14.TabIndex = 51
         Me.SimpleButton14.Text = "Delete"
         '
         'SimpleButton6
@@ -1404,7 +1346,7 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton6.Location = New System.Drawing.Point(4, 5)
         Me.SimpleButton6.Name = "SimpleButton6"
         Me.SimpleButton6.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton6.TabIndex = 0
+        Me.SimpleButton6.TabIndex = 50
         Me.SimpleButton6.Text = "Add"
         '
         'SimpleButton7
@@ -1417,7 +1359,7 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton7.Location = New System.Drawing.Point(314, 5)
         Me.SimpleButton7.Name = "SimpleButton7"
         Me.SimpleButton7.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton7.TabIndex = 0
+        Me.SimpleButton7.TabIndex = 49
         Me.SimpleButton7.Text = "Close"
         '
         'SimpleButton8
@@ -1430,13 +1372,12 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton8.Location = New System.Drawing.Point(81, 5)
         Me.SimpleButton8.Name = "SimpleButton8"
         Me.SimpleButton8.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton8.TabIndex = 1
+        Me.SimpleButton8.TabIndex = 48
         Me.SimpleButton8.Text = "Save"
         '
         'TextEdit20
         '
         Me.TextEdit20.EditValue = ""
-        Me.TextEdit20.EnterMoveNextControl = True
         Me.TextEdit20.Location = New System.Drawing.Point(6, 143)
         Me.TextEdit20.Name = "TextEdit20"
         Me.TextEdit20.Size = New System.Drawing.Size(236, 20)
@@ -1444,7 +1385,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit21
         '
-        Me.TextEdit21.EnterMoveNextControl = True
         Me.TextEdit21.Location = New System.Drawing.Point(6, 95)
         Me.TextEdit21.Name = "TextEdit21"
         Me.TextEdit21.Size = New System.Drawing.Size(236, 20)
@@ -1453,7 +1393,6 @@ Partial Class FrmConfigurationMenu
         'TextEdit22
         '
         Me.TextEdit22.EditValue = ""
-        Me.TextEdit22.EnterMoveNextControl = True
         Me.TextEdit22.Location = New System.Drawing.Point(6, 119)
         Me.TextEdit22.Name = "TextEdit22"
         Me.TextEdit22.Size = New System.Drawing.Size(236, 20)
@@ -1461,7 +1400,6 @@ Partial Class FrmConfigurationMenu
         '
         'TextEdit23
         '
-        Me.TextEdit23.EnterMoveNextControl = True
         Me.TextEdit23.Location = New System.Drawing.Point(6, 71)
         Me.TextEdit23.Name = "TextEdit23"
         Me.TextEdit23.Size = New System.Drawing.Size(236, 20)
@@ -1606,7 +1544,7 @@ Partial Class FrmConfigurationMenu
         Me.BackstageViewTabItem1.Caption = "General"
         Me.BackstageViewTabItem1.ContentControl = Me.BackstageViewClientControl1
         Me.BackstageViewTabItem1.Name = "BackstageViewTabItem1"
-        Me.BackstageViewTabItem1.Selected = False
+        Me.BackstageViewTabItem1.Selected = True
         '
         'BackstageViewTabItem2
         '
@@ -1627,7 +1565,7 @@ Partial Class FrmConfigurationMenu
         Me.BackstageViewTabItem4.Caption = "IP Indicator"
         Me.BackstageViewTabItem4.ContentControl = Me.BackstageViewClientControl4
         Me.BackstageViewTabItem4.Name = "BackstageViewTabItem4"
-        Me.BackstageViewTabItem4.Selected = True
+        Me.BackstageViewTabItem4.Selected = False
         '
         'BunifuGradientPanel1
         '
@@ -1992,6 +1930,20 @@ Partial Class FrmConfigurationMenu
         Me.BackstageViewClientControl5.Name = "BackstageViewClientControl5"
         Me.BackstageViewClientControl5.Size = New System.Drawing.Size(640, 489)
         Me.BackstageViewClientControl5.TabIndex = 5
+        '
+        'SimpleButton19
+        '
+        Me.SimpleButton19.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton19.Appearance.ForeColor = System.Drawing.Color.Green
+        Me.SimpleButton19.Appearance.Options.UseFont = True
+        Me.SimpleButton19.Appearance.Options.UseForeColor = True
+        Me.SimpleButton19.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat
+        Me.SimpleButton19.Image = CType(resources.GetObject("SimpleButton19.Image"), System.Drawing.Image)
+        Me.SimpleButton19.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
+        Me.SimpleButton19.Location = New System.Drawing.Point(385, 45)
+        Me.SimpleButton19.Name = "SimpleButton19"
+        Me.SimpleButton19.Size = New System.Drawing.Size(46, 22)
+        Me.SimpleButton19.TabIndex = 69
         '
         'FrmConfigurationMenu
         '

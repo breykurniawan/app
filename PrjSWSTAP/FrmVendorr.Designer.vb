@@ -25,6 +25,7 @@ Partial Class FrmVendorr
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmVendorr))
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl67 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl68 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl69 = New DevExpress.XtraEditors.LabelControl()
@@ -33,7 +34,6 @@ Partial Class FrmVendorr
         Me.LabelControl72 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl73 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl74 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl66 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl103 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
@@ -106,7 +106,7 @@ Partial Class FrmVendorr
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl67)
         Me.Panel7.Controls.Add(Me.LabelControl68)
         Me.Panel7.Controls.Add(Me.LabelControl69)
@@ -121,6 +121,16 @@ Partial Class FrmVendorr
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(153, 223)
         Me.Panel7.TabIndex = 72
+        '
+        'LabelControl1
+        '
+        Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.LabelControl1.Appearance.Options.UseFont = True
+        Me.LabelControl1.Location = New System.Drawing.Point(12, 162)
+        Me.LabelControl1.Name = "LabelControl1"
+        Me.LabelControl1.Size = New System.Drawing.Size(89, 13)
+        Me.LabelControl1.TabIndex = 34
+        Me.LabelControl1.Text = "Internal Vendor"
         '
         'LabelControl67
         '
@@ -202,16 +212,6 @@ Partial Class FrmVendorr
         Me.LabelControl74.TabIndex = 26
         Me.LabelControl74.Text = "Vendor Code"
         '
-        'LabelControl1
-        '
-        Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl1.Appearance.Options.UseFont = True
-        Me.LabelControl1.Location = New System.Drawing.Point(12, 162)
-        Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(89, 13)
-        Me.LabelControl1.TabIndex = 34
-        Me.LabelControl1.Text = "Internal Vendor"
-        '
         'LabelControl66
         '
         Me.LabelControl66.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
@@ -286,8 +286,8 @@ Partial Class FrmVendorr
         '
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
-        Me.GridView1.OptionsSelection.ShowCheckBoxSelectorInColumnHeader = DevExpress.Utils.DefaultBoolean.[True]
-        Me.GridView1.OptionsSelection.ShowCheckBoxSelectorInGroupRow = DevExpress.Utils.DefaultBoolean.[True]
+        Me.GridView1.OptionsSELECTion.ShowCheckBoxSELECTorInColumnHeader = DevExpress.Utils.DefaultBoolean.[True]
+        Me.GridView1.OptionsSELECTion.ShowCheckBoxSELECTorInGroupRow = DevExpress.Utils.DefaultBoolean.[True]
         Me.GridView1.OptionsView.ShowGroupPanel = False
         '
         'GridControl1
@@ -342,20 +342,20 @@ Partial Class FrmVendorr
         Me.TextEdit13.EnterMoveNextControl = True
         Me.TextEdit13.Location = New System.Drawing.Point(557, 174)
         Me.TextEdit13.Name = "TextEdit13"
-        Me.TextEdit13.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit13.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit13.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit13.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit13.TabIndex = 12
+        Me.TextEdit13.TabIndex = 88
         '
         'TextEdit9
         '
         Me.TextEdit9.EnterMoveNextControl = True
         Me.TextEdit9.Location = New System.Drawing.Point(557, 86)
         Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit9.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit9.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit9.TabIndex = 8
+        Me.TextEdit9.TabIndex = 89
         '
         'TextEdit8
         '
@@ -363,11 +363,11 @@ Partial Class FrmVendorr
         Me.TextEdit8.Location = New System.Drawing.Point(157, 240)
         Me.TextEdit8.Name = "TextEdit8"
         Me.TextEdit8.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit8.TabIndex = 7
+        Me.TextEdit8.TabIndex = 91
         '
         'PanelControl2
         '
-        Me.PanelControl2.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.PanelControl2.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.PanelControl2.Appearance.ForeColor = System.Drawing.Color.Black
         Me.PanelControl2.Appearance.Options.UseBackColor = True
         Me.PanelControl2.Appearance.Options.UseForeColor = True
@@ -418,7 +418,7 @@ Partial Class FrmVendorr
         Me.SimpleButton4.Location = New System.Drawing.Point(242, 4)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 3
+        Me.SimpleButton4.TabIndex = 55
         Me.SimpleButton4.Text = "Cancel"
         '
         'SimpleButton2
@@ -431,7 +431,7 @@ Partial Class FrmVendorr
         Me.SimpleButton2.Location = New System.Drawing.Point(84, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 54
         Me.SimpleButton2.Text = "Save"
         '
         'SimpleButton1
@@ -444,7 +444,7 @@ Partial Class FrmVendorr
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 53
         Me.SimpleButton1.Text = "Add"
         '
         'SimpleButton3
@@ -457,7 +457,7 @@ Partial Class FrmVendorr
         Me.SimpleButton3.Location = New System.Drawing.Point(163, 4)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.TabIndex = 52
         Me.SimpleButton3.Text = "Delete"
         '
         'SimpleButton5
@@ -470,83 +470,76 @@ Partial Class FrmVendorr
         Me.SimpleButton5.Location = New System.Drawing.Point(323, 6)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton5.TabIndex = 0
+        Me.SimpleButton5.TabIndex = 54
         Me.SimpleButton5.Text = "Close"
         '
         'TextEdit1
         '
-        Me.TextEdit1.EnterMoveNextControl = True
         Me.TextEdit1.Location = New System.Drawing.Point(157, 86)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.MaxLength = 10
         Me.TextEdit1.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.TextEdit1.TabIndex = 94
         '
         'TextEdit2
         '
-        Me.TextEdit2.EnterMoveNextControl = True
         Me.TextEdit2.Location = New System.Drawing.Point(157, 108)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.MaxLength = 40
         Me.TextEdit2.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit2.TabIndex = 1
+        Me.TextEdit2.TabIndex = 95
         '
         'TextEdit3
         '
-        Me.TextEdit3.EnterMoveNextControl = True
         Me.TextEdit3.Location = New System.Drawing.Point(157, 130)
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit3.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit3.Properties.MaxLength = 25
         Me.TextEdit3.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit3.TabIndex = 2
+        Me.TextEdit3.TabIndex = 96
         '
         'TextEdit4
         '
-        Me.TextEdit4.EnterMoveNextControl = True
         Me.TextEdit4.Location = New System.Drawing.Point(157, 152)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Properties.MaxLength = 100
         Me.TextEdit4.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit4.TabIndex = 3
+        Me.TextEdit4.TabIndex = 97
         '
         'TextEdit5
         '
-        Me.TextEdit5.EnterMoveNextControl = True
         Me.TextEdit5.Location = New System.Drawing.Point(157, 174)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Properties.MaxLength = 100
         Me.TextEdit5.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit5.TabIndex = 4
+        Me.TextEdit5.TabIndex = 98
         '
         'TextEdit6
         '
-        Me.TextEdit6.EnterMoveNextControl = True
         Me.TextEdit6.Location = New System.Drawing.Point(157, 196)
         Me.TextEdit6.Name = "TextEdit6"
-        Me.TextEdit6.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit6.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit6.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit6.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit6.TabIndex = 5
+        Me.TextEdit6.TabIndex = 99
         '
         'TextEdit7
         '
-        Me.TextEdit7.EnterMoveNextControl = True
         Me.TextEdit7.Location = New System.Drawing.Point(157, 218)
         Me.TextEdit7.Name = "TextEdit7"
         Me.TextEdit7.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit7.TabIndex = 6
+        Me.TextEdit7.TabIndex = 100
         '
         'TextEdit10
         '
         Me.TextEdit10.EnterMoveNextControl = True
         Me.TextEdit10.Location = New System.Drawing.Point(557, 108)
         Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit10.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit10.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit10.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit10.TabIndex = 9
+        Me.TextEdit10.TabIndex = 101
         '
         'TextEdit11
         '
@@ -554,17 +547,17 @@ Partial Class FrmVendorr
         Me.TextEdit11.Location = New System.Drawing.Point(557, 130)
         Me.TextEdit11.Name = "TextEdit11"
         Me.TextEdit11.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit11.TabIndex = 10
+        Me.TextEdit11.TabIndex = 102
         '
         'TextEdit12
         '
         Me.TextEdit12.EnterMoveNextControl = True
         Me.TextEdit12.Location = New System.Drawing.Point(557, 152)
         Me.TextEdit12.Name = "TextEdit12"
-        Me.TextEdit12.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextEdit12.Properties.Appearance.BackColor = System.Drawing.Color.FROMArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextEdit12.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit12.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit12.TabIndex = 11
+        Me.TextEdit12.TabIndex = 103
         '
         'TextEdit14
         '
@@ -572,7 +565,7 @@ Partial Class FrmVendorr
         Me.TextEdit14.Location = New System.Drawing.Point(557, 196)
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit14.TabIndex = 13
+        Me.TextEdit14.TabIndex = 104
         '
         'TextEdit15
         '
@@ -580,17 +573,16 @@ Partial Class FrmVendorr
         Me.TextEdit15.Location = New System.Drawing.Point(557, 218)
         Me.TextEdit15.Name = "TextEdit15"
         Me.TextEdit15.Size = New System.Drawing.Size(236, 20)
-        Me.TextEdit15.TabIndex = 14
+        Me.TextEdit15.TabIndex = 105
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.EnterMoveNextControl = True
         Me.ComboBoxEdit1.Location = New System.Drawing.Point(557, 240)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"N", "Y"})
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(78, 20)
-        Me.ComboBoxEdit1.TabIndex = 15
+        Me.ComboBoxEdit1.TabIndex = 107
         '
         'FrmVendorr
         '

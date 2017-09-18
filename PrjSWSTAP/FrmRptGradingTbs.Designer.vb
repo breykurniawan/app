@@ -80,24 +80,22 @@ Partial Class FrmRptGradingTbs
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
-        Me.DateEdit1.EnterMoveNextControl = True
         Me.DateEdit1.Location = New System.Drawing.Point(159, 88)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Size = New System.Drawing.Size(192, 20)
-        Me.DateEdit1.TabIndex = 0
+        Me.DateEdit1.TabIndex = 134
         '
         'DateEdit2
         '
         Me.DateEdit2.EditValue = Nothing
-        Me.DateEdit2.EnterMoveNextControl = True
         Me.DateEdit2.Location = New System.Drawing.Point(159, 111)
         Me.DateEdit2.Name = "DateEdit2"
         Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Size = New System.Drawing.Size(192, 20)
-        Me.DateEdit2.TabIndex = 1
+        Me.DateEdit2.TabIndex = 139
         '
         'BunifuGradientPanel2
         '
@@ -129,7 +127,7 @@ Partial Class FrmRptGradingTbs
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FROMArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel7.Controls.Add(Me.LabelControl2)
         Me.Panel7.Controls.Add(Me.LabelControl1)
         Me.Panel7.Controls.Add(Me.LabelControl64)
@@ -200,7 +198,7 @@ Partial Class FrmRptGradingTbs
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.TabIndex = 53
         Me.SimpleButton1.Text = "View"
         '
         'SimpleButton2
@@ -213,7 +211,7 @@ Partial Class FrmRptGradingTbs
         Me.SimpleButton2.Location = New System.Drawing.Point(82, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(107, 27)
-        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.TabIndex = 128
         Me.SimpleButton2.Text = "Exsport to Excels"
         '
         'SimpleButton4
@@ -226,7 +224,7 @@ Partial Class FrmRptGradingTbs
         Me.SimpleButton4.Location = New System.Drawing.Point(197, 7)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 27)
-        Me.SimpleButton4.TabIndex = 0
+        Me.SimpleButton4.TabIndex = 130
         Me.SimpleButton4.Text = "Close"
         '
         'FrmRptGradingTbs
