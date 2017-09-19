@@ -239,10 +239,7 @@ Module ModuleSWS
         ConStringStaging = "Data Source=(DESCRIPTION=" + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)" + "(HOST=" & DBSourceStaging & ")" + "(PORT=" & DBPortStaging & ")))(CONNECT_DATA=(SERVER=DEDICATED)" + "(SERVICE_NAME=" & DBVerStaging & ")));" + "User Id=" & DBUserStaging & ";Password=" & DBPassStaging & ";"
     End Sub
     Public Sub GetLocalDbConfig()
-        'SERVICES_NAME
         ConStringLocal = "Data Source=(DESCRIPTION=" + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)" + "(HOST=" & DBSourceLocal & ")" + "(PORT=" & DBPortLocal & ")))(CONNECT_DATA=(SERVER=DEDICATED)" + "(SERVICE_NAME=" & DBVerLocal & ")));" + "User Id=" & DBUserLocal & ";Password=" & DBPassLocal & ";"
-        'SID
-
     End Sub
     Public Function StatusSite() As Boolean
         StatusSite = False
@@ -283,7 +280,9 @@ Module ModuleSWS
         OpenConnStaging = False
         GetStagingDbConfig()
         Try
+            CONN1 = New OracleConnection(ConStringStaging)
             If CONN1.State = ConnectionState.Closed Then
+                CONN1 = New OracleConnection(ConStringStaging)
                 CONN1.Open()
                 OpenConnStaging = True
             Else
@@ -293,6 +292,7 @@ Module ModuleSWS
             CONN1.Close()
             OpenConnStaging = False
         End Try
+        Return OpenConnStaging()
     End Function
     Public Sub CloseConnStaging()
         If CONN1.State = ConnectionState.Open Then

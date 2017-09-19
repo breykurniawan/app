@@ -23,14 +23,10 @@ Partial Class FrmConfigurationMenu
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmConfigurationMenu))
         Me.BackstageViewControl1 = New DevExpress.XtraBars.Ribbon.BackstageViewControl()
         Me.BackstageViewClientControl1 = New DevExpress.XtraBars.Ribbon.BackstageViewClientControl()
-        Me.TextEdit26 = New DevExpress.XtraEditors.TextEdit()
-        Me.ComboBoxEdit6 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.TextEdit24 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
-        Me.SimpleButton22 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton21 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton20 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton19 = New DevExpress.XtraEditors.SimpleButton()
+        Me.ComboBoxEdit8 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.ComboBoxEdit7 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.ComboBoxEdit6 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit31 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit35 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit36 = New DevExpress.XtraEditors.TextEdit()
@@ -46,7 +42,6 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton12 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton13 = New DevExpress.XtraEditors.SimpleButton()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.LabelControl53 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl32 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl33 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl34 = New DevExpress.XtraEditors.LabelControl()
@@ -185,15 +180,12 @@ Partial Class FrmConfigurationMenu
         Me.ComboBoxEdit12 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit13 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.BackstageViewClientControl5 = New DevExpress.XtraBars.Ribbon.BackstageViewClientControl()
-        Me.BW1 = New System.ComponentModel.BackgroundWorker()
-        Me.resultLabel = New DevExpress.XtraEditors.LabelControl()
         CType(Me.BackstageViewControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.BackstageViewControl1.SuspendLayout()
         Me.BackstageViewClientControl1.SuspendLayout()
-        CType(Me.TextEdit26.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit24.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit31.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit36.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -314,14 +306,10 @@ Partial Class FrmConfigurationMenu
         '
         'BackstageViewClientControl1
         '
-        Me.BackstageViewClientControl1.Controls.Add(Me.TextEdit26)
-        Me.BackstageViewClientControl1.Controls.Add(Me.ComboBoxEdit6)
-        Me.BackstageViewClientControl1.Controls.Add(Me.TextEdit24)
-        Me.BackstageViewClientControl1.Controls.Add(Me.TextEdit16)
-        Me.BackstageViewClientControl1.Controls.Add(Me.SimpleButton22)
-        Me.BackstageViewClientControl1.Controls.Add(Me.SimpleButton21)
-        Me.BackstageViewClientControl1.Controls.Add(Me.SimpleButton20)
         Me.BackstageViewClientControl1.Controls.Add(Me.SimpleButton19)
+        Me.BackstageViewClientControl1.Controls.Add(Me.ComboBoxEdit8)
+        Me.BackstageViewClientControl1.Controls.Add(Me.ComboBoxEdit7)
+        Me.BackstageViewClientControl1.Controls.Add(Me.ComboBoxEdit6)
         Me.BackstageViewClientControl1.Controls.Add(Me.TextEdit31)
         Me.BackstageViewClientControl1.Controls.Add(Me.TextEdit35)
         Me.BackstageViewClientControl1.Controls.Add(Me.TextEdit36)
@@ -339,86 +327,6 @@ Partial Class FrmConfigurationMenu
         Me.BackstageViewClientControl1.Size = New System.Drawing.Size(685, 489)
         Me.BackstageViewClientControl1.TabIndex = 0
         '
-        'TextEdit26
-        '
-        Me.TextEdit26.EnterMoveNextControl = True
-        Me.TextEdit26.Location = New System.Drawing.Point(160, 280)
-        Me.TextEdit26.Name = "TextEdit26"
-        Me.TextEdit26.Properties.ReadOnly = True
-        Me.TextEdit26.Size = New System.Drawing.Size(220, 20)
-        Me.TextEdit26.TabIndex = 58
-        '
-        'ComboBoxEdit6
-        '
-        Me.ComboBoxEdit6.EnterMoveNextControl = True
-        Me.ComboBoxEdit6.Location = New System.Drawing.Point(160, 355)
-        Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
-        Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit6.Properties.Items.AddRange(New Object() {"Y", "N"})
-        Me.ComboBoxEdit6.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
-        Me.ComboBoxEdit6.Size = New System.Drawing.Size(46, 20)
-        Me.ComboBoxEdit6.TabIndex = 57
-        '
-        'TextEdit24
-        '
-        Me.TextEdit24.EnterMoveNextControl = True
-        Me.TextEdit24.Location = New System.Drawing.Point(160, 257)
-        Me.TextEdit24.Name = "TextEdit24"
-        Me.TextEdit24.Properties.ReadOnly = True
-        Me.TextEdit24.Size = New System.Drawing.Size(220, 20)
-        Me.TextEdit24.TabIndex = 56
-        '
-        'TextEdit16
-        '
-        Me.TextEdit16.EnterMoveNextControl = True
-        Me.TextEdit16.Location = New System.Drawing.Point(160, 188)
-        Me.TextEdit16.Name = "TextEdit16"
-        Me.TextEdit16.Properties.ReadOnly = True
-        Me.TextEdit16.Size = New System.Drawing.Size(220, 20)
-        Me.TextEdit16.TabIndex = 55
-        '
-        'SimpleButton22
-        '
-        Me.SimpleButton22.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.SimpleButton22.Appearance.ForeColor = System.Drawing.Color.Green
-        Me.SimpleButton22.Appearance.Options.UseFont = True
-        Me.SimpleButton22.Appearance.Options.UseForeColor = True
-        Me.SimpleButton22.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat
-        Me.SimpleButton22.Image = CType(resources.GetObject("SimpleButton22.Image"), System.Drawing.Image)
-        Me.SimpleButton22.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.SimpleButton22.Location = New System.Drawing.Point(385, 280)
-        Me.SimpleButton22.Name = "SimpleButton22"
-        Me.SimpleButton22.Size = New System.Drawing.Size(46, 20)
-        Me.SimpleButton22.TabIndex = 54
-        '
-        'SimpleButton21
-        '
-        Me.SimpleButton21.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.SimpleButton21.Appearance.ForeColor = System.Drawing.Color.Green
-        Me.SimpleButton21.Appearance.Options.UseFont = True
-        Me.SimpleButton21.Appearance.Options.UseForeColor = True
-        Me.SimpleButton21.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat
-        Me.SimpleButton21.Image = CType(resources.GetObject("SimpleButton21.Image"), System.Drawing.Image)
-        Me.SimpleButton21.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.SimpleButton21.Location = New System.Drawing.Point(385, 257)
-        Me.SimpleButton21.Name = "SimpleButton21"
-        Me.SimpleButton21.Size = New System.Drawing.Size(46, 20)
-        Me.SimpleButton21.TabIndex = 53
-        '
-        'SimpleButton20
-        '
-        Me.SimpleButton20.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.SimpleButton20.Appearance.ForeColor = System.Drawing.Color.Green
-        Me.SimpleButton20.Appearance.Options.UseFont = True
-        Me.SimpleButton20.Appearance.Options.UseForeColor = True
-        Me.SimpleButton20.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat
-        Me.SimpleButton20.Image = CType(resources.GetObject("SimpleButton20.Image"), System.Drawing.Image)
-        Me.SimpleButton20.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.SimpleButton20.Location = New System.Drawing.Point(385, 188)
-        Me.SimpleButton20.Name = "SimpleButton20"
-        Me.SimpleButton20.Size = New System.Drawing.Size(46, 20)
-        Me.SimpleButton20.TabIndex = 52
-        '
         'SimpleButton19
         '
         Me.SimpleButton19.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
@@ -428,10 +336,39 @@ Partial Class FrmConfigurationMenu
         Me.SimpleButton19.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat
         Me.SimpleButton19.Image = CType(resources.GetObject("SimpleButton19.Image"), System.Drawing.Image)
         Me.SimpleButton19.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.SimpleButton19.Location = New System.Drawing.Point(385, 46)
+        Me.SimpleButton19.Location = New System.Drawing.Point(385, 45)
         Me.SimpleButton19.Name = "SimpleButton19"
-        Me.SimpleButton19.Size = New System.Drawing.Size(46, 20)
+        Me.SimpleButton19.Size = New System.Drawing.Size(46, 22)
         Me.SimpleButton19.TabIndex = 13
+        '
+        'ComboBoxEdit8
+        '
+        Me.ComboBoxEdit8.AllowDrop = True
+        Me.ComboBoxEdit8.EnterMoveNextControl = True
+        Me.ComboBoxEdit8.Location = New System.Drawing.Point(160, 280)
+        Me.ComboBoxEdit8.Name = "ComboBoxEdit8"
+        Me.ComboBoxEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit8.Size = New System.Drawing.Size(271, 20)
+        Me.ComboBoxEdit8.TabIndex = 10
+        '
+        'ComboBoxEdit7
+        '
+        Me.ComboBoxEdit7.EnterMoveNextControl = True
+        Me.ComboBoxEdit7.Location = New System.Drawing.Point(160, 257)
+        Me.ComboBoxEdit7.Name = "ComboBoxEdit7"
+        Me.ComboBoxEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit7.Size = New System.Drawing.Size(271, 20)
+        Me.ComboBoxEdit7.TabIndex = 9
+        '
+        'ComboBoxEdit6
+        '
+        Me.ComboBoxEdit6.EnterMoveNextControl = True
+        Me.ComboBoxEdit6.Location = New System.Drawing.Point(160, 188)
+        Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
+        Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit6.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
+        Me.ComboBoxEdit6.Size = New System.Drawing.Size(271, 20)
+        Me.ComboBoxEdit6.TabIndex = 6
         '
         'TextEdit31
         '
@@ -525,7 +462,7 @@ Partial Class FrmConfigurationMenu
         'ComboBoxEdit4
         '
         Me.ComboBoxEdit4.EnterMoveNextControl = True
-        Me.ComboBoxEdit4.Location = New System.Drawing.Point(160, 332)
+        Me.ComboBoxEdit4.Location = New System.Drawing.Point(160, 334)
         Me.ComboBoxEdit4.Name = "ComboBoxEdit4"
         Me.ComboBoxEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit4.Properties.Items.AddRange(New Object() {"Y", "N"})
@@ -586,7 +523,6 @@ Partial Class FrmConfigurationMenu
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel5.Controls.Add(Me.LabelControl53)
         Me.Panel5.Controls.Add(Me.LabelControl32)
         Me.Panel5.Controls.Add(Me.LabelControl33)
         Me.Panel5.Controls.Add(Me.LabelControl34)
@@ -607,21 +543,11 @@ Partial Class FrmConfigurationMenu
         Me.Panel5.Size = New System.Drawing.Size(153, 489)
         Me.Panel5.TabIndex = 51
         '
-        'LabelControl53
-        '
-        Me.LabelControl53.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl53.Appearance.Options.UseFont = True
-        Me.LabelControl53.Location = New System.Drawing.Point(11, 358)
-        Me.LabelControl53.Name = "LabelControl53"
-        Me.LabelControl53.Size = New System.Drawing.Size(88, 13)
-        Me.LabelControl53.TabIndex = 16
-        Me.LabelControl53.Text = "TARA VALIDASI"
-        '
         'LabelControl32
         '
         Me.LabelControl32.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl32.Appearance.Options.UseFont = True
-        Me.LabelControl32.Location = New System.Drawing.Point(11, 335)
+        Me.LabelControl32.Location = New System.Drawing.Point(10, 337)
         Me.LabelControl32.Name = "LabelControl32"
         Me.LabelControl32.Size = New System.Drawing.Size(22, 13)
         Me.LabelControl32.TabIndex = 15
@@ -1185,9 +1111,9 @@ Partial Class FrmConfigurationMenu
         Me.LabelControl16.Appearance.Options.UseFont = True
         Me.LabelControl16.Location = New System.Drawing.Point(14, 250)
         Me.LabelControl16.Name = "LabelControl16"
-        Me.LabelControl16.Size = New System.Drawing.Size(55, 13)
+        Me.LabelControl16.Size = New System.Drawing.Size(44, 13)
         Me.LabelControl16.TabIndex = 11
-        Me.LabelControl16.Text = "CAM TEST"
+        Me.LabelControl16.Text = "STATUS"
         '
         'LabelControl15
         '
@@ -1306,7 +1232,6 @@ Partial Class FrmConfigurationMenu
         '
         'PanelControl7
         '
-        Me.PanelControl7.Controls.Add(Me.resultLabel)
         Me.PanelControl7.Controls.Add(Me.ComboBoxEdit14)
         Me.PanelControl7.Controls.Add(Me.TextEdit14)
         Me.PanelControl7.Controls.Add(Me.ToggleSwitch2)
@@ -1577,9 +1502,9 @@ Partial Class FrmConfigurationMenu
         Me.LabelControl46.Appearance.Options.UseFont = True
         Me.LabelControl46.Location = New System.Drawing.Point(14, 242)
         Me.LabelControl46.Name = "LabelControl46"
-        Me.LabelControl46.Size = New System.Drawing.Size(48, 13)
+        Me.LabelControl46.Size = New System.Drawing.Size(44, 13)
         Me.LabelControl46.TabIndex = 12
-        Me.LabelControl46.Text = "WB TEST"
+        Me.LabelControl46.Text = "STATUS"
         '
         'LabelControl17
         '
@@ -2068,19 +1993,6 @@ Partial Class FrmConfigurationMenu
         Me.BackstageViewClientControl5.Size = New System.Drawing.Size(640, 489)
         Me.BackstageViewClientControl5.TabIndex = 5
         '
-        'BW1
-        '
-        '
-        'resultLabel
-        '
-        Me.resultLabel.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.resultLabel.Appearance.Options.UseFont = True
-        Me.resultLabel.Location = New System.Drawing.Point(160, 243)
-        Me.resultLabel.Name = "resultLabel"
-        Me.resultLabel.Size = New System.Drawing.Size(48, 13)
-        Me.resultLabel.TabIndex = 67
-        Me.resultLabel.Text = "WB TEST"
-        '
         'FrmConfigurationMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2094,10 +2006,9 @@ Partial Class FrmConfigurationMenu
         CType(Me.BackstageViewControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.BackstageViewControl1.ResumeLayout(False)
         Me.BackstageViewClientControl1.ResumeLayout(False)
-        CType(Me.TextEdit26.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit24.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit31.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit36.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2150,7 +2061,6 @@ Partial Class FrmConfigurationMenu
         Me.BackstageViewClientControl4.ResumeLayout(False)
         CType(Me.PanelControl7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl7.ResumeLayout(False)
-        Me.PanelControl7.PerformLayout()
         CType(Me.ComboBoxEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ToggleSwitch2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2271,93 +2181,86 @@ Partial Class FrmConfigurationMenu
     Friend WiTHEvents ComboBoxEdit3 As DevExpress.XtraEditors.ComboBoxEdit
     Friend WiTHEvents ComboBoxEdit4 As DevExpress.XtraEditors.ComboBoxEdit
     Friend WiTHEvents Timer1 As Timer
-    Friend WithEvents SimpleButton15 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton16 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents LabelControl44 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit19 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl49 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents ImageCollection1 As DevExpress.Utils.ImageCollection
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents SimpleButton9 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents LabelControl51 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
-    Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents LabelControl46 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl17 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl18 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl21 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl22 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl23 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl24 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl25 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents PanelControl12 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents GridControl2 As DevExpress.XtraGrid.GridControl
-    Friend WithEvents GridView2 As DevExpress.XtraGrid.Views.Grid.GridView
-    Friend WithEvents PanelControl7 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents ToggleSwitch2 As DevExpress.XtraEditors.ToggleSwitch
-    Friend WithEvents TextEdit18 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents ComboBoxEdit5 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents LabelControl45 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TxtWeight As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents PictureEdit2 As DevExpress.XtraEditors.PictureEdit
-    Friend WithEvents TextEdit17 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents PanelControl8 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents SimpleButton18 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton14 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton6 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton7 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton8 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents TextEdit20 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit21 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit22 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit23 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents BackstageViewTabItem5 As DevExpress.XtraBars.Ribbon.BackstageViewTabItem
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents LabelControl30 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl29 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl28 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl27 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl26 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl20 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl31 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl47 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl50 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents PanelControl9 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents TextEdit30 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit28 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents PanelControl10 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents SimpleButton11 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton10 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton17 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents TextEdit25 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents ToggleSwitch3 As DevExpress.XtraEditors.ToggleSwitch
-    Friend WithEvents ComboBoxEdit2 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents PictureEdit3 As DevExpress.XtraEditors.PictureEdit
-    Friend WithEvents LabelControl48 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit15 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents ComboBoxEdit9 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents ComboBoxEdit10 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents ComboBoxEdit11 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents ComboBoxEdit12 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents ComboBoxEdit13 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents BackstageViewClientControl5 As DevExpress.XtraBars.Ribbon.BackstageViewClientControl
-    Friend WithEvents ComboBoxEdit14 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents TextEdit14 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl52 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents ComboBoxEdit6 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents SimpleButton15 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents SimpleButton16 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents LabelControl44 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents ComboBoxEdit7 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents ComboBoxEdit8 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents TextEdit19 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents LabelControl49 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents ImageCollection1 As DevExpress.Utils.ImageCollection
+    Friend WiTHEvents PictureBox1 As PictureBox
+    Friend WiTHEvents SimpleButton9 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents LabelControl51 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents GridControl1 As DevExpress.XtraGrid.GridControl
+    Friend WiTHEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WiTHEvents Panel3 As Panel
+    Friend WiTHEvents LabelControl46 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl17 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl18 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl21 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl22 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl23 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl24 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl25 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents PanelControl12 As DevExpress.XtraEditors.PanelControl
+    Friend WiTHEvents GridControl2 As DevExpress.XtraGrid.GridControl
+    Friend WiTHEvents GridView2 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WiTHEvents PanelControl7 As DevExpress.XtraEditors.PanelControl
+    Friend WiTHEvents ToggleSwitch2 As DevExpress.XtraEditors.ToggleSwitch
+    Friend WiTHEvents TextEdit18 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents ComboBoxEdit5 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents LabelControl45 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents TxtWeight As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents PictureEdit2 As DevExpress.XtraEditors.PictureEdit
+    Friend WiTHEvents TextEdit17 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents PanelControl8 As DevExpress.XtraEditors.PanelControl
+    Friend WiTHEvents SimpleButton18 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents SimpleButton14 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents SimpleButton6 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents SimpleButton7 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents SimpleButton8 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents TextEdit20 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents TextEdit21 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents TextEdit22 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents TextEdit23 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents BackstageViewTabItem5 As DevExpress.XtraBars.Ribbon.BackstageViewTabItem
+    Friend WiTHEvents Panel4 As Panel
+    Friend WiTHEvents LabelControl30 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl29 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl28 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl27 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl26 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl20 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl31 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl47 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents LabelControl50 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents PanelControl9 As DevExpress.XtraEditors.PanelControl
+    Friend WiTHEvents TextEdit30 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents TextEdit28 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents PanelControl10 As DevExpress.XtraEditors.PanelControl
+    Friend WiTHEvents SimpleButton11 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents SimpleButton10 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents SimpleButton17 As DevExpress.XtraEditors.SimpleButton
+    Friend WiTHEvents TextEdit25 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents ToggleSwitch3 As DevExpress.XtraEditors.ToggleSwitch
+    Friend WiTHEvents ComboBoxEdit2 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents PictureEdit3 As DevExpress.XtraEditors.PictureEdit
+    Friend WiTHEvents LabelControl48 As DevExpress.XtraEditors.LabelControl
+    Friend WiTHEvents TextEdit15 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents ComboBoxEdit9 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents ComboBoxEdit10 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents ComboBoxEdit11 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents ComboBoxEdit12 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents ComboBoxEdit13 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents BackstageViewClientControl5 As DevExpress.XtraBars.Ribbon.BackstageViewClientControl
+    Friend WiTHEvents ComboBoxEdit14 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WiTHEvents TextEdit14 As DevExpress.XtraEditors.TextEdit
+    Friend WiTHEvents LabelControl52 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents SimpleButton19 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton22 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton21 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton20 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents TextEdit16 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit24 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents ComboBoxEdit6 As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents LabelControl53 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit26 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents BW1 As System.ComponentModel.BackgroundWorker
-    Friend WithEvents resultLabel As DevExpress.XtraEditors.LabelControl
     '    Friend WiTHEvents VlcControl1 As Vlc.DotNet.Forms.VlcControl
 End Class
