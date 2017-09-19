@@ -20,6 +20,7 @@ Imports DevExpress.XtraGrid.Views.BandedGrid
 Imports DevExpress.XtraEditors.Repository
 
 Imports AForge.Video
+Imports System.ComponentModel
 
 Public Class FrmConfigurationMenu
     Dim WithEvents Client As TCPCam.Client
@@ -35,8 +36,8 @@ Public Class FrmConfigurationMenu
     Public Sub New()
         InitializeComponent()
         stream = New JPEGStream(Parameter)
-        AddHandler Stream.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream)
-        frs = Stream.FramesReceived.ToString()
+        AddHandler stream.NewFrame, New NewFrameEventHandler(AddressOf Stream_NewFream)
+        frs = stream.FramesReceived.ToString()
     End Sub
 
     Private Sub ToggleSwitch1_Toggled(sender As Object, e As EventArgs) Handles ToggleSwitch1.Toggled
@@ -44,12 +45,12 @@ Public Class FrmConfigurationMenu
         If TextEdit8.Text = "" Then Exit Sub
         Parameter = TextEdit8.Text
         'stream.Source = Parameter
-        Stream.Source = Parameter
+        stream.Source = Parameter
         If ToggleSwitch1.IsOn = True Then
-            If Stream.IsRunning = False Then Stream.Start()
+            If stream.IsRunning = False Then stream.Start()
             LabelControl5.Text = "CCTV " & frs
         Else
-            If Stream.IsRunning = True Then Stream.Stop()
+            If stream.IsRunning = True Then stream.Stop()
             PictureBox1.Image = Nothing
             LabelControl5.Text = "CCTV "
         End If
@@ -81,7 +82,6 @@ Public Class FrmConfigurationMenu
                     My.Settings.Save()
                     My.Settings.DBPassLocal = TextEdit5.Text
                     My.Settings.Save()
-
                     CheckConLocal()
                     CloseConnLocal()
                 ElseIf ComboBoxEdit1.Text = "STAGING" Then
@@ -97,7 +97,6 @@ Public Class FrmConfigurationMenu
                     My.Settings.Save()
                     My.Settings.DBPassStaging = TextEdit5.Text
                     My.Settings.Save()
-
                     CheckConStaging()
                     CloseConnStaging()
                 End If
@@ -134,6 +133,7 @@ Public Class FrmConfigurationMenu
     End Sub
     Private Sub CheckConLocal()
         GetConfig()
+
         If OpenConnLocal() = True Then
             MsgBox("Connection Successful", vbInformation, "Conection")
         Else
@@ -235,6 +235,7 @@ Public Class FrmConfigurationMenu
 
         CompanyCode = My.MySettings.Default.CompanyCode
         Company = My.MySettings.Default.Company
+
         Dim MILLPLANT As String = My.MySettings.Default.Millplant
         Dim LocationSite As String = My.MySettings.Default.LocationSite
         Dim STORELOC1 As String = My.MySettings.Default.StoreLocation1
@@ -268,8 +269,8 @@ Public Class FrmConfigurationMenu
         Dim KTU As String = ""
         SAP = My.MySettings.Default.SAP
 
+        'INSERT DATA BARU
         SQL = "SELECT * FROM T_CONFIG WHERE COMPANYCODE='" & TextEdit41.Text & "' "
-
         If CheckRecord(SQL) = 0 Then
             SQL = "INSERT INTO T_CONFIG " +
             "(CompanyCode,COMPANY,WBCODE,WBSETTING,MILLPLANT, " +
@@ -324,6 +325,7 @@ Public Class FrmConfigurationMenu
         Close()
     End Sub
     Public Sub LoadConfig()
+
         TextEdit41.Text = My.MySettings.Default.CompanyCode.Trim.ToString
         TextEdit40.Text = My.MySettings.Default.Company  'My.Settings.Company
         TextEdit39.Text = My.MySettings.Default.Millplant
@@ -331,15 +333,39 @@ Public Class FrmConfigurationMenu
         TextEdit37.Text = My.MySettings.Default.StoreLocation1
         TextEdit36.Text = My.MySettings.Default.StoreLocation2
         TextEdit35.Text = My.MySettings.Default.ComportSetting
-        ComboBoxEdit6.Text = My.MySettings.Default.WBCode
+        TextEdit16.Text = My.MySettings.Default.WBCode
 
-        ComboBoxEdit7.Text = My.MySettings.Default.IPCamera1
-        ComboBoxEdit8.Text = My.MySettings.Default.IPCamera2
+        TextEdit24.Text = My.MySettings.Default.IPCamera1
+        TextEdit26.Text = My.MySettings.Default.IPCamera2
         TextEdit31.Text = My.MySettings.Default.IPIndicator
         ComboBoxEdit3.Text = My.MySettings.Default.LoadingRampTransit
         ComboBoxEdit4.Text = My.MySettings.Default.SAP
     End Sub
 
+    Private Sub LOADCONFIGDB()
+        Dim DT As New DataTable
+        SQL = "SELECT * FROM T_CONFIG WHERE TRIM(COMPANYCODE) ='" & TextEdit41.Text & "'"
+        DT = ExecuteQuery(SQL)
+
+        If DT.Rows.Count > 0 Then
+
+            TextEdit41.Text = DT.Rows(0).Item("COMPANYCODE").ToString
+            TextEdit40.Text = DT.Rows(0).Item("COMPANY").ToString
+            TextEdit39.Text = DT.Rows(0).Item("MILLPLANT").ToString 'My.MySettings.Default.Millplant
+            TextEdit38.Text = DT.Rows(0).Item("MILLPLANT").ToString  'My.MySettings.Default.LocationSite
+            TextEdit37.Text = DT.Rows(0).Item("STORELOC1").ToString 'My.MySettings.Default.StoreLocation1
+            TextEdit36.Text = DT.Rows(0).Item("STORELOC2").ToString 'My.MySettings.Default.StoreLocation2
+            TextEdit35.Text = DT.Rows(0).Item("WBSETTING").ToString 'My.MySettings.Default.ComportSetting
+            TextEdit16.Text = DT.Rows(0).Item("WBCODE").ToString '
+
+            TextEdit24.Text = DT.Rows(0).Item("IP_DERIVER").ToString ' My.MySettings.Default.IPCamera1
+            TextEdit26.Text = DT.Rows(0).Item("IP_VEHICLE").ToString 'My.MySettings.Default.IPCamera2
+            '    TextEdit31.Text = DT.Rows(0).Item("WBCODE").ToString 'My.MySettings.Default.IPIndicator
+            ComboBoxEdit3.Text = DT.Rows(0).Item("LRT").ToString ' My.MySettings.Default.LoadingRampTransit
+            ComboBoxEdit4.Text = DT.Rows(0).Item("SAP").ToString ' My.MySettings.Default.SAP
+
+        End If
+    End Sub
     Public Sub SaveConfig()
         My.Settings.CompanyCode = TextEdit41.Text
         My.Settings.Save()
@@ -355,11 +381,11 @@ Public Class FrmConfigurationMenu
         My.Settings.Save()
         My.Settings.ComportSetting = TextEdit35.Text
         My.Settings.Save()
-        My.Settings.WBCode = ComboBoxEdit6.Text
+        My.Settings.WBCode = TextEdit16.Text
         My.Settings.Save()
-        My.Settings.IPCamera1 = ComboBoxEdit7.Text
+        My.Settings.IPCamera1 = TextEdit24.Text
         My.Settings.Save()
-        My.Settings.IPCamera2 = ComboBoxEdit8.Text
+        My.Settings.IPCamera2 = TextEdit26.Text
         My.Settings.Save()
         My.Settings.IPIndicator = TextEdit31.Text
         My.Settings.Save()
@@ -379,22 +405,7 @@ Public Class FrmConfigurationMenu
         If TextEdit41.Text <> "" Then LockAll_GConfig()
         GridHeader()
         LoadView() 'DATA INDIKATOR & CCTV
-        'If My.MySettings.Default.SAP.ToString = "Y" THEn
-        FillWB()   'LOAD WB
-        FillCctv() 'LOAD CCTV  
-        'End If
     End Sub
-    Private Sub FillWB()
-        SQL = "SELECT DISTINCT NAMA, KDNAMA FROM T_WB ORDER BY KDNAMA"
-        FILLComboBoxEdit(SQL, 0, ComboBoxEdit6, False)
-    End Sub
-    Private Sub FillCctv()
-        SQL = "SELECT DISTINCT NAMA, KDNAMA FROM T_CCTV ORDER BY KDNAMA"
-        FILLComboBoxEdit(SQL, 0, ComboBoxEdit7, False)
-        FILLComboBoxEdit(SQL, 0, ComboBoxEdit8, False)
-    End Sub
-
-
     Private Sub SimpleButton15_Click(sender As Object, e As EventArgs) Handles SimpleButton15.Click
         'EDIT GENERAL CONFIG
         If TextEdit41.Text = "" Then SimpleButton11.Text = "Update"
@@ -409,15 +420,20 @@ Public Class FrmConfigurationMenu
         TextEdit37.Enabled = True
         TextEdit36.Enabled = True
         TextEdit35.Enabled = True
-        ComboBoxEdit6.Enabled = True
-        ComboBoxEdit7.Enabled = True
-        ComboBoxEdit8.Enabled = True
+        TextEdit16.Enabled = True
+        TextEdit24.Enabled = True
+        TextEdit26.Enabled = True
         TextEdit31.Enabled = True
         ComboBoxEdit3.Enabled = True
         ComboBoxEdit4.Enabled = True
 
         SimpleButton13.Enabled = True 'SAVE
         SimpleButton15.Enabled = False 'EDIT
+
+        SimpleButton19.Enabled = True
+        SimpleButton20.Enabled = True
+        SimpleButton21.Enabled = True
+        SimpleButton22.Enabled = True
     End Sub
 
     Private Sub LockAll_GConfig()
@@ -428,14 +444,19 @@ Public Class FrmConfigurationMenu
         TextEdit37.Enabled = False
         TextEdit36.Enabled = False
         TextEdit35.Enabled = False
-        ComboBoxEdit6.Enabled = False
-        ComboBoxEdit7.Enabled = False
-        ComboBoxEdit8.Enabled = False
+        TextEdit16.Enabled = False
+        TextEdit24.Enabled = False
+        TextEdit26.Enabled = False
         TextEdit31.Enabled = False
         ComboBoxEdit3.Enabled = False
         ComboBoxEdit4.Enabled = False
         SimpleButton13.Enabled = False 'SAVE
         SimpleButton15.Enabled = True 'EDIT
+
+        SimpleButton19.Enabled = False
+        SimpleButton20.Enabled = False
+        SimpleButton21.Enabled = False
+        SimpleButton22.Enabled = False
     End Sub
 
 
@@ -464,30 +485,15 @@ Public Class FrmConfigurationMenu
         End If
     End Sub
     Private Sub DoMonitorConnections()
-        'Create delegate for updating output display
         Dim doAppendOutput As New Action(Of String)(AddressOf AppendOutput)
-        'Create delegate for updating connection count label
         Dim doUpdateConnectionCountLabel As New Action(AddressOf UpdateConnectionCountLabel)
-        'Get MonitorInfo instance FROM thread-save Task instance
         Dim monitorInfo As MonitorInfo = CType(_ConnectionMontior.AsyncState, MonitorInfo)
-        'Report progress
-        'Implement client connection processing loop
         Do
-            'Create temporary list for recording closed connections
             Dim lostCount As Integer = 0
-            'Examine each connection for processing
             For index As Integer = monitorInfo.Connections.Count - 1 To 0 Step -1
                 Dim info As ConnectionInfo = monitorInfo.Connections(index)
                 If info.Client.Connected Then
-                    'Process connected client
                     If info.DataQueue.Count > 0 Then
-                        'THE code in this If-Block should be modified to build 'message' objects
-                        'according to THE protocol you defined for your data transmissions.
-                        'This example simply sends all pending message bytes to THE output textbox.
-                        'Without a protocol we cannot know what constitutes a complete message, so
-                        'with multiple active clients we could see part of client1's first message,
-                        'THEn part of a message FROM client2, followed by THE rest of client1's
-                        'first message (assuming client1 sent more than 64 bytes).
                         Dim messageBytes As New List(Of Byte)
                         While info.DataQueue.Count > 0
                             Dim value As Byte
@@ -496,10 +502,8 @@ Public Class FrmConfigurationMenu
                             End If
                         End While
                         Invoke(doAppendOutput, System.Text.Encoding.ASCII.GetString(messageBytes.ToArray))
-                        ' cacah(System.Text.Encoding.ASCII.GetString(messageBytes.ToArray))
                     End If
                 Else
-                    'Clean-up any closed client connections
                     monitorInfo.Connections.Remove(info)
                     lostCount += 1
                 End If
@@ -507,17 +511,13 @@ Public Class FrmConfigurationMenu
             If lostCount > 0 Then
                 Invoke(doUpdateConnectionCountLabel)
             End If
-            'Throttle loop to avoid wasting CPU time
             _ConnectionMontior.Wait(1)
         Loop While Not monitorInfo.Cancel
-        'Close all connections before exiting monitor
         For Each info As ConnectionInfo In monitorInfo.Connections
             info.Client.Close()
         Next
         monitorInfo.Connections.Clear()
-        'Update THE connection count label and report status
         Invoke(doUpdateConnectionCountLabel)
-        'Me.Invoke(doAppendOutput, "Monitor Stopped.")
     End Sub
     Private Sub ListenForClient(monitor As MonitorInfo)
         Dim info As New ConnectionInfo(monitor)
@@ -591,25 +591,25 @@ Public Class FrmConfigurationMenu
         TextEdit14.Enabled = True
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        On Error Resume Next
-        Dim WEIGHTDATA As String
-        Dim BERAT As String
-        ValLenWb = TextEdit14.Text
-        RLLenWB = If(ComboBoxEdit14.SelectedIndex = 0, "R", "L")
-        If Val(ValLenWb) = 0 Then ValLenWb = 5
-        'AMBIL IP & PORT INDIKATOR
-        WEIGHTDATA = GetSCSMessage(TextEdit22.Text, CInt(TextEdit20.Text))
-        BERAT = ""
-        If RLLenWB = "R" Then
-            BERAT = Microsoft.VisualBasic.Right(WEIGHTDATA, ValLenWb)
-        Else
-            BERAT = Microsoft.VisualBasic.Left(WEIGHTDATA, ValLenWb)
-        End If
-        If Val(BERAT) > 0 Then
-            TxtWeight.Text = Val(BERAT)
-        Else
-            TxtWeight.Text = 0
-        End If
+        'On Error Resume Next
+        'Dim WEIGHTDATA As String
+        'Dim BERAT As String
+        'ValLenWb = TextEdit14.Text
+        'RLLenWB = If(ComboBoxEdit14.SelectedIndex = 0, "R", "L")
+        'If Val(ValLenWb) = 0 Then ValLenWb = 5
+        ''AMBIL IP & PORT INDIKATOR
+        'WEIGHTDATA = GetSCSMessage(TextEdit22.Text, CInt(TextEdit20.Text))
+        'BERAT = ""
+        'If RLLenWB = "R" Then
+        '    BERAT = Microsoft.VisualBasic.Right(WEIGHTDATA, ValLenWb)
+        'Else
+        '    BERAT = Microsoft.VisualBasic.Left(WEIGHTDATA, ValLenWb)
+        'End If
+        'If Val(BERAT) > 0 Then
+        '    TxtWeight.Text = Val(BERAT)
+        'Else
+        '    TxtWeight.Text = 0
+        'End If
     End Sub
     Private Sub SimpleButton8_Click(sender As Object, e As EventArgs) Handles SimpleButton8.Click
         'save IP INdicator
@@ -824,35 +824,111 @@ Public Class FrmConfigurationMenu
     Private Sub SimpleButton7_Click_1(sender As Object, e As EventArgs) Handles SimpleButton7.Click
         Me.Close()
     End Sub
-
-    Private Sub ComboBoxEdit6_SELECTedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxEdit6.SelectedIndexChanged
-        Dim DTS As New DataTable
-        SQL = "SELECT KDNAMA,NAMA,BREND,IPADDRESS,PORT FROM T_WB WHERE AKTIF='Y' AND NAMA='" & ComboBoxEdit6.Text & "'"
-        DTS = ExecuteQuery(SQL)
-        If DTS.Rows.Count > 0 Then
-            TextEdit31.Text = DTS.Rows(0).Item("IPADDRESS").ToString
-            TextEdit35.Text = DTS.Rows(0).Item("PORT").ToString
-        Else
-            TextEdit31.Text = ""
-            TextEdit35.Text = ""
-        End If
-    End Sub
-
     Private Sub FrmConfigurationMenu_Closed(sender As Object, e As EventArgs) Handles Me.Closed
-        ' OnOffWB()
+        'WB ON OFF
         If ToggleSwitch2.IsOn = True Then
             ToggleSwitch2.IsOn = False
         End If
     End Sub
 
     Private Sub SimpleButton19_Click(sender As Object, e As EventArgs) Handles SimpleButton19.Click
-        LSQL = ""
+        'COMPANY CODE/PROFILE
+        LSQL = " SELECT A.COMPANYCODE,TRIM(COMPANY)COMPANY_NAME, WBCODE,SAP FROM T_CONFIG A"
+        LField = "COMPANYCODE"
+        ValueLoV = ""
+        TextEdit41.Text = FrmShowLOV(FrmLoV, LSQL, "COMPANYCODE", "COMPANYCODE ")
+        LOADCONFIGDB()
+    End Sub
 
+    Private Sub SimpleButton20_Click(sender As Object, e As EventArgs) Handles SimpleButton20.Click
+        '//WB CODE
+        LSQL = " SELECT A.NAMA AS WB_CODE,A.IPADDRESS,A.PORT,A.AKTIF FROM T_WB A"
+        LField = "WB_CODE"
+        ValueLoV = ""
+        TextEdit16.Text = FrmShowLOV(FrmLoV, LSQL, "WB_CODE", "WB_CODE ")
+    End Sub
+
+    Private Sub TextEdit16_EditValueChanged(sender As Object, e As EventArgs) Handles TextEdit16.EditValueChanged
+        Dim DTS As New DataTable
+        If TextEdit16.Text <> "" Then
+            SQL = "SELECT KDNAMA AS WB_CODE,NAMA,IPADDRESS,PORT,LOKASI,AKTIF FROM T_WB WHERE AKTIF='Y' AND NAMA='" & TextEdit16.Text & "'"
+            DTS = ExecuteQuery(SQL)
+            If DTS.Rows.Count > 0 Then
+                TextEdit31.Text = DTS.Rows(0).Item("IPADDRESS").ToString
+                TextEdit35.Text = DTS.Rows(0).Item("PORT").ToString
+            Else
+                TextEdit31.Text = ""
+                TextEdit35.Text = ""
+            End If
+        End If
+    End Sub
+
+    Private Sub SimpleButton21_Click(sender As Object, e As EventArgs) Handles SimpleButton21.Click
+        'CAM1
+        LSQL = "SELECT NAMA AS CAM_CODE,CONFIG,LOKASICCTV ,AKTIF FROM T_CCTV"
+        LField = "CAM_CODE"
+        ValueLoV = ""
+        TextEdit24.Text = FrmShowLOV(FrmLoV, LSQL, "CAM_CODE", "CAM_CODE ")
+    End Sub
+    Private Sub SimpleButton22_Click(sender As Object, e As EventArgs) Handles SimpleButton22.Click
+        'CAM2
+        LSQL = "SELECT NAMA AS CAM_CODE,CONFIG,LOKASICCTV ,AKTIF FROM T_CCTV"
+        LField = "CAM_CODE"
+        ValueLoV = ""
+        TextEdit26.Text = FrmShowLOV(FrmLoV, LSQL, "CAM_CODE", "CAM_CODE ")
     End Sub
 
     Private Sub BackstageViewClientControl1_Load(sender As Object, e As EventArgs) Handles BackstageViewClientControl1.Load
 
     End Sub
+
+    Private Sub BackgroundWorker1_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles BW1.DoWork
+        Dim worker As BackgroundWorker = CType(sender, BackgroundWorker)
+        GetWBConfig()
+        Dim Ip As String = WBIP
+        Dim Port As Int32 = WBPORT
+        Try
+            Do Until Not WB_ON = True
+                If (worker.CancellationPending = True) Then
+                    e.Cancel = True
+                    Exit Do
+                Else
+                    Dim responseData As [String] = [String].Empty
+                    responseData = GetSCSMessage(Ip, Port)
+                    worker.ReportProgress(responseData)
+                End If
+            Loop
+        Catch ex As Exception
+        End Try
+    End Sub
+
+    Private Sub BW1_ProgressChanged(sender As Object, e As ProgressChangedEventArgs) Handles BW1.ProgressChanged
+        TxtWeight.Text = (e.ProgressPercentage.ToString())
+    End Sub
+    Private Sub BW1_RunWorkerCompleted(sender As Object, e As RunWorkerCompletedEventArgs) Handles BW1.RunWorkerCompleted
+        If e.Cancelled = True Then
+            resultLabel.Text = "Canceled!"
+        ElseIf e.Error IsNot Nothing Then
+            resultLabel.Text = "Error: " & e.Error.Message
+        Else
+            resultLabel.Text = "Done!"
+            INDICATORON()
+        End If
+    End Sub
+    Private Sub INDICATORON()
+        WB_ON = True
+        If BW1.IsBusy <> True Then
+            BW1.RunWorkerAsync()
+            resultLabel.Text = "Connected..."
+        End If
+    End Sub
+    Private Sub INDICATOROFF()
+        WB_ON = False
+        If BW1.WorkerSupportsCancellation = True Then
+            BW1.CancelAsync()
+        End If
+    End Sub
+
 
 
 #End Region

@@ -203,9 +203,9 @@ Partial Class FrmWbIn
         Me.LabelControl89.Appearance.Options.UseForeColor = True
         Me.LabelControl89.Location = New System.Drawing.Point(12, 15)
         Me.LabelControl89.Name = "LabelControl89"
-        Me.LabelControl89.Size = New System.Drawing.Size(71, 14)
+        Me.LabelControl89.Size = New System.Drawing.Size(81, 14)
         Me.LabelControl89.TabIndex = 0
-        Me.LabelControl89.Text = "Penerimaan"
+        Me.LabelControl89.Text = "PENERIMAAN"
         '
         'Panel9
         '
